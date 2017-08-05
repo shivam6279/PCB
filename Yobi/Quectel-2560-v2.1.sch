@@ -20688,6 +20688,8 @@ Source: Lighthorse Technologies, inc. SASF54GT.pdf</description>
 <part name="L3" library="rcl" deviceset="L-US" device="6000-XXX-RC"/>
 <part name="X1" library="con-coax" deviceset="LTI-SASF54GT" device=""/>
 <part name="SUPPLY46" library="supply2" deviceset="GND" device=""/>
+<part name="JP12" library="pinhead" deviceset="PINHD-1X4" device="" value="IIC"/>
+<part name="JP13" library="pinhead" deviceset="PINHD-1X3" device="" value="D"/>
 </parts>
 <sheets>
 <sheet>
@@ -21003,6 +21005,8 @@ Source: Lighthorse Technologies, inc. SASF54GT.pdf</description>
 <instance part="L3" gate="G$1" x="167.64" y="289.56" rot="R90"/>
 <instance part="X1" gate="G$1" x="160.02" y="104.14"/>
 <instance part="SUPPLY46" gate="GND" x="162.56" y="99.06"/>
+<instance part="JP12" gate="A" x="228.6" y="246.38" rot="R90"/>
+<instance part="JP13" gate="A" x="226.06" y="233.68" rot="R90"/>
 </instances>
 <busses>
 </busses>
