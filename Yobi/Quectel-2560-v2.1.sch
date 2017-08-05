@@ -20504,6 +20504,72 @@ Source: Lighthorse Technologies, inc. SASF54GT.pdf</description>
 </deviceset>
 </devicesets>
 </library>
+<library name="crystal">
+<description>&lt;b&gt;Crystals and Crystal Resonators&lt;/b&gt;&lt;p&gt;
+&lt;author&gt;Created by librarian@cadsoft.de&lt;/author&gt;</description>
+<packages>
+<package name="CSM-7X-DU">
+<description>&lt;b&gt;SMD CRYSTAL&lt;/b&gt;&lt;p&gt;
+Source: www.ecsxtal.com .. Crystal 3.6864MHz CSM_7X_DU.PDF</description>
+<wire x1="-5.575" y1="2.3" x2="-2.725" y2="2.3" width="0.2032" layer="51"/>
+<wire x1="-2.725" y1="2.3" x2="2.75" y2="2.3" width="0.2032" layer="51"/>
+<wire x1="2.75" y1="2.3" x2="5.55" y2="2.3" width="0.2032" layer="51"/>
+<wire x1="5.55" y1="2.3" x2="5.55" y2="-2.3" width="0.2032" layer="51"/>
+<wire x1="5.55" y1="-2.3" x2="-2.75" y2="-2.3" width="0.2032" layer="51"/>
+<wire x1="-2.75" y1="-2.3" x2="-5.575" y2="-2.3" width="0.2032" layer="51"/>
+<wire x1="-5.575" y1="-2.3" x2="-5.575" y2="2.3" width="0.2032" layer="51"/>
+<wire x1="-2.75" y1="-2.3" x2="-2.725" y2="2.3" width="0.2032" layer="51" curve="-180"/>
+<wire x1="2.75" y1="2.3" x2="2.725" y2="-2.3" width="0.2032" layer="51" curve="-180"/>
+<smd name="1" x="-4.75" y="0" dx="5.5" dy="2" layer="1"/>
+<smd name="2" x="4.75" y="0" dx="5.5" dy="2" layer="1"/>
+<text x="-7.6288" y="2.5334" size="1.27" layer="25">&gt;NAME</text>
+<text x="-7.6288" y="-4.3114" size="1.27" layer="27">&gt;VALUE</text>
+</package>
+</packages>
+<symbols>
+<symbol name="Q">
+<wire x1="1.016" y1="0" x2="2.54" y2="0" width="0.1524" layer="94"/>
+<wire x1="-2.54" y1="0" x2="-1.016" y2="0" width="0.1524" layer="94"/>
+<wire x1="-0.381" y1="1.524" x2="-0.381" y2="-1.524" width="0.254" layer="94"/>
+<wire x1="-0.381" y1="-1.524" x2="0.381" y2="-1.524" width="0.254" layer="94"/>
+<wire x1="0.381" y1="-1.524" x2="0.381" y2="1.524" width="0.254" layer="94"/>
+<wire x1="0.381" y1="1.524" x2="-0.381" y2="1.524" width="0.254" layer="94"/>
+<wire x1="1.016" y1="1.778" x2="1.016" y2="-1.778" width="0.254" layer="94"/>
+<wire x1="-1.016" y1="1.778" x2="-1.016" y2="-1.778" width="0.254" layer="94"/>
+<text x="2.54" y="1.016" size="1.778" layer="95">&gt;NAME</text>
+<text x="2.54" y="-2.54" size="1.778" layer="96">&gt;VALUE</text>
+<text x="-2.159" y="-1.143" size="0.8636" layer="93">1</text>
+<text x="1.524" y="-1.143" size="0.8636" layer="93">2</text>
+<pin name="2" x="2.54" y="0" visible="off" length="point" direction="pas" swaplevel="1" rot="R180"/>
+<pin name="1" x="-2.54" y="0" visible="off" length="point" direction="pas" swaplevel="1"/>
+</symbol>
+</symbols>
+<devicesets>
+<deviceset name="CSM-7X-DU" prefix="Q">
+<description>&lt;b&gt;SMD CRYSTAL&lt;/b&gt;&lt;p&gt;
+Source: www.ecsxtal.com .. Crystal 3.6864MHz CSM_7X_DU.PDF</description>
+<gates>
+<gate name="P" symbol="Q" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="CSM-7X-DU">
+<connects>
+<connect gate="P" pin="1" pad="1"/>
+<connect gate="P" pin="2" pad="2"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="MF" value="" constant="no"/>
+<attribute name="MPN" value="" constant="no"/>
+<attribute name="OC_FARNELL" value="unknown" constant="no"/>
+<attribute name="OC_NEWARK" value="unknown" constant="no"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
+</devicesets>
+</library>
 </libraries>
 <attributes>
 </attributes>
@@ -20688,6 +20754,21 @@ Source: Lighthorse Technologies, inc. SASF54GT.pdf</description>
 <part name="L3" library="rcl" deviceset="L-US" device="6000-XXX-RC"/>
 <part name="X1" library="con-coax" deviceset="LTI-SASF54GT" device=""/>
 <part name="SUPPLY46" library="supply2" deviceset="GND" device=""/>
+<part name="JP12" library="pinhead" deviceset="PINHD-1X4" device="" value="IIC"/>
+<part name="JP13" library="pinhead" deviceset="PINHD-1X3" device="" value="D"/>
+<part name="JP14" library="pinhead" deviceset="PINHD-1X4" device="" value="IIC"/>
+<part name="DC8" library="resistor" deviceset="C-EU" device="C0805" value="0.1uf"/>
+<part name="JP15" library="pinhead" deviceset="PINHD-1X4" device="" value="IIC"/>
+<part name="JP16" library="pinhead" deviceset="PINHD-1X3" device="" value="D"/>
+<part name="JP17" library="pinhead" deviceset="PINHD-1X4" device="" value="IIC"/>
+<part name="DC9" library="resistor" deviceset="C-EU" device="C0805" value="0.1uf"/>
+<part name="U5" library="SparkFun-IC-Power" deviceset="V_REG_317" device="DPACK"/>
+<part name="R1" library="SparkFun-Resistors" deviceset="RESISTOR" device="0805-RES" value="5.6k"/>
+<part name="R2" library="SparkFun-Resistors" deviceset="RESISTOR" device="0805-RES" value="2.4k"/>
+<part name="JP18" library="pinhead" deviceset="PINHD-1X2" device="" value="IN"/>
+<part name="JP19" library="pinhead" deviceset="PINHD-1X2" device="" value="OUT"/>
+<part name="Q1" library="crystal" deviceset="CSM-7X-DU" device=""/>
+<part name="R37" library="SparkFun-Resistors" deviceset="RESISTOR" device="0805-RES" value="5.6k"/>
 </parts>
 <sheets>
 <sheet>
@@ -21003,6 +21084,31 @@ Source: Lighthorse Technologies, inc. SASF54GT.pdf</description>
 <instance part="L3" gate="G$1" x="167.64" y="289.56" rot="R90"/>
 <instance part="X1" gate="G$1" x="160.02" y="104.14"/>
 <instance part="SUPPLY46" gate="GND" x="162.56" y="99.06"/>
+<instance part="JP12" gate="A" x="228.6" y="246.38" rot="R90"/>
+<instance part="JP13" gate="A" x="226.06" y="233.68" rot="R90"/>
+<instance part="JP14" gate="A" x="243.84" y="236.22" rot="R90"/>
+<instance part="DC8" gate="G$1" x="238.76" y="243.84" smashed="yes" rot="R90">
+<attribute name="VALUE" x="243.459" y="245.364" size="1.778" layer="96" rot="R90"/>
+</instance>
+<instance part="JP15" gate="A" x="248.92" y="281.94" rot="R90"/>
+<instance part="JP16" gate="A" x="246.38" y="269.24" rot="R90"/>
+<instance part="JP17" gate="A" x="264.16" y="271.78" rot="R90"/>
+<instance part="DC9" gate="G$1" x="259.08" y="279.4" smashed="yes" rot="R90">
+<attribute name="VALUE" x="263.779" y="280.924" size="1.778" layer="96" rot="R90"/>
+</instance>
+<instance part="U5" gate="G$1" x="238.76" y="312.42"/>
+<instance part="R1" gate="G$1" x="243.84" y="297.18" smashed="yes" rot="R180">
+<attribute name="VALUE" x="245.11" y="295.402" size="1.778" layer="96" rot="R180"/>
+</instance>
+<instance part="R2" gate="G$1" x="233.68" y="297.18" smashed="yes" rot="R180">
+<attribute name="VALUE" x="234.95" y="300.482" size="1.778" layer="96" rot="R180"/>
+</instance>
+<instance part="JP18" gate="G$1" x="220.98" y="312.42" rot="R180"/>
+<instance part="JP19" gate="G$1" x="259.08" y="309.88"/>
+<instance part="Q1" gate="P" x="246.38" y="320.04"/>
+<instance part="R37" gate="G$1" x="238.76" y="320.04" smashed="yes" rot="R180">
+<attribute name="VALUE" x="240.03" y="318.262" size="1.778" layer="96" rot="R180"/>
+</instance>
 </instances>
 <busses>
 </busses>
@@ -22230,6 +22336,153 @@ Source: Lighthorse Technologies, inc. SASF54GT.pdf</description>
 <wire x1="172.72" y1="269.24" x2="172.72" y2="261.62" width="0.1524" layer="91"/>
 <pinref part="R50" gate="G$1" pin="2"/>
 <junction x="172.72" y="261.62"/>
+</segment>
+</net>
+<net name="N$5" class="0">
+<segment>
+<pinref part="JP12" gate="A" pin="1"/>
+<pinref part="JP13" gate="A" pin="1"/>
+<wire x1="223.52" y1="243.84" x2="223.52" y2="231.14" width="0.1524" layer="91"/>
+<wire x1="223.52" y1="231.14" x2="223.52" y2="223.52" width="0.1524" layer="91"/>
+<pinref part="JP14" gate="A" pin="1"/>
+<wire x1="223.52" y1="223.52" x2="238.76" y2="223.52" width="0.1524" layer="91"/>
+<wire x1="238.76" y1="223.52" x2="238.76" y2="233.68" width="0.1524" layer="91"/>
+<pinref part="DC8" gate="G$1" pin="1"/>
+<wire x1="236.22" y1="243.84" x2="236.22" y2="238.76" width="0.1524" layer="91"/>
+<wire x1="236.22" y1="238.76" x2="238.76" y2="238.76" width="0.1524" layer="91"/>
+<wire x1="238.76" y1="238.76" x2="238.76" y2="233.68" width="0.1524" layer="91"/>
+</segment>
+</net>
+<net name="N$14" class="0">
+<segment>
+<pinref part="JP12" gate="A" pin="4"/>
+<wire x1="231.14" y1="243.84" x2="231.14" y2="231.14" width="0.1524" layer="91"/>
+<pinref part="JP13" gate="A" pin="3"/>
+<wire x1="231.14" y1="231.14" x2="228.6" y2="231.14" width="0.1524" layer="91"/>
+<pinref part="JP14" gate="A" pin="2"/>
+<wire x1="231.14" y1="231.14" x2="241.3" y2="231.14" width="0.1524" layer="91"/>
+<wire x1="241.3" y1="231.14" x2="241.3" y2="233.68" width="0.1524" layer="91"/>
+<pinref part="DC8" gate="G$1" pin="2"/>
+<wire x1="243.84" y1="243.84" x2="243.84" y2="238.76" width="0.1524" layer="91"/>
+<wire x1="243.84" y1="238.76" x2="241.3" y2="238.76" width="0.1524" layer="91"/>
+<wire x1="241.3" y1="238.76" x2="241.3" y2="233.68" width="0.1524" layer="91"/>
+</segment>
+</net>
+<net name="N$46" class="0">
+<segment>
+<pinref part="JP12" gate="A" pin="3"/>
+<wire x1="228.6" y1="243.84" x2="228.6" y2="236.22" width="0.1524" layer="91"/>
+<wire x1="228.6" y1="236.22" x2="246.38" y2="236.22" width="0.1524" layer="91"/>
+<pinref part="JP14" gate="A" pin="4"/>
+<wire x1="246.38" y1="236.22" x2="246.38" y2="233.68" width="0.1524" layer="91"/>
+</segment>
+</net>
+<net name="N$15" class="0">
+<segment>
+<pinref part="JP13" gate="A" pin="2"/>
+<wire x1="226.06" y1="231.14" x2="226.06" y2="226.06" width="0.1524" layer="91"/>
+<wire x1="226.06" y1="226.06" x2="243.84" y2="226.06" width="0.1524" layer="91"/>
+<pinref part="JP14" gate="A" pin="3"/>
+<wire x1="243.84" y1="233.68" x2="243.84" y2="226.06" width="0.1524" layer="91"/>
+</segment>
+</net>
+<net name="N$72" class="0">
+<segment>
+<pinref part="JP15" gate="A" pin="1"/>
+<pinref part="JP16" gate="A" pin="1"/>
+<wire x1="243.84" y1="279.4" x2="243.84" y2="266.7" width="0.1524" layer="91"/>
+<wire x1="243.84" y1="266.7" x2="243.84" y2="259.08" width="0.1524" layer="91"/>
+<pinref part="JP17" gate="A" pin="1"/>
+<wire x1="243.84" y1="259.08" x2="259.08" y2="259.08" width="0.1524" layer="91"/>
+<wire x1="259.08" y1="259.08" x2="259.08" y2="269.24" width="0.1524" layer="91"/>
+<pinref part="DC9" gate="G$1" pin="1"/>
+<wire x1="256.54" y1="279.4" x2="256.54" y2="274.32" width="0.1524" layer="91"/>
+<wire x1="256.54" y1="274.32" x2="259.08" y2="274.32" width="0.1524" layer="91"/>
+<wire x1="259.08" y1="274.32" x2="259.08" y2="269.24" width="0.1524" layer="91"/>
+</segment>
+</net>
+<net name="N$82" class="0">
+<segment>
+<pinref part="JP15" gate="A" pin="4"/>
+<wire x1="251.46" y1="279.4" x2="251.46" y2="266.7" width="0.1524" layer="91"/>
+<pinref part="JP16" gate="A" pin="3"/>
+<wire x1="251.46" y1="266.7" x2="248.92" y2="266.7" width="0.1524" layer="91"/>
+<pinref part="JP17" gate="A" pin="2"/>
+<wire x1="251.46" y1="266.7" x2="261.62" y2="266.7" width="0.1524" layer="91"/>
+<wire x1="261.62" y1="266.7" x2="261.62" y2="269.24" width="0.1524" layer="91"/>
+<pinref part="DC9" gate="G$1" pin="2"/>
+<wire x1="264.16" y1="279.4" x2="264.16" y2="274.32" width="0.1524" layer="91"/>
+<wire x1="264.16" y1="274.32" x2="261.62" y2="274.32" width="0.1524" layer="91"/>
+<wire x1="261.62" y1="274.32" x2="261.62" y2="269.24" width="0.1524" layer="91"/>
+</segment>
+</net>
+<net name="N$83" class="0">
+<segment>
+<pinref part="JP15" gate="A" pin="3"/>
+<wire x1="248.92" y1="279.4" x2="248.92" y2="271.78" width="0.1524" layer="91"/>
+<wire x1="248.92" y1="271.78" x2="266.7" y2="271.78" width="0.1524" layer="91"/>
+<pinref part="JP17" gate="A" pin="4"/>
+<wire x1="266.7" y1="271.78" x2="266.7" y2="269.24" width="0.1524" layer="91"/>
+</segment>
+</net>
+<net name="N$84" class="0">
+<segment>
+<pinref part="JP16" gate="A" pin="2"/>
+<wire x1="246.38" y1="266.7" x2="246.38" y2="261.62" width="0.1524" layer="91"/>
+<wire x1="246.38" y1="261.62" x2="264.16" y2="261.62" width="0.1524" layer="91"/>
+<pinref part="JP17" gate="A" pin="3"/>
+<wire x1="264.16" y1="269.24" x2="264.16" y2="261.62" width="0.1524" layer="91"/>
+</segment>
+</net>
+<net name="N$85" class="0">
+<segment>
+<pinref part="R1" gate="G$1" pin="2"/>
+<pinref part="R2" gate="G$1" pin="1"/>
+<pinref part="U5" gate="G$1" pin="ADJ"/>
+<wire x1="238.76" y1="304.8" x2="238.76" y2="297.18" width="0.1524" layer="91"/>
+</segment>
+</net>
+<net name="N$86" class="0">
+<segment>
+<pinref part="JP18" gate="G$1" pin="1"/>
+<wire x1="223.52" y1="309.88" x2="226.06" y2="309.88" width="0.1524" layer="91"/>
+<wire x1="226.06" y1="309.88" x2="226.06" y2="307.34" width="0.1524" layer="91"/>
+<pinref part="R2" gate="G$1" pin="2"/>
+<wire x1="226.06" y1="307.34" x2="226.06" y2="302.26" width="0.1524" layer="91"/>
+<wire x1="226.06" y1="302.26" x2="226.06" y2="297.18" width="0.1524" layer="91"/>
+<wire x1="226.06" y1="297.18" x2="228.6" y2="297.18" width="0.1524" layer="91"/>
+<pinref part="JP19" gate="G$1" pin="2"/>
+<wire x1="226.06" y1="302.26" x2="256.54" y2="302.26" width="0.1524" layer="91"/>
+<wire x1="256.54" y1="302.26" x2="256.54" y2="309.88" width="0.1524" layer="91"/>
+<pinref part="R37" gate="G$1" pin="2"/>
+<wire x1="233.68" y1="320.04" x2="231.14" y2="320.04" width="0.1524" layer="91"/>
+<wire x1="231.14" y1="320.04" x2="231.14" y2="307.34" width="0.1524" layer="91"/>
+<wire x1="231.14" y1="307.34" x2="226.06" y2="307.34" width="0.1524" layer="91"/>
+</segment>
+</net>
+<net name="N$87" class="0">
+<segment>
+<pinref part="JP18" gate="G$1" pin="2"/>
+<pinref part="U5" gate="G$1" pin="IN"/>
+<wire x1="223.52" y1="312.42" x2="231.14" y2="312.42" width="0.1524" layer="91"/>
+</segment>
+</net>
+<net name="N$88" class="0">
+<segment>
+<pinref part="JP19" gate="G$1" pin="1"/>
+<pinref part="U5" gate="G$1" pin="OUT"/>
+<wire x1="256.54" y1="312.42" x2="248.92" y2="312.42" width="0.1524" layer="91"/>
+<pinref part="R1" gate="G$1" pin="1"/>
+<wire x1="248.92" y1="312.42" x2="246.38" y2="312.42" width="0.1524" layer="91"/>
+<wire x1="248.92" y1="312.42" x2="248.92" y2="297.18" width="0.1524" layer="91"/>
+<pinref part="Q1" gate="P" pin="2"/>
+<wire x1="248.92" y1="320.04" x2="248.92" y2="312.42" width="0.1524" layer="91"/>
+</segment>
+</net>
+<net name="N$89" class="0">
+<segment>
+<pinref part="Q1" gate="P" pin="1"/>
+<pinref part="R37" gate="G$1" pin="1"/>
 </segment>
 </net>
 </nets>
