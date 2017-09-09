@@ -20453,72 +20453,6 @@ Source: Lighthorse Technologies, inc. SASF54GT.pdf</description>
 </deviceset>
 </devicesets>
 </library>
-<library name="crystal">
-<description>&lt;b&gt;Crystals and Crystal Resonators&lt;/b&gt;&lt;p&gt;
-&lt;author&gt;Created by librarian@cadsoft.de&lt;/author&gt;</description>
-<packages>
-<package name="CSM-7X-DU">
-<description>&lt;b&gt;SMD CRYSTAL&lt;/b&gt;&lt;p&gt;
-Source: www.ecsxtal.com .. Crystal 3.6864MHz CSM_7X_DU.PDF</description>
-<wire x1="-5.575" y1="2.3" x2="-2.725" y2="2.3" width="0.2032" layer="51"/>
-<wire x1="-2.725" y1="2.3" x2="2.75" y2="2.3" width="0.2032" layer="51"/>
-<wire x1="2.75" y1="2.3" x2="5.55" y2="2.3" width="0.2032" layer="51"/>
-<wire x1="5.55" y1="2.3" x2="5.55" y2="-2.3" width="0.2032" layer="51"/>
-<wire x1="5.55" y1="-2.3" x2="-2.75" y2="-2.3" width="0.2032" layer="51"/>
-<wire x1="-2.75" y1="-2.3" x2="-5.575" y2="-2.3" width="0.2032" layer="51"/>
-<wire x1="-5.575" y1="-2.3" x2="-5.575" y2="2.3" width="0.2032" layer="51"/>
-<wire x1="-2.75" y1="-2.3" x2="-2.725" y2="2.3" width="0.2032" layer="51" curve="-180"/>
-<wire x1="2.75" y1="2.3" x2="2.725" y2="-2.3" width="0.2032" layer="51" curve="-180"/>
-<smd name="1" x="-4.75" y="0" dx="5.5" dy="2" layer="1"/>
-<smd name="2" x="4.75" y="0" dx="5.5" dy="2" layer="1"/>
-<text x="-7.6288" y="2.5334" size="1.27" layer="25">&gt;NAME</text>
-<text x="-7.6288" y="-4.3114" size="1.27" layer="27">&gt;VALUE</text>
-</package>
-</packages>
-<symbols>
-<symbol name="Q">
-<wire x1="1.016" y1="0" x2="2.54" y2="0" width="0.1524" layer="94"/>
-<wire x1="-2.54" y1="0" x2="-1.016" y2="0" width="0.1524" layer="94"/>
-<wire x1="-0.381" y1="1.524" x2="-0.381" y2="-1.524" width="0.254" layer="94"/>
-<wire x1="-0.381" y1="-1.524" x2="0.381" y2="-1.524" width="0.254" layer="94"/>
-<wire x1="0.381" y1="-1.524" x2="0.381" y2="1.524" width="0.254" layer="94"/>
-<wire x1="0.381" y1="1.524" x2="-0.381" y2="1.524" width="0.254" layer="94"/>
-<wire x1="1.016" y1="1.778" x2="1.016" y2="-1.778" width="0.254" layer="94"/>
-<wire x1="-1.016" y1="1.778" x2="-1.016" y2="-1.778" width="0.254" layer="94"/>
-<text x="2.54" y="1.016" size="1.778" layer="95">&gt;NAME</text>
-<text x="2.54" y="-2.54" size="1.778" layer="96">&gt;VALUE</text>
-<text x="-2.159" y="-1.143" size="0.8636" layer="93">1</text>
-<text x="1.524" y="-1.143" size="0.8636" layer="93">2</text>
-<pin name="2" x="2.54" y="0" visible="off" length="point" direction="pas" swaplevel="1" rot="R180"/>
-<pin name="1" x="-2.54" y="0" visible="off" length="point" direction="pas" swaplevel="1"/>
-</symbol>
-</symbols>
-<devicesets>
-<deviceset name="CSM-7X-DU" prefix="Q">
-<description>&lt;b&gt;SMD CRYSTAL&lt;/b&gt;&lt;p&gt;
-Source: www.ecsxtal.com .. Crystal 3.6864MHz CSM_7X_DU.PDF</description>
-<gates>
-<gate name="P" symbol="Q" x="0" y="0"/>
-</gates>
-<devices>
-<device name="" package="CSM-7X-DU">
-<connects>
-<connect gate="P" pin="1" pad="1"/>
-<connect gate="P" pin="2" pad="2"/>
-</connects>
-<technologies>
-<technology name="">
-<attribute name="MF" value="" constant="no"/>
-<attribute name="MPN" value="" constant="no"/>
-<attribute name="OC_FARNELL" value="unknown" constant="no"/>
-<attribute name="OC_NEWARK" value="unknown" constant="no"/>
-</technology>
-</technologies>
-</device>
-</devices>
-</deviceset>
-</devicesets>
-</library>
 <library name="ACS712">
 <packages>
 <package name="SO08">
@@ -20858,18 +20792,14 @@ Source: www.irf.com .. ir2520.pdf</description>
 <part name="JP16" library="pinhead" deviceset="PINHD-1X3" device="" value="D"/>
 <part name="JP17" library="pinhead" deviceset="PINHD-1X4" device="" value="IIC"/>
 <part name="DC9" library="resistor" deviceset="C-EU" device="C0805" value="0.1uf"/>
-<part name="U5" library="SparkFun-IC-Power" deviceset="V_REG_317" device="DPACK"/>
-<part name="R1" library="SparkFun-Resistors" deviceset="RESISTOR" device="0805-RES" value="5.6k"/>
-<part name="R2" library="SparkFun-Resistors" deviceset="RESISTOR" device="0805-RES" value="2.4k"/>
-<part name="JP18" library="pinhead" deviceset="PINHD-1X2" device="" value="IN"/>
-<part name="JP19" library="pinhead" deviceset="PINHD-1X2" device="" value="OUT"/>
-<part name="Q1" library="crystal" deviceset="CSM-7X-DU" device=""/>
-<part name="R37" library="SparkFun-Resistors" deviceset="RESISTOR" device="0805-RES" value="5.6k"/>
 <part name="IC3" library="ACS712" deviceset="ACS712" device=""/>
 <part name="SUPPLY44" library="SparkFun-Aesthetics" deviceset="5V" device=""/>
 <part name="DC19" library="resistor" deviceset="C-EU" device="C0805" value="0.1uf"/>
 <part name="DC20" library="resistor" deviceset="C-EU" device="C0805" value="1nf"/>
 <part name="SUPPLY62" library="supply2" deviceset="GND" device=""/>
+<part name="R1" library="SparkFun-Resistors" deviceset="RESISTOR" device="0805-RES" value="35"/>
+<part name="DC21" library="resistor" deviceset="C-EU" device="C0805" value="1nf"/>
+<part name="SUPPLY13" library="supply2" deviceset="GND" device=""/>
 </parts>
 <sheets>
 <sheet>
@@ -21192,19 +21122,6 @@ Source: www.irf.com .. ir2520.pdf</description>
 <instance part="DC9" gate="G$1" x="259.08" y="279.4" smashed="yes" rot="R90">
 <attribute name="VALUE" x="263.779" y="280.924" size="1.778" layer="96" rot="R90"/>
 </instance>
-<instance part="U5" gate="G$1" x="238.76" y="312.42"/>
-<instance part="R1" gate="G$1" x="243.84" y="297.18" smashed="yes" rot="R180">
-<attribute name="VALUE" x="245.11" y="295.402" size="1.778" layer="96" rot="R180"/>
-</instance>
-<instance part="R2" gate="G$1" x="233.68" y="297.18" smashed="yes" rot="R180">
-<attribute name="VALUE" x="234.95" y="300.482" size="1.778" layer="96" rot="R180"/>
-</instance>
-<instance part="JP18" gate="G$1" x="220.98" y="312.42" rot="R180"/>
-<instance part="JP19" gate="G$1" x="259.08" y="309.88"/>
-<instance part="Q1" gate="P" x="246.38" y="320.04"/>
-<instance part="R37" gate="G$1" x="238.76" y="320.04" smashed="yes" rot="R180">
-<attribute name="VALUE" x="240.03" y="318.262" size="1.778" layer="96" rot="R180"/>
-</instance>
 <instance part="IC3" gate="A" x="43.18" y="223.52" rot="MR270"/>
 <instance part="SUPPLY44" gate="G$1" x="33.02" y="208.28" rot="R90"/>
 <instance part="DC19" gate="G$1" x="33.02" y="203.2" smashed="yes" rot="R180">
@@ -21214,6 +21131,13 @@ Source: www.irf.com .. ir2520.pdf</description>
 <attribute name="VALUE" x="44.196" y="205.359" size="1.778" layer="96" rot="R180"/>
 </instance>
 <instance part="SUPPLY62" gate="GND" x="33.02" y="198.12"/>
+<instance part="R1" gate="G$1" x="40.64" y="195.58" smashed="yes" rot="R90">
+<attribute name="VALUE" x="43.942" y="194.31" size="1.778" layer="96" rot="R90"/>
+</instance>
+<instance part="DC21" gate="G$1" x="38.1" y="190.5" smashed="yes" rot="R270">
+<attribute name="VALUE" x="33.401" y="188.976" size="1.778" layer="96" rot="R270"/>
+</instance>
+<instance part="SUPPLY13" gate="GND" x="30.48" y="190.5" rot="R270"/>
 </instances>
 <busses>
 </busses>
@@ -21512,6 +21436,10 @@ Source: www.irf.com .. ir2520.pdf</description>
 <segment>
 <pinref part="DC19" gate="G$1" pin="1"/>
 <pinref part="SUPPLY62" gate="GND" pin="GND"/>
+</segment>
+<segment>
+<pinref part="DC21" gate="G$1" pin="2"/>
+<pinref part="SUPPLY13" gate="GND" pin="GND"/>
 </segment>
 </net>
 <net name="5V" class="0">
@@ -22320,22 +22248,20 @@ Source: www.irf.com .. ir2520.pdf</description>
 <junction x="114.3" y="71.12"/>
 <wire x1="129.54" y1="71.12" x2="129.54" y2="114.3" width="0.1524" layer="91"/>
 <wire x1="129.54" y1="114.3" x2="99.06" y2="114.3" width="0.1524" layer="91"/>
-<wire x1="99.06" y1="114.3" x2="99.06" y2="119.38" width="0.1524" layer="91"/>
-<pinref part="U1" gate="1" pin="PK5(ADC13/PCINT21)"/>
-<wire x1="68.58" y1="119.38" x2="99.06" y2="119.38" width="0.1524" layer="91"/>
+<wire x1="99.06" y1="114.3" x2="99.06" y2="116.84" width="0.1524" layer="91"/>
+<pinref part="U1" gate="1" pin="PK4(ADC12/PCINT20)"/>
+<wire x1="68.58" y1="116.84" x2="99.06" y2="116.84" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="N$76" class="0">
 <segment>
 <pinref part="R44" gate="G$1" pin="2"/>
-<wire x1="58.42" y1="121.92" x2="60.96" y2="121.92" width="0.1524" layer="91"/>
-<wire x1="60.96" y1="121.92" x2="60.96" y2="124.46" width="0.1524" layer="91"/>
-<pinref part="U1" gate="1" pin="PK7(ADC15/PCINT23)"/>
-<wire x1="60.96" y1="124.46" x2="68.58" y2="124.46" width="0.1524" layer="91"/>
 <pinref part="R43" gate="G$1" pin="2"/>
 <wire x1="58.42" y1="121.92" x2="55.88" y2="121.92" width="0.1524" layer="91"/>
 <wire x1="55.88" y1="121.92" x2="55.88" y2="116.84" width="0.1524" layer="91"/>
 <junction x="58.42" y="121.92"/>
+<pinref part="U1" gate="1" pin="PK6(ADC14/PCINT22)"/>
+<wire x1="68.58" y1="121.92" x2="58.42" y2="121.92" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="N$77" class="0">
@@ -22418,9 +22344,9 @@ Source: www.irf.com .. ir2520.pdf</description>
 <net name="N$81" class="0">
 <segment>
 <pinref part="R48" gate="G$1" pin="2"/>
-<wire x1="63.5" y1="116.84" x2="63.5" y2="121.92" width="0.1524" layer="91"/>
-<pinref part="U1" gate="1" pin="PK6(ADC14/PCINT22)"/>
-<wire x1="63.5" y1="121.92" x2="68.58" y2="121.92" width="0.1524" layer="91"/>
+<wire x1="63.5" y1="116.84" x2="63.5" y2="119.38" width="0.1524" layer="91"/>
+<pinref part="U1" gate="1" pin="PK5(ADC13/PCINT21)"/>
+<wire x1="68.58" y1="119.38" x2="63.5" y2="119.38" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="N$69" class="0">
@@ -22528,57 +22454,6 @@ Source: www.irf.com .. ir2520.pdf</description>
 <wire x1="264.16" y1="269.24" x2="264.16" y2="261.62" width="0.1524" layer="91"/>
 </segment>
 </net>
-<net name="N$85" class="0">
-<segment>
-<pinref part="R1" gate="G$1" pin="2"/>
-<pinref part="R2" gate="G$1" pin="1"/>
-<pinref part="U5" gate="G$1" pin="ADJ"/>
-<wire x1="238.76" y1="304.8" x2="238.76" y2="297.18" width="0.1524" layer="91"/>
-</segment>
-</net>
-<net name="N$86" class="0">
-<segment>
-<pinref part="JP18" gate="G$1" pin="1"/>
-<wire x1="223.52" y1="309.88" x2="226.06" y2="309.88" width="0.1524" layer="91"/>
-<wire x1="226.06" y1="309.88" x2="226.06" y2="307.34" width="0.1524" layer="91"/>
-<pinref part="R2" gate="G$1" pin="2"/>
-<wire x1="226.06" y1="307.34" x2="226.06" y2="302.26" width="0.1524" layer="91"/>
-<wire x1="226.06" y1="302.26" x2="226.06" y2="297.18" width="0.1524" layer="91"/>
-<wire x1="226.06" y1="297.18" x2="228.6" y2="297.18" width="0.1524" layer="91"/>
-<pinref part="JP19" gate="G$1" pin="2"/>
-<wire x1="226.06" y1="302.26" x2="256.54" y2="302.26" width="0.1524" layer="91"/>
-<wire x1="256.54" y1="302.26" x2="256.54" y2="309.88" width="0.1524" layer="91"/>
-<pinref part="R37" gate="G$1" pin="2"/>
-<wire x1="233.68" y1="320.04" x2="231.14" y2="320.04" width="0.1524" layer="91"/>
-<wire x1="231.14" y1="320.04" x2="231.14" y2="307.34" width="0.1524" layer="91"/>
-<wire x1="231.14" y1="307.34" x2="226.06" y2="307.34" width="0.1524" layer="91"/>
-</segment>
-</net>
-<net name="N$87" class="0">
-<segment>
-<pinref part="JP18" gate="G$1" pin="2"/>
-<pinref part="U5" gate="G$1" pin="IN"/>
-<wire x1="223.52" y1="312.42" x2="231.14" y2="312.42" width="0.1524" layer="91"/>
-</segment>
-</net>
-<net name="N$88" class="0">
-<segment>
-<pinref part="JP19" gate="G$1" pin="1"/>
-<pinref part="U5" gate="G$1" pin="OUT"/>
-<wire x1="256.54" y1="312.42" x2="248.92" y2="312.42" width="0.1524" layer="91"/>
-<pinref part="R1" gate="G$1" pin="1"/>
-<wire x1="248.92" y1="312.42" x2="246.38" y2="312.42" width="0.1524" layer="91"/>
-<wire x1="248.92" y1="312.42" x2="248.92" y2="297.18" width="0.1524" layer="91"/>
-<pinref part="Q1" gate="P" pin="2"/>
-<wire x1="248.92" y1="320.04" x2="248.92" y2="312.42" width="0.1524" layer="91"/>
-</segment>
-</net>
-<net name="N$89" class="0">
-<segment>
-<pinref part="Q1" gate="P" pin="1"/>
-<pinref part="R37" gate="G$1" pin="1"/>
-</segment>
-</net>
 <net name="N$90" class="0">
 <segment>
 <pinref part="D3" gate="G$1" pin="K"/>
@@ -22591,6 +22466,27 @@ Source: www.irf.com .. ir2520.pdf</description>
 <pinref part="IC3" gate="A" pin="FILTER"/>
 <pinref part="DC20" gate="G$1" pin="2"/>
 <wire x1="45.72" y1="208.28" x2="45.72" y2="205.74" width="0.1524" layer="91"/>
+</segment>
+</net>
+<net name="N$18" class="0">
+<segment>
+<wire x1="40.64" y1="185.42" x2="30.48" y2="185.42" width="0.1524" layer="91"/>
+<wire x1="30.48" y1="185.42" x2="30.48" y2="162.56" width="0.1524" layer="91"/>
+<wire x1="30.48" y1="162.56" x2="81.28" y2="162.56" width="0.1524" layer="91"/>
+<pinref part="U1" gate="1" pin="PK7(ADC15/PCINT23)"/>
+<wire x1="68.58" y1="124.46" x2="81.28" y2="124.46" width="0.1524" layer="91"/>
+<wire x1="81.28" y1="124.46" x2="81.28" y2="162.56" width="0.1524" layer="91"/>
+<pinref part="R1" gate="G$1" pin="1"/>
+<wire x1="40.64" y1="190.5" x2="40.64" y2="185.42" width="0.1524" layer="91"/>
+<pinref part="DC21" gate="G$1" pin="1"/>
+<junction x="40.64" y="190.5"/>
+</segment>
+</net>
+<net name="N$28" class="0">
+<segment>
+<pinref part="IC3" gate="A" pin="VOUT"/>
+<pinref part="R1" gate="G$1" pin="2"/>
+<wire x1="40.64" y1="208.28" x2="40.64" y2="200.66" width="0.1524" layer="91"/>
 </segment>
 </net>
 </nets>
