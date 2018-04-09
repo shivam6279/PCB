@@ -12,3 +12,12 @@
 =======
 *.s#2
 *.b#1
+*.cmp
+*.drd
+*.dri
+*.plc
+*.gpi
+*.stc
+*.sol
+*.sts
+*.epf
