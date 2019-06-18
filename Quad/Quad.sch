@@ -23379,7 +23379,7 @@ Barometer</text>
 <attribute name="VALUE" x="3.81" y="67.818" size="1.778" layer="96" rot="R180"/>
 </instance>
 <instance part="R26" gate="G$1" x="-5.08" y="55.88" smashed="yes" rot="R180">
-<attribute name="NAME" x="-11.43" y="64.9986" size="1.778" layer="95" rot="R180"/>
+<attribute name="NAME" x="-11.43" y="57.3786" size="1.778" layer="95" rot="R180"/>
 <attribute name="VALUE" x="3.81" y="57.658" size="1.778" layer="96" rot="R180"/>
 </instance>
 <instance part="GND25" gate="1" x="-81.28" y="45.72" smashed="yes">
