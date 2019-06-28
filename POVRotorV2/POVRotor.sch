@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE eagle SYSTEM "eagle.dtd">
-<eagle version="9.3.1">
+<eagle version="9.4.2">
 <drawing>
 <settings>
 <setting alwaysvectorfont="no"/>
@@ -25637,6 +25637,7 @@ Source: http://www.mouser.com/ds/2/392/products_18-2245.pdf</description>
 <part name="P+8" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="+5V" device=""/>
 <part name="SUPPLY17" library="supply2" library_urn="urn:adsk.eagle:library:372" deviceset="GND" device=""/>
 <part name="SUPPLY18" library="supply2" library_urn="urn:adsk.eagle:library:372" deviceset="GND" device=""/>
+<part name="R15" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-US_" device="R0603" package3d_urn="urn:adsk.eagle:package:23555/3" value="41k"/>
 </parts>
 <sheets>
 <sheet>
@@ -25918,6 +25919,10 @@ Source: http://www.mouser.com/ds/2/392/products_18-2245.pdf</description>
 </instance>
 <instance part="SUPPLY18" gate="GND" x="50.8" y="119.38" smashed="yes">
 <attribute name="VALUE" x="48.895" y="116.205" size="1.778" layer="96"/>
+</instance>
+<instance part="R15" gate="G$1" x="22.86" y="142.24" smashed="yes" rot="R180">
+<attribute name="NAME" x="15.494" y="142.4686" size="1.778" layer="95"/>
+<attribute name="VALUE" x="25.908" y="142.494" size="1.778" layer="96"/>
 </instance>
 </instances>
 <busses>
@@ -26536,16 +26541,14 @@ Source: http://www.mouser.com/ds/2/392/products_18-2245.pdf</description>
 <pinref part="U$74" gate="G$1" pin="IN"/>
 <wire x1="12.7" y1="132.08" x2="5.08" y2="132.08" width="0.1524" layer="91"/>
 <wire x1="5.08" y1="132.08" x2="5.08" y2="142.24" width="0.1524" layer="91"/>
-<pinref part="U$74" gate="G$1" pin="EN"/>
 <wire x1="5.08" y1="142.24" x2="5.08" y2="149.86" width="0.1524" layer="91"/>
-<wire x1="33.02" y1="134.62" x2="35.56" y2="134.62" width="0.1524" layer="91"/>
-<wire x1="35.56" y1="134.62" x2="35.56" y2="142.24" width="0.1524" layer="91"/>
-<wire x1="35.56" y1="142.24" x2="5.08" y2="142.24" width="0.1524" layer="91"/>
 <junction x="5.08" y="142.24"/>
 <wire x1="-2.54" y1="137.16" x2="-2.54" y2="142.24" width="0.1524" layer="91"/>
 <wire x1="-2.54" y1="142.24" x2="5.08" y2="142.24" width="0.1524" layer="91"/>
 <pinref part="C17" gate="G$1" pin="+"/>
 <pinref part="SUPPLY16" gate="+15V" pin="+15V"/>
+<pinref part="R15" gate="G$1" pin="2"/>
+<wire x1="17.78" y1="142.24" x2="5.08" y2="142.24" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="N$1" class="0">
@@ -27785,6 +27788,15 @@ Source: http://www.mouser.com/ds/2/392/products_18-2245.pdf</description>
 <wire x1="50.8" y1="132.08" x2="50.8" y2="134.62" width="0.1524" layer="91"/>
 <pinref part="R13" gate="G$1" pin="2"/>
 <junction x="50.8" y="132.08"/>
+</segment>
+</net>
+<net name="N$3" class="0">
+<segment>
+<wire x1="35.56" y1="134.62" x2="35.56" y2="142.24" width="0.1524" layer="91"/>
+<pinref part="U$74" gate="G$1" pin="EN"/>
+<wire x1="33.02" y1="134.62" x2="35.56" y2="134.62" width="0.1524" layer="91"/>
+<pinref part="R15" gate="G$1" pin="1"/>
+<wire x1="27.94" y1="142.24" x2="35.56" y2="142.24" width="0.1524" layer="91"/>
 </segment>
 </net>
 </nets>
