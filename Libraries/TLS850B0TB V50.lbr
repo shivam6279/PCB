@@ -1,0 +1,146 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE eagle SYSTEM "eagle.dtd">
+<eagle version="7.5.0">
+<drawing>
+<settings>
+<setting alwaysvectorfont="no"/>
+<setting verticaltext="up"/>
+</settings>
+<grid distance="0.1" unitdist="inch" unit="inch" style="lines" multiple="1" display="no" altdistance="0.01" altunitdist="inch" altunit="inch"/>
+<layers>
+<layer number="1" name="Top" color="12" fill="1" visible="yes" active="yes"/>
+<layer number="2" name="Route2" color="1" fill="3" visible="no" active="yes"/>
+<layer number="3" name="Route3" color="4" fill="3" visible="no" active="yes"/>
+<layer number="4" name="Route4" color="1" fill="4" visible="no" active="yes"/>
+<layer number="5" name="Route5" color="4" fill="4" visible="no" active="yes"/>
+<layer number="6" name="Route6" color="1" fill="8" visible="no" active="yes"/>
+<layer number="7" name="Route7" color="4" fill="8" visible="no" active="yes"/>
+<layer number="8" name="Route8" color="1" fill="2" visible="no" active="yes"/>
+<layer number="9" name="Route9" color="4" fill="2" visible="no" active="yes"/>
+<layer number="10" name="Route10" color="1" fill="7" visible="no" active="yes"/>
+<layer number="11" name="Route11" color="4" fill="7" visible="no" active="yes"/>
+<layer number="12" name="Route12" color="1" fill="5" visible="no" active="yes"/>
+<layer number="13" name="Route13" color="4" fill="5" visible="no" active="yes"/>
+<layer number="14" name="Route14" color="1" fill="6" visible="no" active="yes"/>
+<layer number="15" name="Route15" color="4" fill="6" visible="no" active="yes"/>
+<layer number="16" name="Bottom" color="1" fill="1" visible="yes" active="yes"/>
+<layer number="17" name="Pads" color="2" fill="1" visible="yes" active="yes"/>
+<layer number="18" name="Vias" color="2" fill="1" visible="yes" active="yes"/>
+<layer number="19" name="Unrouted" color="6" fill="1" visible="yes" active="yes"/>
+<layer number="20" name="Dimension" color="15" fill="1" visible="yes" active="yes"/>
+<layer number="21" name="tPlace" color="6" fill="1" visible="yes" active="yes"/>
+<layer number="22" name="bPlace" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="23" name="tOrigins" color="2" fill="1" visible="yes" active="yes"/>
+<layer number="24" name="bOrigins" color="15" fill="1" visible="yes" active="yes"/>
+<layer number="25" name="tNames" color="6" fill="1" visible="yes" active="yes"/>
+<layer number="26" name="bNames" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="27" name="tValues" color="6" fill="1" visible="yes" active="yes"/>
+<layer number="28" name="bValues" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="29" name="tStop" color="5" fill="1" visible="no" active="yes"/>
+<layer number="30" name="bStop" color="7" fill="6" visible="no" active="yes"/>
+<layer number="31" name="tCream" color="7" fill="1" visible="no" active="yes"/>
+<layer number="32" name="bCream" color="7" fill="5" visible="no" active="yes"/>
+<layer number="33" name="tFinish" color="6" fill="3" visible="no" active="yes"/>
+<layer number="34" name="bFinish" color="6" fill="6" visible="no" active="yes"/>
+<layer number="35" name="tGlue" color="7" fill="4" visible="no" active="yes"/>
+<layer number="36" name="bGlue" color="7" fill="5" visible="no" active="yes"/>
+<layer number="37" name="tTest" color="7" fill="1" visible="no" active="yes"/>
+<layer number="38" name="bTest" color="7" fill="1" visible="no" active="yes"/>
+<layer number="39" name="tKeepout" color="2" fill="1" visible="yes" active="yes"/>
+<layer number="40" name="bKeepout" color="1" fill="11" visible="yes" active="yes"/>
+<layer number="41" name="tRestrict" color="4" fill="10" visible="yes" active="yes"/>
+<layer number="42" name="bRestrict" color="1" fill="10" visible="yes" active="yes"/>
+<layer number="43" name="vRestrict" color="2" fill="10" visible="yes" active="yes"/>
+<layer number="44" name="Drills" color="7" fill="1" visible="no" active="yes"/>
+<layer number="45" name="Holes" color="7" fill="1" visible="no" active="yes"/>
+<layer number="46" name="Milling" color="3" fill="1" visible="no" active="yes"/>
+<layer number="47" name="Measures" color="7" fill="1" visible="no" active="yes"/>
+<layer number="48" name="Document" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="49" name="Reference" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="51" name="tDocu" color="5" fill="1" visible="yes" active="yes"/>
+<layer number="52" name="bDocu" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="90" name="Modules" color="5" fill="1" visible="yes" active="yes"/>
+<layer number="91" name="Nets" color="2" fill="1" visible="yes" active="yes"/>
+<layer number="92" name="Busses" color="1" fill="1" visible="yes" active="yes"/>
+<layer number="93" name="Pins" color="2" fill="1" visible="yes" active="yes"/>
+<layer number="94" name="Symbols" color="4" fill="1" visible="yes" active="yes"/>
+<layer number="95" name="Names" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="96" name="Values" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="97" name="Info" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="98" name="Guide" color="6" fill="1" visible="yes" active="yes"/>
+</layers>
+<library>
+<packages>
+<package name="TO170P1500X450-6N">
+<description>Original name &lt;b&gt;TO170P1500X450-6N&lt;/b&gt;&lt;p&gt;
+Max Component Height - 4.5mm</description>
+<smd name="1" x="-5" y="3.4" dx="3.7" dy="1" layer="1"/>
+<smd name="2" x="-5" y="1.7" dx="3.7" dy="1" layer="1"/>
+<smd name="3" x="-5" y="0" dx="3.7" dy="1" layer="1"/>
+<smd name="4" x="-5" y="-1.7" dx="3.7" dy="1" layer="1"/>
+<smd name="5" x="-5" y="-3.4" dx="3.7" dy="1" layer="1"/>
+<smd name="6" x="5" y="0" dx="10.3" dy="8" layer="1" rot="R90"/>
+<wire x1="-1.35" y1="-5" x2="7.9" y2="-5" width="0.1" layer="51"/>
+<wire x1="-1.35" y1="-5" x2="-1.35" y2="5" width="0.1" layer="51"/>
+<wire x1="7.9" y1="-5" x2="7.9" y2="5" width="0.1" layer="51"/>
+<wire x1="-1.35" y1="5" x2="7.9" y2="5" width="0.1" layer="51"/>
+<wire x1="-7.1" y1="-5.4" x2="9.3" y2="-5.4" width="0.1" layer="39"/>
+<wire x1="-7.1" y1="-5.4" x2="-7.1" y2="5.4" width="0.1" layer="39"/>
+<wire x1="0" y1="-0.5" x2="0" y2="0.5" width="0.1" layer="39"/>
+<wire x1="-0.5" y1="0" x2="0.5" y2="0" width="0.1" layer="39"/>
+<wire x1="-7.1" y1="5.4" x2="9.3" y2="5.4" width="0.1" layer="39"/>
+<wire x1="9.3" y1="-5.4" x2="9.3" y2="5.4" width="0.1" layer="39"/>
+<circle x="-6.6" y="4.4" radius="0.125" width="0.25" layer="21"/>
+<wire x1="-2.75" y1="-5" x2="0.65" y2="-5" width="0.2" layer="21"/>
+<wire x1="-2.75" y1="5" x2="0.65" y2="5" width="0.2" layer="21"/>
+<wire x1="-2.75" y1="-5" x2="-2.75" y2="5" width="0.2" layer="21"/>
+<text x="-7.11" y="5.704" size="2.032" layer="25" font="vector" ratio="13" rot="SR0">&gt;NAME</text>
+<text x="-7.15" y="-7.62" size="2.032" layer="27" font="vector" ratio="13" rot="SR0">&gt;VALUE</text>
+</package>
+</packages>
+<symbols>
+<symbol name="TLS850B0TBV_50">
+<pin name="GND@2" x="25.4" y="-12.7" length="middle" direction="pwr" rot="R180"/>
+<pin name="EN" x="-5.08" y="-7.62" length="middle" direction="in"/>
+<pin name="GND@1" x="25.4" y="-10.16" length="middle" direction="pwr" rot="R180"/>
+<pin name="I" x="-5.08" y="-2.54" length="middle" direction="pwr"/>
+<pin name="Q" x="25.4" y="-2.54" length="middle" direction="pwr" rot="R180"/>
+<wire x1="0" y1="0" x2="0" y2="-15.24" width="0.254" layer="94"/>
+<wire x1="0" y1="-15.24" x2="20.32" y2="-15.24" width="0.254" layer="94"/>
+<wire x1="20.32" y1="-15.24" x2="20.32" y2="0" width="0.254" layer="94"/>
+<wire x1="20.32" y1="0" x2="0" y2="0" width="0.254" layer="94"/>
+<text x="0" y="0.635" size="1.778" layer="95">&gt;NAME</text>
+<text x="0" y="-17.78" size="1.778" layer="96">&gt;VALUE</text>
+<pin name="NC" x="-5.08" y="-12.7" length="middle" direction="pas"/>
+</symbol>
+</symbols>
+<devicesets>
+<deviceset name="TLS850B0TBV_50" prefix="G">
+<description>&lt;/b&gt;TLS850B0TBV 50&lt;/b&gt;&lt;p&gt;
+Low Dropout Linear Voltage Regulator, Fixed output voltage 5 V, Output voltage accuracy ≤ ±2%
+
+&lt;p&gt;
+TO170P1500X450-6N</description>
+<gates>
+<gate name="G$1" symbol="TLS850B0TBV_50" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="TO170P1500X450-6N">
+<connects>
+<connect gate="G$1" pin="EN" pad="2"/>
+<connect gate="G$1" pin="GND@1" pad="3"/>
+<connect gate="G$1" pin="GND@2" pad="6"/>
+<connect gate="G$1" pin="I" pad="1"/>
+<connect gate="G$1" pin="NC" pad="4"/>
+<connect gate="G$1" pin="Q" pad="5"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+</devices>
+</deviceset>
+</devicesets>
+</library>
+</drawing>
+</eagle>
