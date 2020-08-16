@@ -40,3 +40,6 @@
 *.l#1
 *.SchDocPreview
 *.b##
+History/
+ProjectOutputs/
+ProjectLogs/

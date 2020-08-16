@@ -186,62 +186,6 @@ Variation4=Designator=R14|UniqueId=\HPFPTNTV|Kind=1|AlternatePart=
 Variation5=Designator=P5|UniqueId=\SRADDCIC\BMITZCDA|Kind=1|AlternatePart= 
 ParamVariationCount=0
 
-[GeneratedDocument1]
-DocumentPath=Project Outputs for MotorBoard\Design Rule Check - MotorBoard.html
-DItemRevisionGUID=
-
-[GeneratedDocument2]
-DocumentPath=Project Outputs for MotorBoard\MotorBoard.DRR
-DItemRevisionGUID=
-
-[GeneratedDocument3]
-DocumentPath=Project Outputs for MotorBoard\MotorBoard.EXTREP
-DItemRevisionGUID=
-
-[GeneratedDocument4]
-DocumentPath=Project Outputs for MotorBoard\MotorBoard.GBL
-DItemRevisionGUID=
-
-[GeneratedDocument5]
-DocumentPath=Project Outputs for MotorBoard\MotorBoard.GBO
-DItemRevisionGUID=
-
-[GeneratedDocument6]
-DocumentPath=Project Outputs for MotorBoard\MotorBoard.GBS
-DItemRevisionGUID=
-
-[GeneratedDocument7]
-DocumentPath=Project Outputs for MotorBoard\MotorBoard.GM3
-DItemRevisionGUID=
-
-[GeneratedDocument8]
-DocumentPath=Project Outputs for MotorBoard\MotorBoard.GTL
-DItemRevisionGUID=
-
-[GeneratedDocument9]
-DocumentPath=Project Outputs for MotorBoard\MotorBoard.GTO
-DItemRevisionGUID=
-
-[GeneratedDocument10]
-DocumentPath=Project Outputs for MotorBoard\MotorBoard.GTS
-DItemRevisionGUID=
-
-[GeneratedDocument11]
-DocumentPath=Project Outputs for MotorBoard\MotorBoard.LDP
-DItemRevisionGUID=
-
-[GeneratedDocument12]
-DocumentPath=Project Outputs for MotorBoard\MotorBoard.REP
-DItemRevisionGUID=
-
-[GeneratedDocument13]
-DocumentPath=Project Outputs for MotorBoard\MotorBoard.RUL
-DItemRevisionGUID=
-
-[GeneratedDocument14]
-DocumentPath=Project Outputs for MotorBoard\MotorBoard.TXT
-DItemRevisionGUID=
-
 [SearchPath1]
 Path=..\..\..\Libraries\Altium\*.*
 IncludeSubFolders=1
