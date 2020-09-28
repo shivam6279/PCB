@@ -2,23 +2,6 @@
 FileName = Encoder.GBR
 AutoAperture = True
 *************************************************************
-Generating : Bottom Overlay
-      File : Encoder.GBO
-
-    Adding Layer      : Bottom Overlay
-
-    Adding Layer      : Board Outline
-
-
-Used DCodes :
-    D10
-    D12
-    D26
-    D27
-    D28
-*************************************************************
-
-*************************************************************
 Generating : Bottom Solder
       File : Encoder.GBS
 
@@ -40,6 +23,46 @@ Used DCodes :
     D23
     D24
     D25
+*************************************************************
+
+*************************************************************
+Generating : Bottom Overlay
+      File : Encoder.GBO
+
+    Adding Layer      : Bottom Overlay
+
+    Adding Layer      : Board Outline
+
+
+Used DCodes :
+    D10
+    D12
+    D26
+    D27
+    D28
+*************************************************************
+
+*************************************************************
+Generating : Bottom Layer
+      File : Encoder.GBL
+
+    Adding Layer      : Bottom Layer
+
+    Adding Layer      : Board Outline
+
+    Adding Layer      : Multi-Layer
+
+
+Used DCodes :
+    D10
+    D12
+    D16
+    D17
+    D18
+    D19
+    D20
+    D21
+    D22
 *************************************************************
 
 *************************************************************
@@ -96,28 +119,5 @@ Used DCodes :
     D13
     D14
     D15
-*************************************************************
-
-*************************************************************
-Generating : Bottom Layer
-      File : Encoder.GBL
-
-    Adding Layer      : Bottom Layer
-
-    Adding Layer      : Board Outline
-
-    Adding Layer      : Multi-Layer
-
-
-Used DCodes :
-    D10
-    D12
-    D16
-    D17
-    D18
-    D19
-    D20
-    D21
-    D22
 *************************************************************
 
