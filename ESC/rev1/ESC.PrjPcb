@@ -146,21 +146,7 @@ UniqueID=0F4A890B-1A94-4742-984C-06EB2591D9D2
 Description=Main
 AllowFabrication=0
 ParameterCount=0
-VariationCount=14
-Variation1=Designator=P1|UniqueId=\TTRUKLAY|Kind=1|AlternatePart= 
-Variation2=Designator=P2|UniqueId=\TQHYHMCN|Kind=1|AlternatePart= 
-Variation3=Designator=P3|UniqueId=\LITUWKRL|Kind=1|AlternatePart= 
-Variation4=Designator=R14|UniqueId=\HPFPTNTV|Kind=1|AlternatePart= 
-Variation5=Designator=P5|UniqueId=\SRADDCIC\BMITZCDA|Kind=0|AlternatePart= 
-Variation6=Designator=P6|UniqueId=\VKBVNURT|Kind=1|AlternatePart= 
-Variation7=Designator=P7|UniqueId=\LNBULCQJ|Kind=1|AlternatePart= 
-Variation8=Designator=P8|UniqueId=\CJGRJNAX|Kind=1|AlternatePart= 
-Variation9=Designator=P9|UniqueId=\VUGATWKF|Kind=1|AlternatePart= 
-Variation10=Designator=J5|UniqueId=\WTGKTMWE\ORCGHDCT|Kind=1|AlternatePart= 
-Variation11=Designator=P9|UniqueId=\WTGKTMWE\UDUTNNNY|Kind=1|AlternatePart= 
-Variation12=Designator=P8|UniqueId=\WTGKTMWE\TOJGQEKU|Kind=1|AlternatePart= 
-Variation13=Designator=P7|UniqueId=\WTGKTMWE\GRHVTDZU|Kind=1|AlternatePart= 
-Variation14=Designator=P6|UniqueId=\WTGKTMWE\CKEGGLZH|Kind=1|AlternatePart= 
+VariationCount=0
 ParamVariationCount=0
 
 [SearchPath1]
@@ -286,7 +272,7 @@ OutputDefault20=0
 [OutputGroup2]
 Name=Simulator Outputs
 Description=
-TargetPrinter=Microsoft Print to PDF
+TargetPrinter=Brother HL-L3270CDW series Printer
 PrinterOptions=Record=PrinterOptions|Copies=1|Duplex=1|TrueTypeOptions=3|Collate=1|PrintJobKind=1|PrintWhat=1
 
 [OutputGroup3]
@@ -501,6 +487,18 @@ OutputName6=Report Single Pin Nets
 OutputDocumentPath6=
 OutputVariantName6=[No Variations]
 OutputDefault6=0
+OutputType7=BOM_ReportCompare
+OutputName7=BOM Compare
+OutputDocumentPath7=
+OutputVariantName7=[No Variations]
+OutputDefault7=0
+PageOptions7=Record=PageOptions|CenterHorizontal=True|CenterVertical=True|PrintScale=1.00|XCorrection=1.00|YCorrection=1.00|PrintKind=1|BorderSize=5000000|LeftOffset=0|BottomOffset=0|Orientation=2|PaperLength=1000|PaperWidth=1000|Scale=100|PaperSource=7|PrintQuality=-3|MediaType=1|DitherType=10|PrintScaleMode=1|PaperKind=Letter|PaperIndex=1
+OutputType8=Export Comments
+OutputName8=Export Comments
+OutputDocumentPath8=
+OutputVariantName8=[No Variations]
+OutputDefault8=0
+PageOptions8=Record=PageOptions|CenterHorizontal=True|CenterVertical=True|PrintScale=1.00|XCorrection=1.00|YCorrection=1.00|PrintKind=1|BorderSize=5000000|LeftOffset=0|BottomOffset=0|Orientation=2|PaperLength=1000|PaperWidth=1000|Scale=100|PaperSource=7|PrintQuality=-3|MediaType=1|DitherType=10|PrintScaleMode=1|PaperKind=Letter|PaperIndex=1
 
 [OutputGroup7]
 Name=Other Outputs
@@ -1090,17 +1088,11 @@ UpdateVariants=1
 UpdateToLatestRevision=1
 PartTypes=0
 ComponentLibIdentifierKind0=Library Name And Type
-ComponentLibraryIdentifier0=Celestial Altium Library - altium_library.DbLib/Resistors - Surface Mount - 0603
-ComponentDesignItemID0=RNCS0603BKE10K0
-ComponentSymbolReference0=Resistor
+ComponentLibraryIdentifier0=IC.IntLib
+ComponentDesignItemID0=AP65211A
+ComponentSymbolReference0=AP65211A
 ComponentUpdate0=1
 ComponentIsDeviceSheet0=0
-ComponentLibIdentifierKind1=Library Name And Type
-ComponentLibraryIdentifier1=IC.IntLib
-ComponentDesignItemID1=MIC23050
-ComponentSymbolReference1=MIC23050
-ComponentUpdate1=1
-ComponentIsDeviceSheet1=0
 FullReplace=1
 UpdateDesignatorLock=1
 UpdatePartIDLock=1
@@ -1118,80 +1110,15 @@ ParameterName0=Comment
 ParameterUpdate0=1
 ParameterName1=Component Kind
 ParameterUpdate1=1
-ParameterName2=ComponentLink1Description
+ParameterName2=Description
 ParameterUpdate2=1
-ParameterName3=ComponentLink1URL
+ParameterName3=Library Reference
 ParameterUpdate3=1
-ParameterName4=ComponentLink2Description
-ParameterUpdate4=1
-ParameterName5=ComponentLink2URL
-ParameterUpdate5=1
-ParameterName6=Composition
-ParameterUpdate6=1
-ParameterName7=Description
-ParameterUpdate7=1
-ParameterName8=Device Package
-ParameterUpdate8=1
-ParameterName9=Features
-ParameterUpdate9=1
-ParameterName10=Height - Seated (Max)
-ParameterUpdate10=1
-ParameterName11=LastUpdated
-ParameterUpdate11=1
-ParameterName12=Library Reference
-ParameterUpdate12=1
-ParameterName13=Lifecycle Status
-ParameterUpdate13=1
-ParameterName14=Manufacturer
-ParameterUpdate14=1
-ParameterName15=Minimum Order
-ParameterUpdate15=1
-ParameterName16=Number of Terminations
-ParameterUpdate16=1
-ParameterName17=Operating Temperature
-ParameterUpdate17=1
-ParameterName18=Package / Case
-ParameterUpdate18=1
-ParameterName19=Packaging
-ParameterUpdate19=1
-ParameterName20=Part Number
-ParameterUpdate20=1
-ParameterName21=Part Status
-ParameterUpdate21=1
-ParameterName22=PartId
-ParameterUpdate22=1
-ParameterName23=Power (Watts)
-ParameterUpdate23=1
-ParameterName24=Price
-ParameterUpdate24=1
-ParameterName25=Ratings
-ParameterUpdate25=1
-ParameterName26=Resistance
-ParameterUpdate26=1
-ParameterName27=Series
-ParameterUpdate27=1
-ParameterName28=Size / Dimension
-ParameterUpdate28=1
-ParameterName29=Supplier 1
-ParameterUpdate29=1
-ParameterName30=Supplier Device Package
-ParameterUpdate30=1
-ParameterName31=Supplier Part Number 1
-ParameterUpdate31=1
-ParameterName32=Temperature Coefficient
-ParameterUpdate32=1
-ParameterName33=Tolerance
-ParameterUpdate33=1
-ParameterName34=Value
-ParameterUpdate34=1
 ModelTypeGroup0=PCBLIB
 ModelTypeUpdate0=1
 ModelType0=PCBLIB
-ModelName0=MLF-8 2x2mm
+ModelName0=TSOT-26-6
 ModelUpdate0=1
-ModelType1=PCBLIB
-ModelName1=RES 0603_1608
-ModelUpdate1=1
 
 [DatabaseUpdateOptions]
 SelectedOnly=0

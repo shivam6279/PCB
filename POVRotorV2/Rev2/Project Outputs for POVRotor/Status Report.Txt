@@ -1,0 +1,12 @@
+Output: NC Drill Files
+Type  : NC Drill
+From  : Project [POVRotor.PrjPcb]
+   Generated File[POVRotor.TXT]
+   Generated File[POVRotor.LDP]
+   Generated File[POVRotor.DRR]
+
+
+Files Generated   : 3
+Documents Printed : 0
+
+Finished Output Generation At 8:39:41 PM On 9/19/2021

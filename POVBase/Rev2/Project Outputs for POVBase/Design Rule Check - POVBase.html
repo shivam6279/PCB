@@ -1,0 +1,485 @@
+<html>
+<head>
+<META http-equiv="Content-Type" content="text/html">
+<style type="text/css">
+		h1, h2, h3, h4, h5, h6 {
+			font-family : segoe ui;
+			color : black;
+			background-color : #EDE7D9;
+			padding: 0.3em;
+		}
+
+		h1 {
+			font-size: 1.2em;
+		}		
+
+		h2 {
+			font-size: 1.2em;
+		}
+
+		body {
+			font-family : segoe ui;
+		}
+
+		td, th {
+			padding: 0.5em;
+			text-align : left;
+			width: 10em;
+		}
+		th {
+			background-color : #EEEEEE;
+
+		}
+		th.column1, td.column1 {
+			text-align: left;
+			width : auto;
+		}
+		table {
+			width : 100%;
+			font-size: 0.9em;
+		}
+
+		.DRC_summary_header {
+			padding-bottom : 0.1em;
+			border : 0px solid black;
+			width: 100%;
+			align: left;
+		}
+
+		.DRC_summary_header_col1,
+		.DRC_summary_header_col2, 
+		.DRC_summary_header_col3 {
+			color : black;
+			font-size:100%;
+			padding : 0em;
+			padding-top : 0.2em;
+			padding-bottom 0.2em;
+			border : 0px solid black;
+			vertical-align: top;
+			text-align: left;
+		}
+
+		.DRC_summary_header_col1 {
+			font-weight: bold;
+			width: 8em;
+		}
+
+		.DRC_summary_header_col2 {
+			width: 0.1em;
+		
+		}
+
+		.DRC_summary_header_col3 {
+			width : auto;
+		}
+
+		.header_holder {
+		    Width = 100%;
+		    border = 0px solid green;
+		    padding = 0;
+		}
+
+
+		.front_matter, .front_matter_column1, .front_matter_column2, .front_matter_column3
+		{
+			left : 0;
+			top : 0;
+			padding: 0em;
+			padding-top : 0.1em;
+			border : 0px solid black;
+			width : 100%;
+			vertical-align: top;
+			text-align: left;
+		}
+
+		.front_matter_column1 {
+			width : 8em;
+			font-weight: bold;
+		}
+
+		.front_matter_column2 {
+			width: 0.1em;
+		}
+
+		.front_matter_column3 {
+			width : auto;
+		}
+
+		.total_column1, .total_column {
+			font-weight : bold;
+		}
+		.total_column1 {
+			text-align : left;
+		}
+		.warning, .error {
+			color : red;
+			font-weight : bold;
+		}
+		tr.onmouseout_odd {
+			background-color : #white;
+		}
+		tr.onmouseout_even { 
+			background-color : #FAFAFA;
+		}
+		tr.onmouseover_odd, tr.onmouseover_even { 
+			background-color : #EEEEEE;
+		} 
+		a:link, a:visited, .q a:link,.q a:active,.q {
+			color: #21489e; 
+		}
+		a:link.callback, a:visited.callback { 
+			color: #21489e;
+		}
+		a:link.customize, a:visited.customize {
+			color: #C0C0C0;
+			position: absolute; 
+			right: 10px;
+		}	
+		p.contents_level1 {
+			font-weight : bold;
+			font-size : 110%;
+			margin : 0.5em;
+		}
+		p.contents_level2 {
+			position : relative;
+			left : 20px;
+			margin : 0.5em;
+		}
+	</style><script type="text/javascript">
+		function coordToMils(coord) {
+			var number = coord / 10000;
+			
+			if (number != number.toFixed(3))
+				number = number.toFixed(3);
+
+			return number + 'mil'
+		}
+
+		function coordToMM(coord) {
+			var number = 0.0254 * coord / 10000;
+			
+			if (number != number.toFixed(4))
+				number = number.toFixed(4);
+			
+			return number + 'mm'
+		}
+	
+		function convertCoord(coordNode, units) {
+			for (var i = 0; i < coordNode.childNodes.length; i++) {
+				coordNode.removeChild(coordNode.childNodes[i]);
+			}
+
+			var coord = coordNode.getAttribute('value');
+			if (coord != null) {
+				if (units == 'mm') {
+					textNode = document.createTextNode(coordToMM(coord));
+					coordNode.appendChild(textNode);
+				} else if (units == 'mil') {
+					textNode = document.createTextNode(coordToMils(coord));		
+					coordNode.appendChild(textNode);	
+				}
+			}
+		}
+	
+		function convertUnits(unitNode, units) {
+			for (var i = 0; i < unitNode.childNodes.length; i++) {
+				unitNode.removeChild(unitNode.childNodes[i]);		
+			}
+		
+			textNode = document.createTextNode(units); 
+			unitNode.appendChild(textNode);
+		}
+	
+		function changeUnits(radio_input, units) {
+			if (radio_input.checked) {
+			
+				var elements = document.getElementsByName('coordinate');
+				if (elements) {
+					for (var i = 0; i < elements.length; i++) {
+						convertCoord(elements[i], units);
+					}
+				}
+	
+				var elements = document.getElementsByName('units');
+				if (elements) {
+					for (var i = 0; i < elements.length; i++) {
+						convertUnits(elements[i], units);
+					}
+				}
+			}
+		}
+	</script><title>Design Rule Verification Report</title>
+</head>
+<body onload=""><img ALT="Altium" src="
+			file://C:\Users\Public\Documents\Altium\AD21\Templates\AD_logo.png
+		"><h1>Design Rule Verification Report</h1>
+<table class="header_holder">
+<td class="column1">
+<table class="front_matter">
+<tr class="front_matter">
+<td class="front_matter_column1">Date:</td>
+<td class="front_matter_column2"></td>
+<td class="front_matter_column3">9/19/2021</td>
+</tr>
+<tr class="front_matter">
+<td class="front_matter_column1">Time:</td>
+<td class="front_matter_column2"></td>
+<td class="front_matter_column3">6:39:45 PM</td>
+</tr>
+<tr class="front_matter">
+<td class="front_matter_column1">Elapsed Time:</td>
+<td class="front_matter_column2"></td>
+<td class="front_matter_column3">00:00:01</td>
+</tr>
+<tr class="front_matter">
+<td class="front_matter_column1">Filename:</td>
+<td class="front_matter_column2"></td>
+<td class="front_matter_column3"><a href="file:///D:\Projects\PCB\POVBase\Rev2\POVBase.PcbDoc" class="file"><acronym title="D:\Projects\PCB\POVBase\Rev2\POVBase.PcbDoc">D:\Projects\PCB\POVBase\Rev2\POVBase.PcbDoc</acronym></a></td>
+</tr>
+</table>
+</td>
+<td class="column2">
+<table class="DRC_summary_header">
+<tr>
+<td class="DRC_summary_header_col1">Warnings:</td>
+<td class="DRC_summary_header_col2"></td>
+<td class="DRC_summary_header_col3">0</td></tr>
+<tr>
+<td class="DRC_summary_header_col1">Rule Violations:</td>
+<td class="DRC_summary_header_col2"></td>
+<td class="DRC_summary_header_col3" style="color : red">55</td></tr>
+</table>
+</td>
+</table><a name="IDM5PFFDNTABVNMO1VLQ4TB0UIJHMZQ1KL0V245PPHLSXLTYHJDF3O"><h2>Summary</h2></a><table>
+<tr>
+<th class="column1">Warnings</th>
+<th class="column2">Count</th>
+</tr>
+<tr>
+<td style="font-weight : bold; text-align : right" class="column1">Total</td>
+<td style="font-weight : bold" class="column2">0</td>
+</tr>
+</table><br><table>
+<tr>
+<th class="column1">Rule Violations</th>
+<th class="column2">Count</th>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1"><a href="#IDRBQSBHBYZKC2FV0SEO1UBGVD0F1UUVKPGUX5V0KU3PP23ADVHJ4I">Clearance Constraint (Gap=0.1mm) (All),(All)</a></td>
+<td class="column2">18</td>
+</tr>
+<tr class="onmouseout_even" onmouseover="className = 'onmouseover_even'" onmouseout="className = 'onmouseout_even'">
+<td class="column1"><a href="#ID0HERC2FCYGKAIHVINHO5MN1XYEJFRAGRDRJ5ZEKLXTYHUPWTEZEF">Short-Circuit Constraint (Allowed=No) (All),(All)</a></td>
+<td class="column2">20</td>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1"><a href="#ID301E1DTP0OXCJTQEJMADOBSPWPVTF2OSASOHPWJXSQV3JD3DTQNO">Un-Routed Net Constraint ( (All) )</a></td>
+<td class="column2">0</td>
+</tr>
+<tr class="onmouseout_even" onmouseover="className = 'onmouseover_even'" onmouseout="className = 'onmouseout_even'">
+<td class="column1"><a href="#IDAUQDN1CR2PERKFMRYFMWPN0KHE4KHQVVJF13WJELY3GKASRYI0HI">Modified Polygon (Allow modified: No), (Allow shelved: No)</a></td>
+<td class="column2">0</td>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1"><a href="#IDYUMULUATQMUSCDTSMRECMSAVILFHH2J5BRGAAEICRVOFIAEMGJXC">Width Constraint (Min=0.128mm) (Max=2mm) (Preferred=0.254mm) (All)</a></td>
+<td class="column2">0</td>
+</tr>
+<tr class="onmouseout_even" onmouseover="className = 'onmouseover_even'" onmouseout="className = 'onmouseout_even'">
+<td class="column1"><a href="#IDYNX304D1VOVIMKTZDVJXE1DDUMDNRMAV01CYUSGFNG1DH0KQ5BPN">Power Plane Connect Rule(Relief Connect )(Expansion=0.508mm) (Conductor Width=0.254mm) (Air Gap=0.254mm) (Entries=4) (All)</a></td>
+<td class="column2">0</td>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1"><a href="#IDGZWJQSSSEVENF24UJ3YBGSYTOCL0NDAKFAA2GVBMNOQJX2MGP5CI">Hole To Hole Clearance (Gap=0.254mm) (All),(All)</a></td>
+<td class="column2">0</td>
+</tr>
+<tr class="onmouseout_even" onmouseover="className = 'onmouseover_even'" onmouseout="className = 'onmouseout_even'">
+<td class="column1"><a href="#ID5RIZKJX3HCFZKHD5V4GLRC2TOFFOMLW5UDUXNPNQFBISCSX0O22J">Net Antennae (Tolerance=0mm) (All)</a></td>
+<td class="column2">0</td>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1"><a href="#IDYWVDHGSPBXSOINFIEKCSY5AARFES2IWFKW352WBZEI1L1ZOLFWPJ">Board Clearance Constraint (Gap=0mm) (All)</a></td>
+<td class="column2">17</td>
+</tr>
+<tr>
+<td style="font-weight : bold; text-align : right" class="column1">Total</td>
+<td style="font-weight : bold" class="column2">55</td>
+</tr>
+</table><br><a name="IDRBQSBHBYZKC2FV0SEO1UBGVD0F1UUVKPGUX5V0KU3PP23ADVHJ4I"><table>
+<tr>
+<th style="text-align : left" colspan="1" class="rule">Clearance Constraint (Gap=0.1mm) (All),(All)</th>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=D:\Projects\PCB\POVBase\Rev2\POVBase.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=3982.873mil|Location2.X=3986.497mil|Location1.Y=3061.259mil|Location2.Y=3064.883mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=D:\Projects\PCB\POVBase\Rev2\POVBase.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=3982.873mil|Location2.X=3986.497mil|Location1.Y=3061.259mil|Location2.Y=3064.883mil|Absolute=True">Clearance Constraint: (Collision &lt; 0.1mm) Between Area Fill (1.466mm,-27.699mm) (7.466mm,-21.699mm) on Top Layer And Pad U5-39(2.63mm,-22.865mm) on Top Layer </acronym></a><br></td>
+</tr>
+<tr class="onmouseout_even" onmouseover="className = 'onmouseover_even'" onmouseout="className = 'onmouseout_even'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=D:\Projects\PCB\POVBase\Rev2\POVBase.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=3982.873mil|Location2.X=3986.497mil|Location1.Y=2989.015mil|Location2.Y=2992.639mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=D:\Projects\PCB\POVBase\Rev2\POVBase.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=3982.873mil|Location2.X=3986.497mil|Location1.Y=2989.015mil|Location2.Y=2992.639mil|Absolute=True">Clearance Constraint: (Collision &lt; 0.1mm) Between Area Fill (1.466mm,-27.699mm) (7.466mm,-21.699mm) on Top Layer And Pad U5-39(2.63mm,-24.7mm) on Top Layer </acronym></a><br></td>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=D:\Projects\PCB\POVBase\Rev2\POVBase.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=3982.873mil|Location2.X=3986.497mil|Location1.Y=2916.77mil|Location2.Y=2920.395mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=D:\Projects\PCB\POVBase\Rev2\POVBase.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=3982.873mil|Location2.X=3986.497mil|Location1.Y=2916.77mil|Location2.Y=2920.395mil|Absolute=True">Clearance Constraint: (Collision &lt; 0.1mm) Between Area Fill (1.466mm,-27.699mm) (7.466mm,-21.699mm) on Top Layer And Pad U5-39(2.63mm,-26.535mm) on Top Layer </acronym></a><br></td>
+</tr>
+<tr class="onmouseout_even" onmouseover="className = 'onmouseover_even'" onmouseout="className = 'onmouseout_even'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=D:\Projects\PCB\POVBase\Rev2\POVBase.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=4107.479mil|Location2.X=4111.104mil|Location1.Y=3061.259mil|Location2.Y=3064.883mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=D:\Projects\PCB\POVBase\Rev2\POVBase.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=4107.479mil|Location2.X=4111.104mil|Location1.Y=3061.259mil|Location2.Y=3064.883mil|Absolute=True">Clearance Constraint: (Collision &lt; 0.1mm) Between Area Fill (1.466mm,-27.699mm) (7.466mm,-21.699mm) on Top Layer And Pad U5-39(4.465mm,-22.865mm) on Top Layer </acronym></a><br></td>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=D:\Projects\PCB\POVBase\Rev2\POVBase.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=4107.479mil|Location2.X=4111.104mil|Location1.Y=2936.652mil|Location2.Y=2940.277mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=D:\Projects\PCB\POVBase\Rev2\POVBase.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=4107.479mil|Location2.X=4111.104mil|Location1.Y=2936.652mil|Location2.Y=2940.277mil|Absolute=True">Clearance Constraint: (Collision &lt; 0.1mm) Between Area Fill (1.466mm,-27.699mm) (7.466mm,-21.699mm) on Top Layer And Pad U5-39(4.465mm,-24.7mm) on Top Layer </acronym></a><br></td>
+</tr>
+<tr class="onmouseout_even" onmouseover="className = 'onmouseover_even'" onmouseout="className = 'onmouseout_even'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=D:\Projects\PCB\POVBase\Rev2\POVBase.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=4055.117mil|Location2.X=4058.741mil|Location1.Y=2864.408mil|Location2.Y=2868.033mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=D:\Projects\PCB\POVBase\Rev2\POVBase.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=4055.117mil|Location2.X=4058.741mil|Location1.Y=2864.408mil|Location2.Y=2868.033mil|Absolute=True">Clearance Constraint: (Collision &lt; 0.1mm) Between Area Fill (1.466mm,-27.699mm) (7.466mm,-21.699mm) on Top Layer And Pad U5-39(4.465mm,-26.535mm) on Top Layer </acronym></a><br></td>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=D:\Projects\PCB\POVBase\Rev2\POVBase.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=4179.723mil|Location2.X=4183.348mil|Location1.Y=3008.896mil|Location2.Y=3012.521mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=D:\Projects\PCB\POVBase\Rev2\POVBase.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=4179.723mil|Location2.X=4183.348mil|Location1.Y=3008.896mil|Location2.Y=3012.521mil|Absolute=True">Clearance Constraint: (Collision &lt; 0.1mm) Between Area Fill (1.466mm,-27.699mm) (7.466mm,-21.699mm) on Top Layer And Pad U5-39(6.3mm,-22.865mm) on Top Layer </acronym></a><br></td>
+</tr>
+<tr class="onmouseout_even" onmouseover="className = 'onmouseover_even'" onmouseout="className = 'onmouseout_even'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=D:\Projects\PCB\POVBase\Rev2\POVBase.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=4179.723mil|Location2.X=4183.348mil|Location1.Y=2936.652mil|Location2.Y=2940.277mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=D:\Projects\PCB\POVBase\Rev2\POVBase.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=4179.723mil|Location2.X=4183.348mil|Location1.Y=2936.652mil|Location2.Y=2940.277mil|Absolute=True">Clearance Constraint: (Collision &lt; 0.1mm) Between Area Fill (1.466mm,-27.699mm) (7.466mm,-21.699mm) on Top Layer And Pad U5-39(6.3mm,-24.7mm) on Top Layer </acronym></a><br></td>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=D:\Projects\PCB\POVBase\Rev2\POVBase.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=4179.723mil|Location2.X=4183.348mil|Location1.Y=2864.408mil|Location2.Y=2868.033mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=D:\Projects\PCB\POVBase\Rev2\POVBase.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=4179.723mil|Location2.X=4183.348mil|Location1.Y=2864.408mil|Location2.Y=2868.033mil|Absolute=True">Clearance Constraint: (Collision &lt; 0.1mm) Between Area Fill (1.466mm,-27.699mm) (7.466mm,-21.699mm) on Top Layer And Pad U5-39(6.3mm,-26.535mm) on Top Layer </acronym></a><br></td>
+</tr>
+<tr class="onmouseout_even" onmouseover="className = 'onmouseover_even'" onmouseout="className = 'onmouseout_even'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=D:\Projects\PCB\POVBase\Rev2\POVBase.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=4009.054mil|Location2.X=4012.678mil|Location1.Y=3035.077mil|Location2.Y=3038.702mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=D:\Projects\PCB\POVBase\Rev2\POVBase.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=4009.054mil|Location2.X=4012.678mil|Location1.Y=3035.077mil|Location2.Y=3038.702mil|Absolute=True">Clearance Constraint: (Collision &lt; 0.1mm) Between Area Fill (1.466mm,-27.699mm) (7.466mm,-21.699mm) on Top Layer And Track (2.63mm,-22.865mm)(4.465mm,-22.865mm) on Top Layer </acronym></a><br></td>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=D:\Projects\PCB\POVBase\Rev2\POVBase.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=4081.298mil|Location2.X=4084.923mil|Location1.Y=3035.077mil|Location2.Y=3038.702mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=D:\Projects\PCB\POVBase\Rev2\POVBase.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=4081.298mil|Location2.X=4084.923mil|Location1.Y=3035.077mil|Location2.Y=3038.702mil|Absolute=True">Clearance Constraint: (Collision &lt; 0.1mm) Between Area Fill (1.466mm,-27.699mm) (7.466mm,-21.699mm) on Top Layer And Track (4.465mm,-22.865mm)(6.3mm,-22.865mm) on Top Layer </acronym></a><br></td>
+</tr>
+<tr class="onmouseout_even" onmouseover="className = 'onmouseover_even'" onmouseout="className = 'onmouseout_even'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=D:\Projects\PCB\POVBase\Rev2\POVBase.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=4009.054mil|Location2.X=4012.678mil|Location1.Y=2962.833mil|Location2.Y=2966.458mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=D:\Projects\PCB\POVBase\Rev2\POVBase.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=4009.054mil|Location2.X=4012.678mil|Location1.Y=2962.833mil|Location2.Y=2966.458mil|Absolute=True">Clearance Constraint: (Collision &lt; 0.1mm) Between Area Fill (1.466mm,-27.699mm) (7.466mm,-21.699mm) on Top Layer And Via (2.63mm,-24.7mm) from Top Layer to Bottom Layer </acronym></a><br></td>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=D:\Projects\PCB\POVBase\Rev2\POVBase.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=4009.054mil|Location2.X=4012.678mil|Location1.Y=2890.589mil|Location2.Y=2894.214mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=D:\Projects\PCB\POVBase\Rev2\POVBase.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=4009.054mil|Location2.X=4012.678mil|Location1.Y=2890.589mil|Location2.Y=2894.214mil|Absolute=True">Clearance Constraint: (Collision &lt; 0.1mm) Between Area Fill (1.466mm,-27.699mm) (7.466mm,-21.699mm) on Top Layer And Via (2.63mm,-26.535mm) from Top Layer to Bottom Layer </acronym></a><br></td>
+</tr>
+<tr class="onmouseout_even" onmouseover="className = 'onmouseover_even'" onmouseout="className = 'onmouseout_even'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=D:\Projects\PCB\POVBase\Rev2\POVBase.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=4081.298mil|Location2.X=4084.923mil|Location1.Y=2962.833mil|Location2.Y=2966.458mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=D:\Projects\PCB\POVBase\Rev2\POVBase.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=4081.298mil|Location2.X=4084.923mil|Location1.Y=2962.833mil|Location2.Y=2966.458mil|Absolute=True">Clearance Constraint: (Collision &lt; 0.1mm) Between Area Fill (1.466mm,-27.699mm) (7.466mm,-21.699mm) on Top Layer And Via (4.465mm,-24.7mm) from Top Layer to Bottom Layer </acronym></a><br></td>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=D:\Projects\PCB\POVBase\Rev2\POVBase.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=4081.298mil|Location2.X=4084.923mil|Location1.Y=2890.589mil|Location2.Y=2894.214mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=D:\Projects\PCB\POVBase\Rev2\POVBase.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=4081.298mil|Location2.X=4084.923mil|Location1.Y=2890.589mil|Location2.Y=2894.214mil|Absolute=True">Clearance Constraint: (Collision &lt; 0.1mm) Between Area Fill (1.466mm,-27.699mm) (7.466mm,-21.699mm) on Top Layer And Via (4.465mm,-26.535mm) from Top Layer to Bottom Layer </acronym></a><br></td>
+</tr>
+<tr class="onmouseout_even" onmouseover="className = 'onmouseover_even'" onmouseout="className = 'onmouseout_even'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=D:\Projects\PCB\POVBase\Rev2\POVBase.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=4153.542mil|Location2.X=4157.167mil|Location1.Y=3035.077mil|Location2.Y=3038.702mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=D:\Projects\PCB\POVBase\Rev2\POVBase.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=4153.542mil|Location2.X=4157.167mil|Location1.Y=3035.077mil|Location2.Y=3038.702mil|Absolute=True">Clearance Constraint: (Collision &lt; 0.1mm) Between Area Fill (1.466mm,-27.699mm) (7.466mm,-21.699mm) on Top Layer And Via (6.3mm,-22.865mm) from Top Layer to Bottom Layer </acronym></a><br></td>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=D:\Projects\PCB\POVBase\Rev2\POVBase.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=4153.542mil|Location2.X=4157.167mil|Location1.Y=2962.833mil|Location2.Y=2966.458mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=D:\Projects\PCB\POVBase\Rev2\POVBase.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=4153.542mil|Location2.X=4157.167mil|Location1.Y=2962.833mil|Location2.Y=2966.458mil|Absolute=True">Clearance Constraint: (Collision &lt; 0.1mm) Between Area Fill (1.466mm,-27.699mm) (7.466mm,-21.699mm) on Top Layer And Via (6.3mm,-24.7mm) from Top Layer to Bottom Layer </acronym></a><br></td>
+</tr>
+<tr class="onmouseout_even" onmouseover="className = 'onmouseover_even'" onmouseout="className = 'onmouseout_even'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=D:\Projects\PCB\POVBase\Rev2\POVBase.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=4153.542mil|Location2.X=4157.167mil|Location1.Y=2890.589mil|Location2.Y=2894.214mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=D:\Projects\PCB\POVBase\Rev2\POVBase.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=4153.542mil|Location2.X=4157.167mil|Location1.Y=2890.589mil|Location2.Y=2894.214mil|Absolute=True">Clearance Constraint: (Collision &lt; 0.1mm) Between Area Fill (1.466mm,-27.699mm) (7.466mm,-21.699mm) on Top Layer And Via (6.3mm,-26.535mm) from Top Layer to Bottom Layer </acronym></a><br></td>
+</tr>
+</table></a><hr color="#EEEEEE"><a href="#top" style="font-size: 0.9em">Back to top</a><br><br><a name="ID0HERC2FCYGKAIHVINHO5MN1XYEJFRAGRDRJ5ZEKLXTYHUPWTEZEF"><table>
+<tr>
+<th style="text-align : left" colspan="1" class="rule">Short-Circuit Constraint (Allowed=No) (All),(All)</th>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=D:\Projects\PCB\POVBase\Rev2\POVBase.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=3972.34mil|Location2.X=4049.392mil|Location1.Y=2998.364mil|Location2.Y=3075.415mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=D:\Projects\PCB\POVBase\Rev2\POVBase.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=3972.34mil|Location2.X=4049.392mil|Location1.Y=2998.364mil|Location2.Y=3075.415mil|Absolute=True">Short-Circuit Constraint: Between Area Fill (1.466mm,-27.699mm) (7.466mm,-21.699mm) on Top Layer And Pad U5-39(2.63mm,-22.865mm) on Top Layer Location : [X = 101.876mm][Y = 77.137mm]</acronym></a><br></td>
+</tr>
+<tr class="onmouseout_even" onmouseover="className = 'onmouseover_even'" onmouseout="className = 'onmouseout_even'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=D:\Projects\PCB\POVBase\Rev2\POVBase.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=3972.34mil|Location2.X=4049.392mil|Location1.Y=2926.12mil|Location2.Y=3003.171mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=D:\Projects\PCB\POVBase\Rev2\POVBase.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=3972.34mil|Location2.X=4049.392mil|Location1.Y=2926.12mil|Location2.Y=3003.171mil|Absolute=True">Short-Circuit Constraint: Between Area Fill (1.466mm,-27.699mm) (7.466mm,-21.699mm) on Top Layer And Pad U5-39(2.63mm,-24.7mm) on Top Layer Location : [X = 101.876mm][Y = 75.302mm]</acronym></a><br></td>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=D:\Projects\PCB\POVBase\Rev2\POVBase.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=3972.34mil|Location2.X=4049.392mil|Location1.Y=2853.876mil|Location2.Y=2930.927mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=D:\Projects\PCB\POVBase\Rev2\POVBase.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=3972.34mil|Location2.X=4049.392mil|Location1.Y=2853.876mil|Location2.Y=2930.927mil|Absolute=True">Short-Circuit Constraint: Between Area Fill (1.466mm,-27.699mm) (7.466mm,-21.699mm) on Top Layer And Pad U5-39(2.63mm,-26.535mm) on Top Layer Location : [X = 101.876mm][Y = 73.467mm]</acronym></a><br></td>
+</tr>
+<tr class="onmouseout_even" onmouseover="className = 'onmouseover_even'" onmouseout="className = 'onmouseout_even'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=D:\Projects\PCB\POVBase\Rev2\POVBase.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=4044.585mil|Location2.X=4121.636mil|Location1.Y=2998.364mil|Location2.Y=3075.415mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=D:\Projects\PCB\POVBase\Rev2\POVBase.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=4044.585mil|Location2.X=4121.636mil|Location1.Y=2998.364mil|Location2.Y=3075.415mil|Absolute=True">Short-Circuit Constraint: Between Area Fill (1.466mm,-27.699mm) (7.466mm,-21.699mm) on Top Layer And Pad U5-39(4.465mm,-22.865mm) on Top Layer Location : [X = 103.711mm][Y = 77.137mm]</acronym></a><br></td>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=D:\Projects\PCB\POVBase\Rev2\POVBase.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=4044.585mil|Location2.X=4121.636mil|Location1.Y=2926.12mil|Location2.Y=3003.171mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=D:\Projects\PCB\POVBase\Rev2\POVBase.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=4044.585mil|Location2.X=4121.636mil|Location1.Y=2926.12mil|Location2.Y=3003.171mil|Absolute=True">Short-Circuit Constraint: Between Area Fill (1.466mm,-27.699mm) (7.466mm,-21.699mm) on Top Layer And Pad U5-39(4.465mm,-24.7mm) on Top Layer Location : [X = 103.711mm][Y = 75.302mm]</acronym></a><br></td>
+</tr>
+<tr class="onmouseout_even" onmouseover="className = 'onmouseover_even'" onmouseout="className = 'onmouseout_even'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=D:\Projects\PCB\POVBase\Rev2\POVBase.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=4044.585mil|Location2.X=4121.636mil|Location1.Y=2853.876mil|Location2.Y=2930.927mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=D:\Projects\PCB\POVBase\Rev2\POVBase.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=4044.585mil|Location2.X=4121.636mil|Location1.Y=2853.876mil|Location2.Y=2930.927mil|Absolute=True">Short-Circuit Constraint: Between Area Fill (1.466mm,-27.699mm) (7.466mm,-21.699mm) on Top Layer And Pad U5-39(4.465mm,-26.535mm) on Top Layer Location : [X = 103.711mm][Y = 73.467mm]</acronym></a><br></td>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=D:\Projects\PCB\POVBase\Rev2\POVBase.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=4116.829mil|Location2.X=4193.88mil|Location1.Y=2998.364mil|Location2.Y=3075.415mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=D:\Projects\PCB\POVBase\Rev2\POVBase.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=4116.829mil|Location2.X=4193.88mil|Location1.Y=2998.364mil|Location2.Y=3075.415mil|Absolute=True">Short-Circuit Constraint: Between Area Fill (1.466mm,-27.699mm) (7.466mm,-21.699mm) on Top Layer And Pad U5-39(6.3mm,-22.865mm) on Top Layer Location : [X = 105.546mm][Y = 77.137mm]</acronym></a><br></td>
+</tr>
+<tr class="onmouseout_even" onmouseover="className = 'onmouseover_even'" onmouseout="className = 'onmouseout_even'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=D:\Projects\PCB\POVBase\Rev2\POVBase.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=4116.829mil|Location2.X=4193.88mil|Location1.Y=2926.12mil|Location2.Y=3003.171mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=D:\Projects\PCB\POVBase\Rev2\POVBase.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=4116.829mil|Location2.X=4193.88mil|Location1.Y=2926.12mil|Location2.Y=3003.171mil|Absolute=True">Short-Circuit Constraint: Between Area Fill (1.466mm,-27.699mm) (7.466mm,-21.699mm) on Top Layer And Pad U5-39(6.3mm,-24.7mm) on Top Layer Location : [X = 105.546mm][Y = 75.302mm]</acronym></a><br></td>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=D:\Projects\PCB\POVBase\Rev2\POVBase.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=4116.829mil|Location2.X=4193.88mil|Location1.Y=2853.876mil|Location2.Y=2930.927mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=D:\Projects\PCB\POVBase\Rev2\POVBase.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=4116.829mil|Location2.X=4193.88mil|Location1.Y=2853.876mil|Location2.Y=2930.927mil|Absolute=True">Short-Circuit Constraint: Between Area Fill (1.466mm,-27.699mm) (7.466mm,-21.699mm) on Top Layer And Pad U5-39(6.3mm,-26.535mm) on Top Layer Location : [X = 105.546mm][Y = 73.467mm]</acronym></a><br></td>
+</tr>
+<tr class="onmouseout_even" onmouseover="className = 'onmouseover_even'" onmouseout="className = 'onmouseout_even'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=D:\Projects\PCB\POVBase\Rev2\POVBase.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=4003.954mil|Location2.X=4090.022mil|Location1.Y=2993.856mil|Location2.Y=3079.924mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=D:\Projects\PCB\POVBase\Rev2\POVBase.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=4003.954mil|Location2.X=4090.022mil|Location1.Y=2993.856mil|Location2.Y=3079.924mil|Absolute=True">Short-Circuit Constraint: Between Area Fill (1.466mm,-27.699mm) (7.466mm,-21.699mm) on Top Layer And Track (2.63mm,-22.865mm)(4.465mm,-22.865mm) on Top Layer Location : [X = 102.793mm][Y = 77.137mm]</acronym></a><br></td>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=D:\Projects\PCB\POVBase\Rev2\POVBase.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=4076.198mil|Location2.X=4162.266mil|Location1.Y=2993.856mil|Location2.Y=3079.924mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=D:\Projects\PCB\POVBase\Rev2\POVBase.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=4076.198mil|Location2.X=4162.266mil|Location1.Y=2993.856mil|Location2.Y=3079.924mil|Absolute=True">Short-Circuit Constraint: Between Area Fill (1.466mm,-27.699mm) (7.466mm,-21.699mm) on Top Layer And Track (4.465mm,-22.865mm)(6.3mm,-22.865mm) on Top Layer Location : [X = 104.628mm][Y = 77.137mm]</acronym></a><br></td>
+</tr>
+<tr class="onmouseout_even" onmouseover="className = 'onmouseover_even'" onmouseout="className = 'onmouseout_even'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=D:\Projects\PCB\POVBase\Rev2\POVBase.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=3989.711mil|Location2.X=4032.021mil|Location1.Y=2943.49mil|Location2.Y=2985.801mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=D:\Projects\PCB\POVBase\Rev2\POVBase.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=3989.711mil|Location2.X=4032.021mil|Location1.Y=2943.49mil|Location2.Y=2985.801mil|Absolute=True">Short-Circuit Constraint: Between Area Fill (1.466mm,-27.699mm) (7.466mm,-21.699mm) on Top Layer And Via (2.63mm,-24.7mm) from Top Layer to Bottom Layer Location : [X = 101.876mm][Y = 75.302mm]</acronym></a><br></td>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=D:\Projects\PCB\POVBase\Rev2\POVBase.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=3989.711mil|Location2.X=4032.021mil|Location1.Y=2871.246mil|Location2.Y=2913.557mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=D:\Projects\PCB\POVBase\Rev2\POVBase.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=3989.711mil|Location2.X=4032.021mil|Location1.Y=2871.246mil|Location2.Y=2913.557mil|Absolute=True">Short-Circuit Constraint: Between Area Fill (1.466mm,-27.699mm) (7.466mm,-21.699mm) on Top Layer And Via (2.63mm,-26.535mm) from Top Layer to Bottom Layer Location : [X = 101.876mm][Y = 73.467mm]</acronym></a><br></td>
+</tr>
+<tr class="onmouseout_even" onmouseover="className = 'onmouseover_even'" onmouseout="className = 'onmouseout_even'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=D:\Projects\PCB\POVBase\Rev2\POVBase.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=4061.955mil|Location2.X=4104.266mil|Location1.Y=2943.49mil|Location2.Y=2985.801mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=D:\Projects\PCB\POVBase\Rev2\POVBase.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=4061.955mil|Location2.X=4104.266mil|Location1.Y=2943.49mil|Location2.Y=2985.801mil|Absolute=True">Short-Circuit Constraint: Between Area Fill (1.466mm,-27.699mm) (7.466mm,-21.699mm) on Top Layer And Via (4.465mm,-24.7mm) from Top Layer to Bottom Layer Location : [X = 103.711mm][Y = 75.302mm]</acronym></a><br></td>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=D:\Projects\PCB\POVBase\Rev2\POVBase.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=4061.955mil|Location2.X=4104.266mil|Location1.Y=2871.246mil|Location2.Y=2913.557mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=D:\Projects\PCB\POVBase\Rev2\POVBase.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=4061.955mil|Location2.X=4104.266mil|Location1.Y=2871.246mil|Location2.Y=2913.557mil|Absolute=True">Short-Circuit Constraint: Between Area Fill (1.466mm,-27.699mm) (7.466mm,-21.699mm) on Top Layer And Via (4.465mm,-26.535mm) from Top Layer to Bottom Layer Location : [X = 103.711mm][Y = 73.467mm]</acronym></a><br></td>
+</tr>
+<tr class="onmouseout_even" onmouseover="className = 'onmouseover_even'" onmouseout="className = 'onmouseout_even'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=D:\Projects\PCB\POVBase\Rev2\POVBase.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=4134.199mil|Location2.X=4176.51mil|Location1.Y=3015.735mil|Location2.Y=3058.045mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=D:\Projects\PCB\POVBase\Rev2\POVBase.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=4134.199mil|Location2.X=4176.51mil|Location1.Y=3015.735mil|Location2.Y=3058.045mil|Absolute=True">Short-Circuit Constraint: Between Area Fill (1.466mm,-27.699mm) (7.466mm,-21.699mm) on Top Layer And Via (6.3mm,-22.865mm) from Top Layer to Bottom Layer Location : [X = 105.546mm][Y = 77.137mm]</acronym></a><br></td>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=D:\Projects\PCB\POVBase\Rev2\POVBase.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=4134.199mil|Location2.X=4176.51mil|Location1.Y=2943.49mil|Location2.Y=2985.801mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=D:\Projects\PCB\POVBase\Rev2\POVBase.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=4134.199mil|Location2.X=4176.51mil|Location1.Y=2943.49mil|Location2.Y=2985.801mil|Absolute=True">Short-Circuit Constraint: Between Area Fill (1.466mm,-27.699mm) (7.466mm,-21.699mm) on Top Layer And Via (6.3mm,-24.7mm) from Top Layer to Bottom Layer Location : [X = 105.546mm][Y = 75.302mm]</acronym></a><br></td>
+</tr>
+<tr class="onmouseout_even" onmouseover="className = 'onmouseover_even'" onmouseout="className = 'onmouseout_even'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=D:\Projects\PCB\POVBase\Rev2\POVBase.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=4134.199mil|Location2.X=4176.51mil|Location1.Y=2871.246mil|Location2.Y=2913.557mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=D:\Projects\PCB\POVBase\Rev2\POVBase.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=4134.199mil|Location2.X=4176.51mil|Location1.Y=2871.246mil|Location2.Y=2913.557mil|Absolute=True">Short-Circuit Constraint: Between Area Fill (1.466mm,-27.699mm) (7.466mm,-21.699mm) on Top Layer And Via (6.3mm,-26.535mm) from Top Layer to Bottom Layer Location : [X = 105.546mm][Y = 73.467mm]</acronym></a><br></td>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=D:\Projects\PCB\POVBase\Rev2\POVBase.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=3102.02mil|Location2.X=3119.558mil|Location1.Y=3568.328mil|Location2.Y=3585.865mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=D:\Projects\PCB\POVBase\Rev2\POVBase.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=3102.02mil|Location2.X=3119.558mil|Location1.Y=3568.328mil|Location2.Y=3585.865mil|Absolute=True">Short-Circuit Constraint: Between Pad U4-39(-20.234mm,-9.144mm) on Top Layer And Track (-20.234mm,-9.144mm)(-20.23mm,-9.144mm) on Top Layer Location : [X = 79.014mm][Y = 90.858mm]</acronym></a><br></td>
+</tr>
+<tr class="onmouseout_even" onmouseover="className = 'onmouseover_even'" onmouseout="className = 'onmouseout_even'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=D:\Projects\PCB\POVBase\Rev2\POVBase.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=3100mil|Location2.X=3132.07mil|Location1.Y=3555.865mil|Location2.Y=3587.934mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=D:\Projects\PCB\POVBase\Rev2\POVBase.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=3100mil|Location2.X=3132.07mil|Location1.Y=3555.865mil|Location2.Y=3587.934mil|Absolute=True">Short-Circuit Constraint: Between Pad U4-39(-20.234mm,-9.144mm) on Top Layer And Track (-20.23mm,-9.144mm)(-19.781mm,-9.592mm) on Top Layer Location : [X = 79.147mm][Y = 90.726mm]</acronym></a><br></td>
+</tr>
+</table></a><hr color="#EEEEEE"><a href="#top" style="font-size: 0.9em">Back to top</a><br><br><a name="IDYWVDHGSPBXSOINFIEKCSY5AARFES2IWFKW352WBZEI1L1ZOLFWPJ"><table>
+<tr>
+<th style="text-align : left" colspan="1" class="rule">Board Clearance Constraint (Gap=0mm) (All)</th>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=D:\Projects\PCB\POVBase\Rev2\POVBase.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=4153.663mil|Location2.X=4194.876mil|Location1.Y=2380.321mil|Location2.Y=2401.729mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=D:\Projects\PCB\POVBase\Rev2\POVBase.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=4153.663mil|Location2.X=4194.876mil|Location1.Y=2380.321mil|Location2.Y=2401.729mil|Absolute=True">Board Outline Clearance(Outline Edge): (0.394mm &lt; 0.512mm) Between Board Edge And Pad J4-S(6mm,-37.675mm) on Bottom Layer </acronym></a><br></td>
+</tr>
+<tr class="onmouseout_even" onmouseover="className = 'onmouseover_even'" onmouseout="className = 'onmouseout_even'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=D:\Projects\PCB\POVBase\Rev2\POVBase.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=3581.405mil|Location2.X=3622.489mil|Location1.Y=2384.753mil|Location2.Y=2406.16mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=D:\Projects\PCB\POVBase\Rev2\POVBase.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=3581.405mil|Location2.X=3622.489mil|Location1.Y=2384.753mil|Location2.Y=2406.16mil|Absolute=True">Board Outline Clearance(Outline Edge): (0.066mm &lt; 0.512mm) Between Board Edge And Pad J4-S(-7.35mm,-38.175mm) on Bottom Layer </acronym></a><br></td>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=D:\Projects\PCB\POVBase\Rev2\POVBase.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=3987.646mil|Location2.X=4028.968mil|Location1.Y=5492.919mil|Location2.Y=5514.326mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=D:\Projects\PCB\POVBase\Rev2\POVBase.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=3987.646mil|Location2.X=4028.968mil|Location1.Y=5492.919mil|Location2.Y=5514.326mil|Absolute=True">Board Outline Clearance(Outline Edge): (0.289mm &lt; 0.512mm) Between Board Edge And Track (0.69mm,30.412mm)(2.3mm,39.546mm) on Top Overlay </acronym></a><br></td>
+</tr>
+<tr class="onmouseout_even" onmouseover="className = 'onmouseover_even'" onmouseout="className = 'onmouseout_even'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=D:\Projects\PCB\POVBase\Rev2\POVBase.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=3830.223mil|Location2.X=3871.532mil|Location1.Y=5491.485mil|Location2.Y=5512.892mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=D:\Projects\PCB\POVBase\Rev2\POVBase.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=3830.223mil|Location2.X=3871.532mil|Location1.Y=5491.485mil|Location2.Y=5512.892mil|Absolute=True">Board Outline Clearance(Outline Edge): (0.423mm &lt; 0.512mm) Between Board Edge And Track (-1.671mm,39.442mm)(-0.89mm,35.011mm) on Top Overlay </acronym></a><br></td>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=D:\Projects\PCB\POVBase\Rev2\POVBase.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=3830.223mil|Location2.X=3871.532mil|Location1.Y=5491.485mil|Location2.Y=5512.892mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=D:\Projects\PCB\POVBase\Rev2\POVBase.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=3830.223mil|Location2.X=3871.532mil|Location1.Y=5491.485mil|Location2.Y=5512.892mil|Absolute=True">Board Outline Clearance(Outline Edge): (0.423mm &lt; 0.512mm) Between Board Edge And Track (-11.519mm,37.706mm)(-1.671mm,39.442mm) on Top Overlay </acronym></a><br></td>
+</tr>
+<tr class="onmouseout_even" onmouseover="className = 'onmouseover_even'" onmouseout="className = 'onmouseout_even'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=D:\Projects\PCB\POVBase\Rev2\POVBase.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=3439.255mil|Location2.X=3479.682mil|Location1.Y=5423.561mil|Location2.Y=5444.969mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=D:\Projects\PCB\POVBase\Rev2\POVBase.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=3439.255mil|Location2.X=3479.682mil|Location1.Y=5423.561mil|Location2.Y=5444.969mil|Absolute=True">Board Outline Clearance(Outline Edge): (0.474mm &lt; 0.512mm) Between Board Edge And Track (-11.519mm,37.706mm)(-10.738mm,33.274mm) on Top Overlay </acronym></a><br></td>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=D:\Projects\PCB\POVBase\Rev2\POVBase.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=4665.942mil|Location2.X=4704.158mil|Location1.Y=2554.658mil|Location2.Y=2579.544mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=D:\Projects\PCB\POVBase\Rev2\POVBase.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=4665.942mil|Location2.X=4704.158mil|Location1.Y=2554.658mil|Location2.Y=2579.544mil|Absolute=True">Board Outline Clearance(Outline Edge): (0.122mm &lt; 0.512mm) Between Board Edge And Track (12.765mm,-34.7mm)(19.465mm,-34.7mm) on Top Overlay </acronym></a><br></td>
+</tr>
+<tr class="onmouseout_even" onmouseover="className = 'onmouseover_even'" onmouseout="className = 'onmouseout_even'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=D:\Projects\PCB\POVBase\Rev2\POVBase.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=4665.942mil|Location2.X=4704.158mil|Location1.Y=2554.658mil|Location2.Y=2579.544mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=D:\Projects\PCB\POVBase\Rev2\POVBase.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=4665.942mil|Location2.X=4704.158mil|Location1.Y=2554.658mil|Location2.Y=2579.544mil|Absolute=True">Board Outline Clearance(Outline Edge): (0.122mm &lt; 0.512mm) Between Board Edge And Track (19.465mm,-34.7mm)(19.465mm,-16.7mm) on Top Overlay </acronym></a><br></td>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=D:\Projects\PCB\POVBase\Rev2\POVBase.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=4354.282mil|Location2.X=4394.783mil|Location1.Y=5427.785mil|Location2.Y=5449.192mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=D:\Projects\PCB\POVBase\Rev2\POVBase.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=4354.282mil|Location2.X=4394.783mil|Location1.Y=5427.785mil|Location2.Y=5449.192mil|Absolute=True">Board Outline Clearance(Outline Edge): (0.264mm &lt; 0.512mm) Between Board Edge And Track (2.3mm,39.546mm)(11.557mm,37.914mm) on Top Overlay </acronym></a><br></td>
+</tr>
+<tr class="onmouseout_even" onmouseover="className = 'onmouseover_even'" onmouseout="className = 'onmouseout_even'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=D:\Projects\PCB\POVBase\Rev2\POVBase.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=2691.876mil|Location2.X=2722.251mil|Location1.Y=2912.1mil|Location2.Y=2946.856mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=D:\Projects\PCB\POVBase\Rev2\POVBase.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=2691.876mil|Location2.X=2722.251mil|Location1.Y=2912.1mil|Location2.Y=2946.856mil|Absolute=True">Board Outline Clearance(Outline Edge): (0.434mm &lt; 0.512mm) Between Board Edge And Track (-30.355mm,-25.223mm)(-26.376mm,-22.539mm) on Top Overlay </acronym></a><br></td>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=D:\Projects\PCB\POVBase\Rev2\POVBase.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=2514.632mil|Location2.X=2539.517mil|Location1.Y=3171.914mil|Location2.Y=3210.131mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=D:\Projects\PCB\POVBase\Rev2\POVBase.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=2514.632mil|Location2.X=2539.517mil|Location1.Y=3171.914mil|Location2.Y=3210.131mil|Absolute=True">Board Outline Clearance(Outline Edge): (0.42mm &lt; 0.512mm) Between Board Edge And Track (-34.829mm,-18.59mm)(-30.355mm,-25.223mm) on Top Overlay </acronym></a><br></td>
+</tr>
+<tr class="onmouseout_even" onmouseover="className = 'onmouseover_even'" onmouseout="className = 'onmouseout_even'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=D:\Projects\PCB\POVBase\Rev2\POVBase.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=2514.632mil|Location2.X=2539.517mil|Location1.Y=3171.914mil|Location2.Y=3210.131mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=D:\Projects\PCB\POVBase\Rev2\POVBase.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=2514.632mil|Location2.X=2539.517mil|Location1.Y=3171.914mil|Location2.Y=3210.131mil|Absolute=True">Board Outline Clearance(Outline Edge): (0.42mm &lt; 0.512mm) Between Board Edge And Track (-34.829mm,-18.59mm)(-30.85mm,-15.906mm) on Top Overlay </acronym></a><br></td>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=D:\Projects\PCB\POVBase\Rev2\POVBase.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=2490.323mil|Location2.X=2513.712mil|Location1.Y=3220.362mil|Location2.Y=3259.253mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=D:\Projects\PCB\POVBase\Rev2\POVBase.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=2490.323mil|Location2.X=2513.712mil|Location1.Y=3220.362mil|Location2.Y=3259.253mil|Absolute=True">Board Outline Clearance(Outline Edge): (0.464mm &lt; 0.512mm) Between Board Edge And Track (-35.42mm,-17.347mm)(-32.827mm,-16.628mm) on Top Overlay </acronym></a><br></td>
+</tr>
+<tr class="onmouseout_even" onmouseover="className = 'onmouseover_even'" onmouseout="className = 'onmouseout_even'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=D:\Projects\PCB\POVBase\Rev2\POVBase.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=2329.626mil|Location2.X=2351.033mil|Location1.Y=3812.651mil|Location2.Y=3853.96mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=D:\Projects\PCB\POVBase\Rev2\POVBase.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=2329.626mil|Location2.X=2351.033mil|Location1.Y=3812.651mil|Location2.Y=3853.96mil|Absolute=True">Board Outline Clearance(Outline Edge): (0.259mm &lt; 0.512mm) Between Board Edge And Track (-39.573mm,-2.372mm)(-35.42mm,-17.347mm) on Top Overlay </acronym></a><br></td>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=D:\Projects\PCB\POVBase\Rev2\POVBase.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=2329.626mil|Location2.X=2351.033mil|Location1.Y=3812.651mil|Location2.Y=3853.96mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=D:\Projects\PCB\POVBase\Rev2\POVBase.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=2329.626mil|Location2.X=2351.033mil|Location1.Y=3812.651mil|Location2.Y=3853.96mil|Absolute=True">Board Outline Clearance(Outline Edge): (0.259mm &lt; 0.512mm) Between Board Edge And Track (-39.573mm,-2.372mm)(-36.98mm,-1.653mm) on Top Overlay </acronym></a><br></td>
+</tr>
+<tr class="onmouseout_even" onmouseover="className = 'onmouseover_even'" onmouseout="className = 'onmouseout_even'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=D:\Projects\PCB\POVBase\Rev2\POVBase.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=3647.075mil|Location2.X=3688.325mil|Location1.Y=2377.803mil|Location2.Y=2399.21mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=D:\Projects\PCB\POVBase\Rev2\POVBase.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=3647.075mil|Location2.X=3688.325mil|Location1.Y=2377.803mil|Location2.Y=2399.21mil|Absolute=True">Board Outline Clearance(Outline Edge): (0.324mm &lt; 0.512mm) Between Board Edge And Track (-6.3mm,-39.075mm)(5.1mm,-39.075mm) on Bottom Overlay </acronym></a><br></td>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=D:\Projects\PCB\POVBase\Rev2\POVBase.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=4354.282mil|Location2.X=4394.783mil|Location1.Y=5427.785mil|Location2.Y=5449.192mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=D:\Projects\PCB\POVBase\Rev2\POVBase.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=4354.282mil|Location2.X=4394.783mil|Location1.Y=5427.785mil|Location2.Y=5449.192mil|Absolute=True">Board Outline Clearance(Outline Edge): (0.264mm &lt; 0.512mm) Between Board Edge And Track (9.174mm,24.397mm)(11.557mm,37.914mm) on Top Overlay </acronym></a><br></td>
+</tr>
+</table></a><hr color="#EEEEEE"><a href="#top" style="font-size: 0.9em">Back to top</a><br><br></body>
+</html>
