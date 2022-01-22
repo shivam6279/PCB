@@ -1,0 +1,13 @@
+Output: NC Drill Files
+Type  : NC Drill
+From  : Project [HoverBall_power.PrjPcb]
+   Generated File[HoverBall_power-RoundHoles.TXT]
+   Generated File[HoverBall_power-SlotHoles.TXT]
+   Generated File[HoverBall_power.LDP]
+   Generated File[HoverBall_power.DRR]
+
+
+Files Generated   : 4
+Documents Printed : 0
+
+Finished Output Generation At 3:43:03 PM On 1/14/2022

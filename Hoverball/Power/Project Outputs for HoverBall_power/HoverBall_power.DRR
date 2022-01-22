@@ -1,0 +1,19 @@
+----------------------------------------------------------------------------------------------------------------------------------
+NCDrill File Report For: HoverBall_power.PcbDoc   1/14/2022  3:43:03 PM
+----------------------------------------------------------------------------------------------------------------------------------
+
+Layer Pair : Top Layer to Bottom Layer
+ASCII RoundHoles File : HoverBall_power-RoundHoles.TXT
+ASCII SlotHoles File : HoverBall_power-SlotHoles.TXT
+
+Tool       Hole Size               Hole Tolerance               Hole Type       Hole Count   Plated         Tool Travel
+----------------------------------------------------------------------------------------------------------------------------------
+T1      14mil (0.351mm)                                           Round             17        PTH        4.13inch (104.93mm)
+T2      16mil (0.399mm)                                           Slot              2         PTH        0.64inch (16.37mm)
+T3      18mil (0.45mm)                                            Round             5         PTH        0.20inch (4.99mm)
+T4      83mil (2.101mm)                                           Round             2         NPTH       0.83inch (21.00mm)
+T5      118mil (3mm)                                              Round             1         NPTH       0.00inch (0.00mm)
+----------------------------------------------------------------------------------------------------------------------------------
+Totals                                                                              27
+
+Total Processing Time (hh:mm:ss) : 00:00:00
