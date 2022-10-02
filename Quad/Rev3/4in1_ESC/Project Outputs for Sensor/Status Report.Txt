@@ -1,0 +1,12 @@
+Output: NC Drill Files
+Type  : NC Drill
+From  : Project [4in1_ESC.PrjPcb]
+   Generated File[4in1_ESC.TXT]
+   Generated File[4in1_ESC.LDP]
+   Generated File[4in1_ESC.DRR]
+
+
+Files Generated   : 3
+Documents Printed : 0
+
+Finished Output Generation At 6:57:39 PM On 9/29/2022
