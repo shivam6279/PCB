@@ -33,8 +33,8 @@ FSMCodingStyle=eFMSDropDownList_OneProcess
 FSMEncodingStyle=eFMSDropDownList_OneHot
 IsProjectConflictPreventionWarningsEnabled=1
 IsVirtualBomDocumentRemoved=1
-OutputPath=Project Outputs for Sensor
-LogFolderPath=
+OutputPath=Project Outputs
+LogFolderPath=Project Logs
 ManagedProjectGUID=
 IncludeDesignInRelease=0
 CrossRefSheetStyle=1
@@ -277,6 +277,70 @@ ParameterCount=0
 VariationCount=0
 ParamVariationCount=0
 
+[GeneratedDocument1]
+DocumentPath=Project Outputs for Sensor\FlightController-RoundHoles.TXT
+DItemRevisionGUID=
+
+[GeneratedDocument2]
+DocumentPath=Project Outputs for Sensor\FlightController-SlotHoles.TXT
+DItemRevisionGUID=
+
+[GeneratedDocument3]
+DocumentPath=Project Outputs for Sensor\FlightController.DRR
+DItemRevisionGUID=
+
+[GeneratedDocument4]
+DocumentPath=Project Outputs for Sensor\FlightController.EXTREP
+DItemRevisionGUID=
+
+[GeneratedDocument5]
+DocumentPath=Project Outputs for Sensor\FlightController.G1
+DItemRevisionGUID=
+
+[GeneratedDocument6]
+DocumentPath=Project Outputs for Sensor\FlightController.G2
+DItemRevisionGUID=
+
+[GeneratedDocument7]
+DocumentPath=Project Outputs for Sensor\FlightController.GBL
+DItemRevisionGUID=
+
+[GeneratedDocument8]
+DocumentPath=Project Outputs for Sensor\FlightController.GBO
+DItemRevisionGUID=
+
+[GeneratedDocument9]
+DocumentPath=Project Outputs for Sensor\FlightController.GBS
+DItemRevisionGUID=
+
+[GeneratedDocument10]
+DocumentPath=Project Outputs for Sensor\FlightController.GM3
+DItemRevisionGUID=
+
+[GeneratedDocument11]
+DocumentPath=Project Outputs for Sensor\FlightController.GTL
+DItemRevisionGUID=
+
+[GeneratedDocument12]
+DocumentPath=Project Outputs for Sensor\FlightController.GTO
+DItemRevisionGUID=
+
+[GeneratedDocument13]
+DocumentPath=Project Outputs for Sensor\FlightController.GTS
+DItemRevisionGUID=
+
+[GeneratedDocument14]
+DocumentPath=Project Outputs for Sensor\FlightController.LDP
+DItemRevisionGUID=
+
+[GeneratedDocument15]
+DocumentPath=Project Outputs for Sensor\FlightController.REP
+DItemRevisionGUID=
+
+[GeneratedDocument16]
+DocumentPath=Project Outputs for Sensor\FlightController.RUL
+DItemRevisionGUID=
+
 [SearchPath1]
 Path=..\..\..\Libraries\Altium\*.*
 IncludeSubFolders=1
@@ -328,7 +392,7 @@ SCH_HasExpandLogicalToPhysicalSheets=-1
 SaveSettingsToOutJob=-1
 
 [Generic_EDE]
-OutputDir=Project Outputs for Sensor
+OutputDir=Project Outputs
 
 [OutputGroup1]
 Name=Netlist Outputs
@@ -563,7 +627,7 @@ OutputDefault3=0
 [OutputGroup5]
 Name=Fabrication Outputs
 Description=
-TargetPrinter=Microsoft Print to PDF
+TargetPrinter=Brother HL-L3270CDW series Printer
 PrinterOptions=Record=PrinterOptions|Copies=1|Duplex=1|TrueTypeOptions=3|Collate=1|PrintJobKind=1|PrintWhat=1
 OutputType1=CompositeDrill
 OutputName1=Composite Drill Drawing
@@ -649,7 +713,7 @@ OutputDefault8=0
 Configuration8_Name1=ForceUpdateSettings
 Configuration8_Item1=False
 Configuration8_Name2=OutputConfigurationParameter1
-Configuration8_Item2=BoardEdgeRoutToolDia=2000000|GenerateBoardEdgeRout=False|GenerateDrilledSlotsG85=False|GenerateEIADrillFile=False|GenerateSeparatePlatedNonPlatedFiles=False|GenerateSeparateViaTypeFiles=False|NumberOfDecimals=4|NumberOfUnits=2|OptimizeChangeLocationCommands=True|OriginPosition=Relative|Record=DrillView|Units=Imperial|ZeroesMode=SuppressLeadingZeroes|DocumentPath=C:\Projects\PCB\Quad\rev3\Main\Quad.PcbDoc
+Configuration8_Item2=BoardEdgeRoutToolDia=2000000|GenerateBoardEdgeRout=False|GenerateDrilledSlotsG85=False|GenerateEIADrillFile=False|GenerateSeparatePlatedNonPlatedFiles=False|GenerateSeparateViaTypeFiles=False|NumberOfDecimals=4|NumberOfUnits=2|OptimizeChangeLocationCommands=True|OriginPosition=Relative|Record=DrillView|Units=Imperial|ZeroesMode=SuppressLeadingZeroes|DocumentPath=D:\Projects\PCB\Quad\Rev3\FlightController\FlightController.PcbDoc
 OutputType9=IPC2581
 OutputName9=IPC-2581 Files
 OutputDocumentPath9=
@@ -674,7 +738,7 @@ OutputDefault12=0
 Configuration12_Name1=ForceUpdateSettings
 Configuration12_Item1=False
 Configuration12_Name2=OutputConfigurationParameter1
-Configuration12_Item2=AddToAllLayerClasses.Set= |AddToAllPlots.Set=SerializeLayerHash.Version~2,ClassName~TPlotLayerStateArray,16908291~1|CentrePlots=False|DrillDrawingSymbol=GraphicsSymbol|DrillDrawingSymbolSize=200000|EmbeddedApertures=True|FilmBorderSize=10000000|FilmXSize=200000000|FilmYSize=160000000|FlashAllFills=False|FlashPadShapes=True|G54OnApertureChange=False|GenerateDRCRulesFile=True|GenerateDRCRulesFile=True|GenerateReliefShapes=True|GenerateReports=True|GerberUnit=Imperial|GerberUnit=Imperial|IncludeUnconnectedMidLayerPads=False|LayerClassesMirror.Set= |LayerClassesPlot.Set= |LeadingAndTrailingZeroesMode=SuppressLeadingZeroes|MaxApertureSize=2500000|MergePadAndRegion=False|MinusApertureTolerance=50|MinusApertureTolerance=50|Mirror.Set=SerializeLayerHash.Version~2,ClassName~TPlotLayerStateArray|MirrorDrillDrawingPlots=False|MirrorDrillGuidePlots=False|NoRegularPolygons=False|NumberOfDecimals=5|NumberOfDecimals=5|OptimizeChangeLocationCommands=True|OptimizeChangeLocationCommands=True|OriginPosition=Relative|Panelize=False|Plot.Set=SerializeLayerHash.Version~2,ClassName~TPlotLayerStateArray,16973830~1,16973834~1,16777217~1,16777218~1,16777219~1,16842751~1,16973835~1,16973831~1,16908291~1|PlotPositivePlaneLayers=False|PlotUsedDrillDrawingLayerPairs=False|PlotUsedDrillGuideLayerPairs=False|PlusApertureTolerance=50|PlusApertureTolerance=50|Record=GerberView|SoftwareArcs=True|Sorted=False|Sorted=False|DocumentPath=C:\Projects\PCB\Quad\rev3\Main\Quad.PcbDoc
+Configuration12_Item2=AddToAllLayerClasses.Set= |AddToAllPlots.Set=SerializeLayerHash.Version~2,ClassName~TPlotLayerStateArray,16908291~1|CentrePlots=False|DrillDrawingSymbol=GraphicsSymbol|DrillDrawingSymbolSize=200000|EmbeddedApertures=True|FilmBorderSize=10000000|FilmXSize=200000000|FilmYSize=160000000|FlashAllFills=False|FlashPadShapes=True|G54OnApertureChange=False|GenerateDRCRulesFile=True|GenerateDRCRulesFile=True|GenerateReliefShapes=True|GenerateReports=True|GerberUnit=Imperial|GerberUnit=Imperial|IncludeUnconnectedMidLayerPads=False|LayerClassesMirror.Set= |LayerClassesPlot.Set= |LeadingAndTrailingZeroesMode=SuppressLeadingZeroes|MaxApertureSize=2500000|MergePadAndRegion=False|MinusApertureTolerance=50|MinusApertureTolerance=50|Mirror.Set=SerializeLayerHash.Version~2,ClassName~TPlotLayerStateArray|MirrorDrillDrawingPlots=False|MirrorDrillGuidePlots=False|NoRegularPolygons=False|NumberOfDecimals=5|NumberOfDecimals=5|OptimizeChangeLocationCommands=True|OptimizeChangeLocationCommands=True|OriginPosition=Relative|Panelize=False|Plot.Set=SerializeLayerHash.Version~2,ClassName~TPlotLayerStateArray,16973830~1,16973834~1,16777217~1,16777218~1,16777219~1,16842751~1,16973835~1,16973831~1,16908291~1|PlotPositivePlaneLayers=False|PlotUsedDrillDrawingLayerPairs=False|PlotUsedDrillGuideLayerPairs=False|PlusApertureTolerance=50|PlusApertureTolerance=50|Record=GerberView|SoftwareArcs=True|Sorted=False|Sorted=False|DocumentPath=D:\Projects\PCB\Quad\Rev3\FlightController\FlightController.PcbDoc
 
 [OutputGroup6]
 Name=Report Outputs
@@ -937,6 +1001,11 @@ OutputName11=Specctra Design PCB
 OutputDocumentPath11=
 OutputVariantName11=
 OutputDefault11=0
+OutputType12=Web ReviewOutputName
+OutputName12=Web Review Data
+OutputDocumentPath12=
+OutputVariantName12=
+OutputDefault12=0
 
 [OutputGroup10]
 Name=PostProcess Outputs
@@ -1069,6 +1138,7 @@ Type116=1
 Type117=1
 Type118=1
 Type119=1
+Type120=1
 
 [Difference Levels]
 Type1=1
