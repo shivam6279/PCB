@@ -43,13 +43,14 @@ CrossRefPorts=3
 CrossRefCrossSheets=1
 CrossRefSheetEntries=0
 CrossRefFollowFromMainSettings=1
+CurrentVariant=Main
 
 [Preferences]
 PrefsVaultGUID=
 PrefsRevisionGUID=
 
 [Document1]
-DocumentPath=PIC32MZ.SchDoc
+DocumentPath=PIC32MZDA.SchDoc
 AnnotationEnabled=1
 AnnotateStartValue=1
 AnnotationIndexControlEnabled=0
@@ -83,23 +84,6 @@ GenerateClassCluster=0
 DocumentUniqueId=KWFGIMKG
 
 [Document3]
-DocumentPath=PIC32MZ.Harness
-AnnotationEnabled=1
-AnnotateStartValue=1
-AnnotationIndexControlEnabled=0
-AnnotateSuffix=
-AnnotateScope=All
-AnnotateOrder=-1
-DoLibraryUpdate=1
-DoDatabaseUpdate=1
-ClassGenCCAutoEnabled=1
-ClassGenCCAutoRoomEnabled=1
-ClassGenNCAutoScope=None
-DItemRevisionGUID=
-GenerateClassCluster=0
-DocumentUniqueId=
-
-[Document4]
 DocumentPath=3V3_LDO.SchDoc
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -116,24 +100,7 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=OWMDFFEG
 
-[Document5]
-DocumentPath=5V_BUCK.SchDoc
-AnnotationEnabled=1
-AnnotateStartValue=1
-AnnotationIndexControlEnabled=0
-AnnotateSuffix=
-AnnotateScope=All
-AnnotateOrder=5
-DoLibraryUpdate=1
-DoDatabaseUpdate=1
-ClassGenCCAutoEnabled=1
-ClassGenCCAutoRoomEnabled=1
-ClassGenNCAutoScope=None
-DItemRevisionGUID=
-GenerateClassCluster=0
-DocumentUniqueId=WHGLEXOI
-
-[Document6]
+[Document4]
 DocumentPath=MPU6050.SchDoc
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -150,7 +117,7 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=BYUQTAEF
 
-[Document7]
+[Document5]
 DocumentPath=MPU6050.Harness
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -167,7 +134,7 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=
 
-[Document8]
+[Document6]
 DocumentPath=BMP390.SchDoc
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -184,7 +151,7 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=MEUECDIT
 
-[Document9]
+[Document7]
 DocumentPath=LIS3MDL.SchDoc
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -201,7 +168,7 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=IJQHOLCM
 
-[Document10]
+[Document8]
 DocumentPath=LIS3MDL.Harness
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -218,7 +185,7 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=
 
-[Document11]
+[Document9]
 DocumentPath=BMP390.Harness
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -235,24 +202,7 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=
 
-[Document12]
-DocumentPath=Top.Harness
-AnnotationEnabled=1
-AnnotateStartValue=1
-AnnotationIndexControlEnabled=0
-AnnotateSuffix=
-AnnotateScope=All
-AnnotateOrder=-1
-DoLibraryUpdate=1
-DoDatabaseUpdate=1
-ClassGenCCAutoEnabled=1
-ClassGenCCAutoRoomEnabled=1
-ClassGenNCAutoScope=None
-DItemRevisionGUID=
-GenerateClassCluster=0
-DocumentUniqueId=
-
-[Document13]
+[Document10]
 DocumentPath=RC.PcbDoc
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -269,13 +219,121 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=BKCUTDEC
 
+[Document11]
+DocumentPath=LCD.SchDoc
+AnnotationEnabled=1
+AnnotateStartValue=1
+AnnotationIndexControlEnabled=0
+AnnotateSuffix=
+AnnotateScope=All
+AnnotateOrder=9
+DoLibraryUpdate=1
+DoDatabaseUpdate=1
+ClassGenCCAutoEnabled=1
+ClassGenCCAutoRoomEnabled=1
+ClassGenNCAutoScope=None
+DItemRevisionGUID=
+GenerateClassCluster=0
+DocumentUniqueId=NBFMHXYV
+
+[Document12]
+DocumentPath=LCD.Harness
+AnnotationEnabled=1
+AnnotateStartValue=1
+AnnotationIndexControlEnabled=0
+AnnotateSuffix=
+AnnotateScope=All
+AnnotateOrder=-1
+DoLibraryUpdate=1
+DoDatabaseUpdate=1
+ClassGenCCAutoEnabled=1
+ClassGenCCAutoRoomEnabled=1
+ClassGenNCAutoScope=None
+DItemRevisionGUID=
+GenerateClassCluster=0
+DocumentUniqueId=
+
+[Document13]
+DocumentPath=5V_BOOST.SchDoc
+AnnotationEnabled=1
+AnnotateStartValue=1
+AnnotationIndexControlEnabled=0
+AnnotateSuffix=
+AnnotateScope=All
+AnnotateOrder=10
+DoLibraryUpdate=1
+DoDatabaseUpdate=1
+ClassGenCCAutoEnabled=1
+ClassGenCCAutoRoomEnabled=1
+ClassGenNCAutoScope=None
+DItemRevisionGUID=
+GenerateClassCluster=0
+DocumentUniqueId=BBYFXMRX
+
+[Document14]
+DocumentPath=PIC32MZDA.Harness
+AnnotationEnabled=1
+AnnotateStartValue=1
+AnnotationIndexControlEnabled=0
+AnnotateSuffix=
+AnnotateScope=All
+AnnotateOrder=-1
+DoLibraryUpdate=1
+DoDatabaseUpdate=1
+ClassGenCCAutoEnabled=1
+ClassGenCCAutoRoomEnabled=1
+ClassGenNCAutoScope=None
+DItemRevisionGUID=
+GenerateClassCluster=0
+DocumentUniqueId=
+
+[Document15]
+DocumentPath=1V8_LDO.SchDoc
+AnnotationEnabled=1
+AnnotateStartValue=1
+AnnotationIndexControlEnabled=0
+AnnotateSuffix=
+AnnotateScope=All
+AnnotateOrder=11
+DoLibraryUpdate=1
+DoDatabaseUpdate=1
+ClassGenCCAutoEnabled=1
+ClassGenCCAutoRoomEnabled=1
+ClassGenNCAutoScope=None
+DItemRevisionGUID=
+GenerateClassCluster=0
+DocumentUniqueId=VPKBRLAR
+
+[Document16]
+DocumentPath=Top.Harness
+AnnotationEnabled=1
+AnnotateStartValue=1
+AnnotationIndexControlEnabled=0
+AnnotateSuffix=
+AnnotateScope=All
+AnnotateOrder=-1
+DoLibraryUpdate=1
+DoDatabaseUpdate=1
+ClassGenCCAutoEnabled=1
+ClassGenCCAutoRoomEnabled=1
+ClassGenNCAutoScope=None
+DItemRevisionGUID=
+GenerateClassCluster=0
+DocumentUniqueId=
+
 [ProjectVariant1]
 UniqueID=0F4A890B-1A94-4742-984C-06EB2591D9D2
 Description=Main
 AllowFabrication=0
 ParameterCount=0
-VariationCount=0
+VariationCount=2
+Variation1=Designator=R7|UniqueId=\OYYGQCHK|Kind=1|AlternatePart= 
+Variation2=Designator=R7|UniqueId=\MGGXQYJW|Kind=1|AlternatePart= 
 ParamVariationCount=0
+
+[GeneratedDocument1]
+DocumentPath=Project Outputs\Design Rule Check - RC.html
+DItemRevisionGUID=
 
 [SearchPath1]
 Path=..\..\..\Libraries\Altium\*.*
@@ -692,6 +750,18 @@ OutputName2=Component Cross Reference Report
 OutputDocumentPath2=
 OutputVariantName2=[No Variations]
 OutputDefault2=0
+Configuration2_Name1=ColumnNameFormat
+Configuration2_Item1=CaptionAsName
+Configuration2_Name2=ForceUpdateSettings
+Configuration2_Item2=False
+Configuration2_Name3=General
+Configuration2_Item3=OpenExported=False|AddToProject=False|ReportBOMViolationsInMessages=False|ForceFit=False|NotFitted=False|Database=False|DatabasePriority=False|IncludePcbData=False|IncludeVaultData=False|IncludeCloudData=False|IncludeDocumentData=True|IncludeAlternatives=False|ShowExportOptions=True|TemplateFilename=|TemplateVaultGuid=|TemplateItemGuid=|TemplateRevisionGuid=|BatchMode=5|FormWidth=1200|FormHeight=710|SupplierProdQty=1|SupplierAutoQty=False|SupplierUseCachedPricing=False|SupplierCurrency=USD|SolutionsPerItem=1|SuppliersPerSolution=1|ViewType=0|UseDirectApi=False|BomSetName=
+Configuration2_Name4=GroupOrder
+Configuration2_Item4=Document=True
+Configuration2_Name5=SortOrder
+Configuration2_Item5=Document=Up|Designator=Up
+Configuration2_Name6=VisibleOrder
+Configuration2_Item6=Comment=120|Description=120|Designator=120|Footprint=120|LibRef=120|Quantity=120
 OutputType3=ReportHierarchy
 OutputName3=Report Project Hierarchy
 OutputDocumentPath3=
@@ -724,6 +794,12 @@ OutputDocumentPath8=
 OutputVariantName8=[No Variations]
 OutputDefault8=0
 PageOptions8=Record=PageOptions|CenterHorizontal=True|CenterVertical=True|PrintScale=1.00|XCorrection=1.00|YCorrection=1.00|PrintKind=1|BorderSize=5000000|LeftOffset=0|BottomOffset=0|Orientation=2|PaperLength=1000|PaperWidth=1000|Scale=100|PaperSource=7|PrintQuality=-3|MediaType=1|DitherType=10|PrintScaleMode=1|PaperKind=Letter|PaperIndex=1
+OutputType9=Project History
+OutputName9=Project History
+OutputDocumentPath9=
+OutputVariantName9=[No Variations]
+OutputDefault9=0
+PageOptions9=Record=PageOptions|CenterHorizontal=True|CenterVertical=True|PrintScale=1.00|XCorrection=1.00|YCorrection=1.00|PrintKind=1|BorderSize=5000000|LeftOffset=0|BottomOffset=0|Orientation=2|PaperLength=1000|PaperWidth=1000|Scale=100|PaperSource=7|PrintQuality=-3|MediaType=1|DitherType=10|PrintScaleMode=1|PaperKind=Letter|PaperIndex=1
 
 [OutputGroup7]
 Name=Other Outputs
@@ -1205,7 +1281,7 @@ Type55=1
 Type56=2
 Type57=1
 Type58=1
-Type59=2
+Type59=1
 Type60=0
 Type61=0
 Type62=0
@@ -1320,11 +1396,17 @@ UpdateVariants=1
 UpdateToLatestRevision=1
 PartTypes=0
 ComponentLibIdentifierKind0=Library Name And Type
-ComponentLibraryIdentifier0=IC.IntLib
-ComponentDesignItemID0=APA-102-2020-256-8
-ComponentSymbolReference0=APA-102-2020-256-8
+ComponentLibraryIdentifier0=Celestial Altium Library - altium_library.DbLib/Capacitors - Ceramic - 0402
+ComponentDesignItemID0=C0402C104K4RACAUTO
+ComponentSymbolReference0=Capacitor
 ComponentUpdate0=1
 ComponentIsDeviceSheet0=0
+ComponentLibIdentifierKind1=Library Name And Type
+ComponentLibraryIdentifier1=IC.IntLib
+ComponentDesignItemID1=Diode
+ComponentSymbolReference1=Diode
+ComponentUpdate1=1
+ComponentIsDeviceSheet1=0
 FullReplace=1
 UpdateDesignatorLock=1
 UpdatePartIDLock=1
@@ -1338,33 +1420,102 @@ RemoveParameters=0
 AddModels=1
 RemoveModels=1
 UpdateCurrentModels=1
-ParameterName0=Availability
+ParameterName0=Applications
 ParameterUpdate0=1
-ParameterName1=Comment
+ParameterName1=Capacitance
 ParameterUpdate1=1
-ParameterName2=Component Kind
+ParameterName2=Comment
 ParameterUpdate2=1
-ParameterName3=Description
+ParameterName3=Component Kind
 ParameterUpdate3=1
-ParameterName4=Library Reference
+ParameterName4=componentlink1description
 ParameterUpdate4=1
-ParameterName5=MF
+ParameterName5=componentlink1url
 ParameterUpdate5=1
-ParameterName6=MP
+ParameterName6=componentlink2description
 ParameterUpdate6=1
-ParameterName7=Package
+ParameterName7=componentlink2url
 ParameterUpdate7=1
-ParameterName8=Price
+ParameterName8=Description
 ParameterUpdate8=1
-ParameterName9=SnapEDA_Link
+ParameterName9=Device Package
 ParameterUpdate9=1
-ParameterName10=Value
+ParameterName10=Digikey Description
 ParameterUpdate10=1
+ParameterName11=Digikey Part Number
+ParameterUpdate11=1
+ParameterName12=lastupdated
+ParameterUpdate12=1
+ParameterName13=Lead Free
+ParameterUpdate13=1
+ParameterName14=Library Reference
+ParameterUpdate14=1
+ParameterName15=Lifecycle Status
+ParameterUpdate15=1
+ParameterName16=manufacturer
+ParameterUpdate16=1
+ParameterName17=Minimum Order
+ParameterUpdate17=1
+ParameterName18=Mounting Type
+ParameterUpdate18=1
+ParameterName19=Mouser Part Number
+ParameterUpdate19=1
+ParameterName20=Operating Temperature
+ParameterUpdate20=1
+ParameterName21=Package
+ParameterUpdate21=1
+ParameterName22=Package / Case
+ParameterUpdate22=1
+ParameterName23=packaging
+ParameterUpdate23=1
+ParameterName24=Part Number
+ParameterUpdate24=1
+ParameterName25=Part Status
+ParameterUpdate25=1
+ParameterName26=partid
+ParameterUpdate26=1
+ParameterName27=Price
+ParameterUpdate27=1
+ParameterName28=Ratings
+ParameterUpdate28=1
+ParameterName29=RoHS
+ParameterUpdate29=1
+ParameterName30=series
+ParameterUpdate30=1
+ParameterName31=Size / Dimension
+ParameterUpdate31=1
+ParameterName32=Supplier 1
+ParameterUpdate32=1
+ParameterName33=Supplier 2
+ParameterUpdate33=1
+ParameterName34=Supplier Part Number 1
+ParameterUpdate34=1
+ParameterName35=Supplier Part Number 2
+ParameterUpdate35=1
+ParameterName36=Temperature
+ParameterUpdate36=1
+ParameterName37=Temperature Coefficient
+ParameterUpdate37=1
+ParameterName38=Temperature Range High
+ParameterUpdate38=1
+ParameterName39=Temperature Range Low
+ParameterUpdate39=1
+ParameterName40=Thickness (Max)
+ParameterUpdate40=1
+ParameterName41=Tolerance
+ParameterUpdate41=1
+ParameterName42=Value
+ParameterUpdate42=1
+ParameterName43=Voltage - Rated
+ParameterUpdate43=1
 ModelTypeGroup0=PCBLIB
 ModelTypeUpdate0=1
 ModelType0=PCBLIB
-ModelName0=LED_APA-102-2020-256-8
+ModelName0=CAP 0402_1005
 ModelUpdate0=1
+ModelType1=PCBLIB
+ModelName1=Diode DFN1608D-2 (SOD1608)
+ModelUpdate1=1
 
 [DatabaseUpdateOptions]
 SelectedOnly=0
@@ -1475,20 +1626,38 @@ ComponentUpdate16=1
 ComponentIsDeviceSheet16=0
 
 [NetInfos]
-Net1=NetName=3V3|NetColor=$00FF6E6E
-Net2=NetName=3V3_IMU|NetColor=$00FF6699
-Net3=NetName=5V|NetColor=$003399FF
-Net4=NetName=GND|NetColor=clYellow
-Net5=NetName=NetC1_2|NetColor=$003399FF
-Net6=NetName=NetC10_1|NetColor=$000066FF
-Net7=NetName=NetC10_1_1|NetColor=$000066FF
-Net8=NetName=NetC10_1_2|NetColor=$00FF6699
-Net9=NetName=NetC10_2|NetColor=$00FF6699
-Net10=NetName=NetC15_2|NetColor=$00FF6E6E
-Net11=NetName=NetC8_1_2|NetColor=$003399FF
-Net12=NetName=NetC8_2|NetColor=$003399FF
-Net13=NetName=NetC8_2_2|NetColor=$003399FF
-Net14=NetName=VBAT|NetColor=$006E6EFF
+Net1=NetName=1V8|NetColor=$00CC33FF
+Net2=NetName=3V3|NetColor=$000066FF
+Net3=NetName=3V3_BMP390|NetColor=$00FF6600
+Net4=NetName=3V3_IMU|NetColor=$00FF6600
+Net5=NetName=3V3_LCD|NetColor=$000066CC
+Net6=NetName=3V3_LIS3MDL|NetColor=$00FF6600
+Net7=NetName=3V3_MCU|NetColor=$000066FF
+Net8=NetName=3V3_MPU6050|NetColor=$00FF6600
+Net9=NetName=5V|NetColor=$003399FF
+Net10=NetName=GND|NetColor=clYellow
+Net11=NetName=GND_BM390|NetColor=clYellow
+Net12=NetName=GND_LCD|NetColor=clYellow
+Net13=NetName=GND_LIS3MDL|NetColor=clYellow
+Net14=NetName=GND_MPU6050|NetColor=clYellow
+Net15=NetName=MCU_1V8|NetColor=$00CC33FF
+Net16=NetName=MCU_GND|NetColor=clYellow
+Net17=NetName=NetC1_2|NetColor=$003399FF
+Net18=NetName=NetC10_1|NetColor=$000066FF
+Net19=NetName=NetC10_1_1|NetColor=$000066FF
+Net20=NetName=NetC10_1_2|NetColor=$00FF6699
+Net21=NetName=NetC10_2|NetColor=$00FF6699
+Net22=NetName=NetC15_2|NetColor=$00FF6E6E
+Net23=NetName=NetC8_1_2|NetColor=$003399FF
+Net24=NetName=NetC8_2|NetColor=$003399FF
+Net25=NetName=NetC8_2_2|NetColor=$003399FF
+Net26=NetName=NetFB1_2|NetColor=$000066FF
+Net27=NetName=OUT|NetColor=$000066FF
+Net28=NetName=OUT_1|NetColor=$00FF6600
+Net29=NetName=OUT_2|NetColor=$000066CC
+Net30=NetName=OUT_3|NetColor=$000066FF
+Net31=NetName=VBAT|NetColor=$006E6EFF
+Net32=NetName=VDD_LCD|NetColor=$000066CC
 
 [Comparison Options]
 ComparisonOptions0=Kind=Net|MinPercent=75|MinMatch=3|ShowMatch=-1|UseName=-1|InclAllRules=0
