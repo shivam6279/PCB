@@ -1,0 +1,18 @@
+Protel Design System Design Rule Check
+PCB File : D:\Projects\PCB\Remote_Controller\Rev3\RC.PcbDoc
+Date     : 12/11/2022
+Time     : 12:36:54 AM
+
+Processing Rule : Un-Routed Net Constraint ( (All) )
+Rule Violations :0
+
+Processing Rule : Matched Lengths(Tolerance=0.127mm) (InDifferentialPair('USB.D'))
+Rule Violations :0
+
+Processing Rule : Matched Lengths(Tolerance=0.127mm) (InNetClass('LCD.R[0..7]') OR InNetClass('LCD.G[0..7]') OR InNetClass('LCD.B[0..7]'))
+Rule Violations :0
+
+
+Violations Detected : 0
+Waived Violations : 0
+Time Elapsed        : 00:00:00

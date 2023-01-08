@@ -23,9 +23,9 @@ DefaultPcbPcad=0
 ReorderDocumentsOnCompile=1
 NameNetsHierarchically=1
 PowerPortNamesTakePriority=1
-AutoSheetNumbering=0
+AutoSheetNumbering=1
 AutoCrossReferences=0
-NewIndexingOfSheetSymbols=0
+NewIndexingOfSheetSymbols=1
 PushECOToAnnotationFile=1
 DItemRevisionGUID=
 ReportSuppressedErrorsInMessages=0
@@ -41,7 +41,7 @@ CrossRefSheetStyle=1
 CrossRefLocationStyle=1
 CrossRefPorts=3
 CrossRefCrossSheets=1
-CrossRefSheetEntries=0
+CrossRefSheetEntries=1
 CrossRefFollowFromMainSettings=1
 
 [Preferences]
@@ -49,7 +49,7 @@ PrefsVaultGUID=
 PrefsRevisionGUID=
 
 [Document1]
-DocumentPath=3V3_buck.SchDoc
+DocumentPath=3V3_LDOSchDoc
 AnnotationEnabled=1
 AnnotateStartValue=1
 AnnotationIndexControlEnabled=0
@@ -133,6 +133,40 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=YVGUWJYJ
 
+[Document6]
+DocumentPath=3V3_LDO.SchDoc
+AnnotationEnabled=1
+AnnotateStartValue=1
+AnnotationIndexControlEnabled=0
+AnnotateSuffix=
+AnnotateScope=All
+AnnotateOrder=9
+DoLibraryUpdate=1
+DoDatabaseUpdate=1
+ClassGenCCAutoEnabled=1
+ClassGenCCAutoRoomEnabled=1
+ClassGenNCAutoScope=None
+DItemRevisionGUID=
+GenerateClassCluster=0
+DocumentUniqueId=OWMDFFEG
+
+[Document7]
+DocumentPath=ESC.IntLib
+AnnotationEnabled=1
+AnnotateStartValue=1
+AnnotationIndexControlEnabled=0
+AnnotateSuffix=
+AnnotateScope=All
+AnnotateOrder=-1
+DoLibraryUpdate=1
+DoDatabaseUpdate=1
+ClassGenCCAutoEnabled=1
+ClassGenCCAutoRoomEnabled=1
+ClassGenNCAutoScope=None
+DItemRevisionGUID=
+GenerateClassCluster=0
+DocumentUniqueId=
+
 [ProjectVariant1]
 UniqueID=0F4A890B-1A94-4742-984C-06EB2591D9D2
 Description=Main
@@ -140,6 +174,82 @@ AllowFabrication=0
 ParameterCount=0
 VariationCount=0
 ParamVariationCount=0
+
+[GeneratedDocument1]
+DocumentPath=Project Outputs for ESC\Design Rule Check - ESC.html
+DItemRevisionGUID=
+
+[GeneratedDocument2]
+DocumentPath=Project Outputs for ESC\ESC.DRR
+DItemRevisionGUID=
+
+[GeneratedDocument3]
+DocumentPath=Project Outputs for ESC\ESC.EXTREP
+DItemRevisionGUID=
+
+[GeneratedDocument4]
+DocumentPath=Project Outputs for ESC\ESC.G1
+DItemRevisionGUID=
+
+[GeneratedDocument5]
+DocumentPath=Project Outputs for ESC\ESC.G2
+DItemRevisionGUID=
+
+[GeneratedDocument6]
+DocumentPath=Project Outputs for ESC\ESC.G3
+DItemRevisionGUID=
+
+[GeneratedDocument7]
+DocumentPath=Project Outputs for ESC\ESC.G4
+DItemRevisionGUID=
+
+[GeneratedDocument8]
+DocumentPath=Project Outputs for ESC\ESC.G5
+DItemRevisionGUID=
+
+[GeneratedDocument9]
+DocumentPath=Project Outputs for ESC\ESC.G6
+DItemRevisionGUID=
+
+[GeneratedDocument10]
+DocumentPath=Project Outputs for ESC\ESC.GBL
+DItemRevisionGUID=
+
+[GeneratedDocument11]
+DocumentPath=Project Outputs for ESC\ESC.GBO
+DItemRevisionGUID=
+
+[GeneratedDocument12]
+DocumentPath=Project Outputs for ESC\ESC.GBS
+DItemRevisionGUID=
+
+[GeneratedDocument13]
+DocumentPath=Project Outputs for ESC\ESC.GM3
+DItemRevisionGUID=
+
+[GeneratedDocument14]
+DocumentPath=Project Outputs for ESC\ESC.GTL
+DItemRevisionGUID=
+
+[GeneratedDocument15]
+DocumentPath=Project Outputs for ESC\ESC.GTO
+DItemRevisionGUID=
+
+[GeneratedDocument16]
+DocumentPath=Project Outputs for ESC\ESC.GTS
+DItemRevisionGUID=
+
+[GeneratedDocument17]
+DocumentPath=Project Outputs for ESC\ESC.LDP
+DItemRevisionGUID=
+
+[GeneratedDocument18]
+DocumentPath=Project Outputs for ESC\ESC.REP
+DItemRevisionGUID=
+
+[GeneratedDocument19]
+DocumentPath=Project Outputs for ESC\ESC.TXT
+DItemRevisionGUID=
 
 [SearchPath1]
 Path=..\..\..\Libraries\Altium\*.*
@@ -438,7 +548,7 @@ OutputDefault8=0
 Configuration8_Name1=ForceUpdateSettings
 Configuration8_Item1=False
 Configuration8_Name2=OutputConfigurationParameter1
-Configuration8_Item2=BoardEdgeRoutToolDia=2000000|GenerateBoardEdgeRout=False|GenerateDrilledSlotsG85=False|GenerateEIADrillFile=False|GenerateSeparatePlatedNonPlatedFiles=False|NumberOfDecimals=5|NumberOfUnits=2|OptimizeChangeLocationCommands=True|OriginPosition=Relative|Record=DrillView|Units=Imperial|ZeroesMode=SuppressLeadingZeroes
+Configuration8_Item2=BoardEdgeRoutToolDia=2000000|GenerateBoardEdgeRout=False|GenerateDrilledSlotsG85=False|GenerateEIADrillFile=False|GenerateSeparatePlatedNonPlatedFiles=False|GenerateSeparateViaTypeFiles=False|GenerateToolsByDrillSymbols=False|NumberOfDecimals=4|NumberOfUnits=2|OptimizeChangeLocationCommands=True|OriginPosition=Relative|Record=DrillView|Units=Imperial|ZeroesMode=SuppressLeadingZeroes|DocumentPath=D:\Projects\PCB\ESC\rev1\ESC.PcbDoc
 OutputType9=IPC2581
 OutputName9=IPC-2581 Files
 OutputDocumentPath9=
@@ -463,7 +573,7 @@ OutputDefault12=0
 Configuration12_Name1=ForceUpdateSettings
 Configuration12_Item1=False
 Configuration12_Name2=OutputConfigurationParameter1
-Configuration12_Item2=AddToAllLayerClasses.Set= |AddToAllPlots.Set=SerializeLayerHash.Version~2,ClassName~TLayerToBoolean,16908291~1|CentrePlots=False|DrillDrawingSymbol=GraphicsSymbol|DrillDrawingSymbolSize=200000|EmbeddedApertures=True|FilmBorderSize=10000000|FilmXSize=200000000|FilmYSize=160000000|FlashAllFills=False|FlashPadShapes=True|G54OnApertureChange=False|GenerateDRCRulesFile=True|GenerateDRCRulesFile=True|GenerateReliefShapes=True|GerberUnit=Imperial|GerberUnit=Imperial|IncludeUnconnectedMidLayerPads=False|LayerClassesMirror.Set= |LayerClassesPlot.Set= |LeadingAndTrailingZeroesMode=SuppressLeadingZeroes|MaxApertureSize=2500000|MinusApertureTolerance=50|MinusApertureTolerance=50|Mirror.Set=SerializeLayerHash.Version~2,ClassName~TLayerToBoolean|MirrorDrillDrawingPlots=False|MirrorDrillGuidePlots=False|NoRegularPolygons=False|NumberOfDecimals=5|NumberOfDecimals=5|OptimizeChangeLocationCommands=True|OptimizeChangeLocationCommands=True|OriginPosition=Relative|Panelize=False|Plot.Set=SerializeLayerHash.Version~2,ClassName~TLayerToBoolean,16973830~1,16973834~1,16777217~1,16777218~1,16777219~1,16842751~1,16973835~1,16973831~1|PlotPositivePlaneLayers=False|PlotUsedDrillDrawingLayerPairs=False|PlotUsedDrillGuideLayerPairs=False|PlusApertureTolerance=50|PlusApertureTolerance=50|Record=GerberView|SoftwareArcs=False|Sorted=False|Sorted=False
+Configuration12_Item2=AddLayersToGroup.Group_0=0|AddLayersToGroup.Group_1=1|AddLayersToGroup.Group_2=2|AddLayersToGroup.Group_3=3|AddLayersToGroup.Group_4=4|AddLayersToGroup.Group_5=5|AddLayersToGroup.Group_6=7|AddLayersToGroup.Group_7=8|AddLayersToGroup.Set_0=16908291|AddLayersToGroup.Set_1=16908291|AddLayersToGroup.Set_2=16908291|AddLayersToGroup.Set_3=16908291|AddLayersToGroup.Set_4=16908291|AddLayersToGroup.Set_5=16908291|AddLayersToGroup.Set_6=16908291|AddLayersToGroup.Set_7=16908291|AddLayersToGroups.Count=8|AddToAllLayerClasses.Set= |AddToAllPlots.Set=SerializeLayerHash.Version~2,ClassName~TPlotLayerStateArray,16908291~1|BoardID=JMBELIOG|CentrePlots=False|DrillDrawingSymbol=GraphicsSymbol|DrillDrawingSymbolSize=200000|EmbeddedApertures=True|FilmBorderSize=10000000|FilmXSize=200000000|FilmYSize=160000000|FlashAllFills=False|FlashPadShapes=True|G54OnApertureChange=False|GenerateDRCRulesFile=False|GenerateDRCRulesFile=False|GenerateReliefShapes=True|GenerateReports=True|GerberUnit=Imperial|GerberUnit=Imperial|IncludeUnconnectedMidLayerPads=False|LayerClassesMirror.Set= |LayerClassesPlot.Set= |LeadingAndTrailingZeroesMode=SuppressLeadingZeroes|MaxApertureSize=2500000|MergePadAndRegion=False|MinusApertureTolerance=50|MinusApertureTolerance=50|Mirror.Set=SerializeLayerHash.Version~2,ClassName~TPlotLayerStateArray|MirrorDrillDrawingPlots=False|MirrorDrillGuidePlots=False|NoRegularPolygons=False|NumberOfDecimals=5|NumberOfDecimals=5|OptimizeChangeLocationCommands=True|OptimizeChangeLocationCommands=True|OriginPosition=Relative|Panelize=False|Plot.Set=SerializeLayerHash.Version~2,ClassName~TPlotLayerStateArray,16973830~1,16973834~1,16973835~1,16973831~1,16777217~1,16777220~1,16777218~1,16777221~1,16777222~1,16777219~1,16777223~1,16842751~1,16908291~1|PlotBoardProfile=False|PlotBoardProfileFileName=ESC.GM|PlotPositivePlaneLayers=False|PlotUsedDrillDrawingLayerPairs=False|PlotUsedDrillGuideLayerPairs=False|PlusApertureTolerance=50|PlusApertureTolerance=50|Record=GerberView|SoftwareArcs=True|Sorted=False|Sorted=False|UncheckPlotDrillDrawingLayerPair0_Backdrill=False|UncheckPlotDrillDrawingLayerPair0_Checked=False|UncheckPlotDrillDrawingLayerPair0_DrillType=Regular|UncheckPlotDrillDrawingLayerPair0_FileName=ESC.GD1|UncheckPlotDrillDrawingLayerPair0_HighLayer=Bottom Layer|UncheckPlotDrillDrawingLayerPair0_LowLayer=Top Layer|UncheckPlotDrillGuideLayerPair0_Backdrill=False|UncheckPlotDrillGuideLayerPair0_Checked=False|UncheckPlotDrillGuideLayerPair0_DrillType=Regular|UncheckPlotDrillGuideLayerPair0_FileName=ESC.GG1|UncheckPlotDrillGuideLayerPair0_HighLayer=Bottom Layer|UncheckPlotDrillGuideLayerPair0_LowLayer=Top Layer|UserLayerName.Caption0=ESC.GBP|UserLayerName.Caption1=ESC.GTP|UserLayerName.Caption10=ESC.G2|UserLayerName.Caption11=ESC.GBS|UserLayerName.Caption12=ESC.G5|UserLayerName.Caption13=ESC.G1|UserLayerName.Caption14=ESC.GBL|UserLayerName.Caption15=ESC.GM1|UserLayerName.Caption16=ESC.GM15|UserLayerName.Caption17=ESC.G3|UserLayerName.Caption18=ESC.GM3|UserLayerName.Caption19=ESC.G6|UserLayerName.Caption2=ESC.GTO|UserLayerName.Caption20=ESC.GTL|UserLayerName.Caption21=ESC.G4|UserLayerName.Caption3=ESC.GTS|UserLayerName.Caption4=ESC.GBO|UserLayerName.Caption5=ESC.GM4|UserLayerName.Caption6=ESC.GM13|UserLayerName.Caption7=ESC.GKO|UserLayerName.Caption8=ESC.GPT|UserLayerName.Caption9=ESC.GPB|UserLayerName.Count=22|UserLayerName.Layer0=16973833|UserLayerName.Layer1=16973832|UserLayerName.Layer10=16777218|UserLayerName.Layer11=16973835|UserLayerName.Layer12=16777219|UserLayerName.Layer13=16777220|UserLayerName.Layer14=16842751|UserLayerName.Layer15=16908289|UserLayerName.Layer16=16908303|UserLayerName.Layer17=16777221|UserLayerName.Layer18=16908291|UserLayerName.Layer19=16777223|UserLayerName.Layer2=16973830|UserLayerName.Layer20=16777217|UserLayerName.Layer21=16777222|UserLayerName.Layer3=16973834|UserLayerName.Layer4=16973831|UserLayerName.Layer5=16908292|UserLayerName.Layer6=16908301|UserLayerName.Layer7=16973837|UserLayerName.Layer8=16973848|UserLayerName.Layer9=16973849|DocumentPath=D:\Projects\PCB\ESC\rev1\ESC.PcbDoc
 
 [OutputGroup6]
 Name=Report Outputs
@@ -513,6 +623,12 @@ OutputDocumentPath8=
 OutputVariantName8=[No Variations]
 OutputDefault8=0
 PageOptions8=Record=PageOptions|CenterHorizontal=True|CenterVertical=True|PrintScale=1.00|XCorrection=1.00|YCorrection=1.00|PrintKind=1|BorderSize=5000000|LeftOffset=0|BottomOffset=0|Orientation=2|PaperLength=1000|PaperWidth=1000|Scale=100|PaperSource=7|PrintQuality=-3|MediaType=1|DitherType=10|PrintScaleMode=1|PaperKind=Letter|PaperIndex=1
+OutputType9=Project History
+OutputName9=Project History
+OutputDocumentPath9=
+OutputVariantName9=[No Variations]
+OutputDefault9=0
+PageOptions9=Record=PageOptions|CenterHorizontal=True|CenterVertical=True|PrintScale=1.00|XCorrection=1.00|YCorrection=1.00|PrintKind=1|BorderSize=5000000|LeftOffset=0|BottomOffset=0|Orientation=2|PaperLength=1000|PaperWidth=1000|Scale=100|PaperSource=7|PrintQuality=-3|MediaType=1|DitherType=10|PrintScaleMode=1|PaperKind=Letter|PaperIndex=1
 
 [OutputGroup7]
 Name=Other Outputs
@@ -726,6 +842,11 @@ OutputName11=Specctra Design PCB
 OutputDocumentPath11=
 OutputVariantName11=
 OutputDefault11=0
+OutputType12=Web ReviewOutputName
+OutputName12=Web Review Data
+OutputDocumentPath12=
+OutputVariantName12=
+OutputDefault12=0
 
 [OutputGroup10]
 Name=PostProcess Outputs
@@ -858,6 +979,7 @@ Type116=1
 Type117=1
 Type118=1
 Type119=1
+Type120=1
 
 [Difference Levels]
 Type1=1
