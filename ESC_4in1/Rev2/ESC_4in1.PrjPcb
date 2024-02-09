@@ -208,7 +208,7 @@ AnnotateStartValue=1
 AnnotationIndexControlEnabled=0
 AnnotateSuffix=
 AnnotateScope=All
-AnnotateOrder=-1
+AnnotateOrder=16
 DoLibraryUpdate=1
 DoDatabaseUpdate=1
 ClassGenCCAutoEnabled=1
@@ -217,6 +217,23 @@ ClassGenNCAutoScope=None
 DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=TMYPSCLE
+
+[Document11]
+DocumentPath=ESC_4in1.Annotation
+AnnotationEnabled=1
+AnnotateStartValue=1
+AnnotationIndexControlEnabled=0
+AnnotateSuffix=
+AnnotateScope=All
+AnnotateOrder=-1
+DoLibraryUpdate=1
+DoDatabaseUpdate=1
+ClassGenCCAutoEnabled=1
+ClassGenCCAutoRoomEnabled=0
+ClassGenNCAutoScope=None
+DItemRevisionGUID=
+GenerateClassCluster=0
+DocumentUniqueId=
 
 [ProjectVariant1]
 UniqueID=0F4A890B-1A94-4742-984C-06EB2591D9D2
@@ -299,16 +316,16 @@ Path=..\..\..\Libraries\Altium\*.*
 IncludeSubFolders=1
 
 [Parameter1]
-Name=DrawnBy
-Value=Shivam Sharma
+Name=Revision
+Value=2.1
 
 [Parameter2]
 Name=Project
 Value=4in1_ESC
 
 [Parameter3]
-Name=Revision
-Value=2.1
+Name=DrawnBy
+Value=Shivam Sharma
 
 [Configuration1]
 Name=Sources
@@ -1506,17 +1523,35 @@ ComponentUpdate16=1
 ComponentIsDeviceSheet16=0
 
 [NetInfos]
-Net1=NetName=3V3|NetColor=$00FF6E6E
-Net2=NetName=3V3_IMU|NetColor=$000066FF
-Net3=NetName=5V|NetColor=$006699FF
+Net1=NetName=3V3_MCU1|NetColor=$00FF6E6E
+Net2=NetName=3V3_MCU2|NetColor=$00FF6E6E
+Net3=NetName=5V|NetColor=$000083FD
 Net4=NetName=GND|NetColor=clYellow
-Net5=NetName=NetC10_1|NetColor=$000066FF
-Net6=NetName=NetC10_1_1|NetColor=$000066FF
-Net7=NetName=NetC12_2|NetColor=$006699FF
-Net8=NetName=NetC15_2|NetColor=$00FF6E6E
-Net9=NetName=NetC6_2|NetColor=$006699FF
-Net10=NetName=NetC8_2|NetColor=$00FF6E6E
-Net11=NetName=VBAT|NetColor=$006E6EFF
+Net5=NetName=GND_1|NetColor=clYellow
+Net6=NetName=GND_2|NetColor=clYellow
+Net7=NetName=GND_3|NetColor=clYellow
+Net8=NetName=GND_4|NetColor=clYellow
+Net9=NetName=In|NetColor=$000083FD
+Net10=NetName=IN_1|NetColor=$000083FD
+Net11=NetName=IN_2|NetColor=$000083FD
+Net12=NetName=MCU_GND|NetColor=clYellow
+Net13=NetName=MCU_VDD1|NetColor=$00FF6E6E
+Net14=NetName=MCU_VDD2|NetColor=$00FF6E6E
+Net15=NetName=MCU_VDD3|NetColor=$00FF6E6E
+Net16=NetName=MCU_VDD4|NetColor=$00FF6E6E
+Net17=NetName=MOTOR_GND|NetColor=clYellow
+Net18=NetName=MOTOR_GND_1|NetColor=clYellow
+Net19=NetName=MOTOR_GND_2|NetColor=clYellow
+Net20=NetName=MOTOR_GND_3|NetColor=clYellow
+Net21=NetName=MOTOR_GND_4|NetColor=clYellow
+Net22=NetName=OUT|NetColor=$000083FD
+Net23=NetName=OUT_1|NetColor=$00FF6E6E
+Net24=NetName=OUT_2|NetColor=$00FF6E6E
+Net25=NetName=VBAT|NetColor=$006E6EFF
+Net26=NetName=VBAT_1|NetColor=$006E6EFF
+Net27=NetName=VBAT_2|NetColor=$006E6EFF
+Net28=NetName=VBAT_3|NetColor=$006E6EFF
+Net29=NetName=VBAT_4|NetColor=$006E6EFF
 
 [Comparison Options]
 ComparisonOptions0=Kind=Net|MinPercent=75|MinMatch=3|ShowMatch=-1|UseName=-1|InclAllRules=0
