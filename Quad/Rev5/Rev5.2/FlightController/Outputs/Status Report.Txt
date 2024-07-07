@@ -1,0 +1,14 @@
+Project Outputs Generation Report
+---------------------------------
+Start Output Generation At 1:08:07 AM On 5/26/2024
+
+Output: Export STEP
+Type  : ExportSTEP
+From  : Variant [[No Variations]] of PCB Document [FlightController.PcbDoc]
+   Generated File[FlightController.step]
+
+
+Files Generated   : 1
+Documents Printed : 0
+
+Finished Output Generation At 1:08:12 AM On 5/26/2024

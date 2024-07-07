@@ -1,0 +1,13 @@
+Output: NC Drill Files
+Type  : NC Drill
+From  : PCB Document [FlightController.PcbDoc]
+   Generated File[FlightController-RoundHoles.TXT]
+   Generated File[FlightController-SlotHoles.TXT]
+   Generated File[FlightController.LDP]
+   Generated File[FlightController.DRR]
+
+
+Files Generated   : 4
+Documents Printed : 0
+
+Finished Output Generation At 1:08:47 AM On 5/26/2024

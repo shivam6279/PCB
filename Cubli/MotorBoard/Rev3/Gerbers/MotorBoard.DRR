@@ -1,0 +1,20 @@
+----------------------------------------------------------------------------------------------------------------------------------
+NCDrill File Report For: MotorBoard.PcbDoc   5/25/2024  3:03:14 AM
+----------------------------------------------------------------------------------------------------------------------------------
+
+Layer Pair : Top Layer to Bottom Layer
+ASCII RoundHoles File : MotorBoard.TXT
+
+Tool       Hole Size               Hole Tolerance               Hole Type       Hole Count   Plated         Tool Travel
+----------------------------------------------------------------------------------------------------------------------------------
+T1      12mil (0.3mm)                                             Round             170       PTH        17.32inch (439.88mm)
+T2      14mil (0.351mm)                                           Round             68        PTH        10.00inch (253.91mm)
+T3      30mil (0.749mm)                                           Round             9         PTH        2.54inch (64.40mm)
+T4      32mil (0.8mm)                                             Round             33        PTH        7.88inch (200.23mm)
+T5      83mil (2.101mm)                                           Round             4         NPTH       1.63inch (41.40mm)
+T6      118mil (3mm)                                              Round             7         NPTH       6.70inch (170.26mm)
+T7      315mil (8.001mm)                                          Round             1         NPTH       0.00inch (0.00mm)
+----------------------------------------------------------------------------------------------------------------------------------
+Totals                                                                              292
+
+Total Processing Time (hh:mm:ss) : 00:00:00
