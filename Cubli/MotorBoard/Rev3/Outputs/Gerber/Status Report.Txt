@@ -1,0 +1,29 @@
+Output: Gerber X2 Files
+Type  : GerberX2
+From  : Variant [[No Variations]] of Project [MotorBoard.PrjPcb]
+   Generated File[MotorBoard_Copper_Signal_Top.gbr]
+   Generated File[MotorBoard_Copper_Signal_1.gbr]
+   Generated File[MotorBoard_Copper_Signal_2.gbr]
+   Generated File[MotorBoard_Copper_Signal_3.gbr]
+   Generated File[MotorBoard_Copper_Signal_4.gbr]
+   Generated File[MotorBoard_Copper_Signal_5.gbr]
+   Generated File[MotorBoard_Copper_Signal_6.gbr]
+   Generated File[MotorBoard_Copper_Signal_Bot.gbr]
+   Generated File[MotorBoard_Legend_Top.gbr]
+   Generated File[MotorBoard_Legend_Bot.gbr]
+   Generated File[MotorBoard_Soldermask_Top.gbr]
+   Generated File[MotorBoard_Soldermask_Bot.gbr]
+   Generated File[MotorBoard_Paste_Top.gbr]
+   Generated File[MotorBoard_Paste_Bot.gbr]
+   Generated File[MotorBoard_Board_Outline.gbr]
+   Generated File[MotorBoard_Profile.gbr]
+   Generated File[MotorBoard_NPTH_Drill.gbr]
+   Generated File[MotorBoard_PTH_Drill.gbr]
+   Generated File[MotorBoard.EXTREP]
+   Generated File[MotorBoard.REP]
+
+
+Files Generated   : 20
+Documents Printed : 0
+
+Finished Output Generation At 11:27:43 PM On 7/24/2024

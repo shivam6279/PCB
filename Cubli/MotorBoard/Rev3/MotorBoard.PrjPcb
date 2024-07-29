@@ -68,23 +68,6 @@ GenerateClassCluster=0
 DocumentUniqueId=JMBELIOG
 
 [Document2]
-DocumentPath=Hall_sensor.SchDoc
-AnnotationEnabled=1
-AnnotateStartValue=1
-AnnotationIndexControlEnabled=0
-AnnotateSuffix=
-AnnotateScope=All
-AnnotateOrder=3
-DoLibraryUpdate=1
-DoDatabaseUpdate=1
-ClassGenCCAutoEnabled=0
-ClassGenCCAutoRoomEnabled=0
-ClassGenNCAutoScope=None
-DItemRevisionGUID=
-GenerateClassCluster=0
-DocumentUniqueId=IMVOHWLF
-
-[Document3]
 DocumentPath=PIC32MK.SchDoc
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -101,7 +84,7 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=DDMMIHOM
 
-[Document4]
+[Document3]
 DocumentPath=Power.SchDoc
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -118,7 +101,7 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=VSJGGUOW
 
-[Document5]
+[Document4]
 DocumentPath=Top.SchDoc
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -135,7 +118,7 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=KWFGIMKG
 
-[Document6]
+[Document5]
 DocumentPath=PIC32MK.Harness
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -152,7 +135,7 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=
 
-[Document7]
+[Document6]
 DocumentPath=Top.Harness
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -169,7 +152,7 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=
 
-[Document8]
+[Document7]
 DocumentPath=MotorBoard.OutJob
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -186,7 +169,7 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=
 
-[Document9]
+[Document8]
 DocumentPath=Half_Bridges.SchDoc
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -208,14 +191,10 @@ UniqueId=0F4A890B-1A94-4742-984C-06EB2591D9D2
 Description=Main
 AllowFabrication=0
 ParameterCount=0
-VariationCount=5
-Variation1=Designator=R1|UniqueId=\HPFPTNTV|Kind=1|AlternatePart=
+VariationCount=1
+Variation1=Designator=R1|UniqueId=\MZGCZGPP\NFBHISAR|Kind=1|AlternatePart=
 ParamVariation1=ParameterName=Comment|VariantValue==Value
 ParamDesignator1=R1
-Variation2=Designator=P9|UniqueId=\WTGKTMWE\UDUTNNNY|Kind=1|AlternatePart=
-Variation3=Designator=P8|UniqueId=\WTGKTMWE\TOJGQEKU|Kind=1|AlternatePart=
-Variation4=Designator=P7|UniqueId=\WTGKTMWE\GRHVTDZU|Kind=1|AlternatePart=
-Variation5=Designator=P6|UniqueId=\WTGKTMWE\CKEGGLZH|Kind=1|AlternatePart=
 ParamVariationCount=1
 
 [GeneratedDocument1]
@@ -223,207 +202,115 @@ DocumentPath=Project Outputs for MotorBoard\Design Rule Check - MotorBoard.html
 DItemRevisionGUID=
 
 [GeneratedDocument2]
-DocumentPath=.\Gerbers\MotorBoard.DRR
-DItemRevisionGUID=
-
-[GeneratedDocument3]
 DocumentPath=Gerbers\MotorBoard.DRR
 DItemRevisionGUID=
 
-[GeneratedDocument4]
+[GeneratedDocument3]
 DocumentPath=Project Outputs for MotorBoard\MotorBoard.DRR
 DItemRevisionGUID=
 
-[GeneratedDocument5]
-DocumentPath=.\Gerbers\MotorBoard.EXTREP
-DItemRevisionGUID=
-
-[GeneratedDocument6]
+[GeneratedDocument4]
 DocumentPath=Gerbers\MotorBoard.EXTREP
 DItemRevisionGUID=
 
-[GeneratedDocument7]
+[GeneratedDocument5]
 DocumentPath=Project Outputs for MotorBoard\MotorBoard.EXTREP
 DItemRevisionGUID=
 
-[GeneratedDocument8]
-DocumentPath=.\Gerbers\MotorBoard.G1
-DItemRevisionGUID=
-
-[GeneratedDocument9]
-DocumentPath=Gerbers\MotorBoard.G1
-DItemRevisionGUID=
-
-[GeneratedDocument10]
-DocumentPath=Project Outputs for MotorBoard\MotorBoard.G1
-DItemRevisionGUID=
-
-[GeneratedDocument11]
-DocumentPath=.\Gerbers\MotorBoard.G2
-DItemRevisionGUID=
-
-[GeneratedDocument12]
-DocumentPath=Gerbers\MotorBoard.G2
-DItemRevisionGUID=
-
-[GeneratedDocument13]
-DocumentPath=Project Outputs for MotorBoard\MotorBoard.G2
-DItemRevisionGUID=
-
-[GeneratedDocument14]
-DocumentPath=.\Gerbers\MotorBoard.GBL
-DItemRevisionGUID=
-
-[GeneratedDocument15]
-DocumentPath=Gerbers\MotorBoard.GBL
-DItemRevisionGUID=
-
-[GeneratedDocument16]
-DocumentPath=Project Outputs for MotorBoard\MotorBoard.GBL
-DItemRevisionGUID=
-
-[GeneratedDocument17]
-DocumentPath=.\Gerbers\MotorBoard.GBO
-DItemRevisionGUID=
-
-[GeneratedDocument18]
-DocumentPath=Gerbers\MotorBoard.GBO
-DItemRevisionGUID=
-
-[GeneratedDocument19]
-DocumentPath=Project Outputs for MotorBoard\MotorBoard.GBO
-DItemRevisionGUID=
-
-[GeneratedDocument20]
-DocumentPath=.\Gerbers\MotorBoard.GBP
-DItemRevisionGUID=
-
-[GeneratedDocument21]
-DocumentPath=Gerbers\MotorBoard.GBP
-DItemRevisionGUID=
-
-[GeneratedDocument22]
-DocumentPath=.\Gerbers\MotorBoard.GBS
-DItemRevisionGUID=
-
-[GeneratedDocument23]
-DocumentPath=Gerbers\MotorBoard.GBS
-DItemRevisionGUID=
-
-[GeneratedDocument24]
-DocumentPath=Project Outputs for MotorBoard\MotorBoard.GBS
-DItemRevisionGUID=
-
-[GeneratedDocument25]
-DocumentPath=.\Gerbers\MotorBoard.GM
-DItemRevisionGUID=
-
-[GeneratedDocument26]
-DocumentPath=Gerbers\MotorBoard.GM
-DItemRevisionGUID=
-
-[GeneratedDocument27]
-DocumentPath=.\Gerbers\MotorBoard.GM3
-DItemRevisionGUID=
-
-[GeneratedDocument28]
-DocumentPath=Gerbers\MotorBoard.GM3
-DItemRevisionGUID=
-
-[GeneratedDocument29]
-DocumentPath=Project Outputs for MotorBoard\MotorBoard.GM3
-DItemRevisionGUID=
-
-[GeneratedDocument30]
-DocumentPath=.\Gerbers\MotorBoard.GTL
-DItemRevisionGUID=
-
-[GeneratedDocument31]
-DocumentPath=Gerbers\MotorBoard.GTL
-DItemRevisionGUID=
-
-[GeneratedDocument32]
-DocumentPath=Project Outputs for MotorBoard\MotorBoard.GTL
-DItemRevisionGUID=
-
-[GeneratedDocument33]
-DocumentPath=.\Gerbers\MotorBoard.GTO
-DItemRevisionGUID=
-
-[GeneratedDocument34]
-DocumentPath=Gerbers\MotorBoard.GTO
-DItemRevisionGUID=
-
-[GeneratedDocument35]
-DocumentPath=Project Outputs for MotorBoard\MotorBoard.GTO
-DItemRevisionGUID=
-
-[GeneratedDocument36]
-DocumentPath=.\Gerbers\MotorBoard.GTP
-DItemRevisionGUID=
-
-[GeneratedDocument37]
-DocumentPath=Gerbers\MotorBoard.GTP
-DItemRevisionGUID=
-
-[GeneratedDocument38]
-DocumentPath=.\Gerbers\MotorBoard.GTS
-DItemRevisionGUID=
-
-[GeneratedDocument39]
-DocumentPath=Gerbers\MotorBoard.GTS
-DItemRevisionGUID=
-
-[GeneratedDocument40]
-DocumentPath=Project Outputs for MotorBoard\MotorBoard.GTS
-DItemRevisionGUID=
-
-[GeneratedDocument41]
-DocumentPath=.\Gerbers\MotorBoard.LDP
-DItemRevisionGUID=
-
-[GeneratedDocument42]
+[GeneratedDocument6]
 DocumentPath=Gerbers\MotorBoard.LDP
 DItemRevisionGUID=
 
-[GeneratedDocument43]
+[GeneratedDocument7]
 DocumentPath=Project Outputs for MotorBoard\MotorBoard.LDP
 DItemRevisionGUID=
 
-[GeneratedDocument44]
-DocumentPath=.\Gerbers\MotorBoard.REP
-DItemRevisionGUID=
-
-[GeneratedDocument45]
+[GeneratedDocument8]
 DocumentPath=Gerbers\MotorBoard.REP
 DItemRevisionGUID=
 
-[GeneratedDocument46]
+[GeneratedDocument9]
 DocumentPath=Project Outputs for MotorBoard\MotorBoard.REP
 DItemRevisionGUID=
 
-[GeneratedDocument47]
-DocumentPath=Project Outputs for MotorBoard\MotorBoard.RUL
-DItemRevisionGUID=
-
-[GeneratedDocument48]
-DocumentPath=.\Outputs\MotorBoard.step
-DItemRevisionGUID=
-
-[GeneratedDocument49]
+[GeneratedDocument10]
 DocumentPath=Outputs\MotorBoard.step
 DItemRevisionGUID=
 
-[GeneratedDocument50]
-DocumentPath=.\Gerbers\MotorBoard.TXT
-DItemRevisionGUID=
-
-[GeneratedDocument51]
-DocumentPath=Gerbers\MotorBoard.TXT
-DItemRevisionGUID=
-
-[GeneratedDocument52]
+[GeneratedDocument11]
 DocumentPath=Project Outputs for MotorBoard\MotorBoard.TXT
+DItemRevisionGUID=
+
+[GeneratedDocument12]
+DocumentPath=Project Outputs for MotorBoard\MotorBoard_Board_Outline.gbr
+DItemRevisionGUID=
+
+[GeneratedDocument13]
+DocumentPath=Project Outputs for MotorBoard\MotorBoard_Copper_Signal_1.gbr
+DItemRevisionGUID=
+
+[GeneratedDocument14]
+DocumentPath=Project Outputs for MotorBoard\MotorBoard_Copper_Signal_2.gbr
+DItemRevisionGUID=
+
+[GeneratedDocument15]
+DocumentPath=Project Outputs for MotorBoard\MotorBoard_Copper_Signal_3.gbr
+DItemRevisionGUID=
+
+[GeneratedDocument16]
+DocumentPath=Project Outputs for MotorBoard\MotorBoard_Copper_Signal_4.gbr
+DItemRevisionGUID=
+
+[GeneratedDocument17]
+DocumentPath=Project Outputs for MotorBoard\MotorBoard_Copper_Signal_5.gbr
+DItemRevisionGUID=
+
+[GeneratedDocument18]
+DocumentPath=Project Outputs for MotorBoard\MotorBoard_Copper_Signal_6.gbr
+DItemRevisionGUID=
+
+[GeneratedDocument19]
+DocumentPath=Project Outputs for MotorBoard\MotorBoard_Copper_Signal_Bot.gbr
+DItemRevisionGUID=
+
+[GeneratedDocument20]
+DocumentPath=Project Outputs for MotorBoard\MotorBoard_Copper_Signal_Top.gbr
+DItemRevisionGUID=
+
+[GeneratedDocument21]
+DocumentPath=Project Outputs for MotorBoard\MotorBoard_Legend_Bot.gbr
+DItemRevisionGUID=
+
+[GeneratedDocument22]
+DocumentPath=Project Outputs for MotorBoard\MotorBoard_Legend_Top.gbr
+DItemRevisionGUID=
+
+[GeneratedDocument23]
+DocumentPath=Project Outputs for MotorBoard\MotorBoard_NPTH_Drill.gbr
+DItemRevisionGUID=
+
+[GeneratedDocument24]
+DocumentPath=Project Outputs for MotorBoard\MotorBoard_Paste_Bot.gbr
+DItemRevisionGUID=
+
+[GeneratedDocument25]
+DocumentPath=Project Outputs for MotorBoard\MotorBoard_Paste_Top.gbr
+DItemRevisionGUID=
+
+[GeneratedDocument26]
+DocumentPath=Project Outputs for MotorBoard\MotorBoard_Profile.gbr
+DItemRevisionGUID=
+
+[GeneratedDocument27]
+DocumentPath=Project Outputs for MotorBoard\MotorBoard_PTH_Drill.gbr
+DItemRevisionGUID=
+
+[GeneratedDocument28]
+DocumentPath=Project Outputs for MotorBoard\MotorBoard_Soldermask_Bot.gbr
+DItemRevisionGUID=
+
+[GeneratedDocument29]
+DocumentPath=Project Outputs for MotorBoard\MotorBoard_Soldermask_Top.gbr
 DItemRevisionGUID=
 
 [SearchPath1]
@@ -751,6 +638,10 @@ OutputName5=Gerber X2 Files
 OutputDocumentPath5=
 OutputVariantName5=[No Variations]
 OutputDefault5=0
+Configuration5_Name1=ForceUpdateSettings
+Configuration5_Item1=False
+Configuration5_Name2=OutputConfigurationParameter1
+Configuration5_Item2=BoardID=JMBELIOG|FileComment= |FileSubject=Autodetect|GenerateDRCRulesFile=False|GenerateReports=True|GerberUnit=Imperial|IncludeUnconnectedMidLayerPads=True|MergePadAndRegion=False|MinusApertureTolerance=50|NumberOfDecimals=6|OptimizeChangeLocationCommands=True|OutputFormat=Single|PlotBackDrillingPairs=False|PlotBlindViasPairs=False|PlotBoardProfile=True|PlotBoardProfileFileName= |PlotCounterHolesPairs=False|PlotDrillDrawingPairs=False|PlotDrillGuidePairs=False|PlotMicroViasPairs=False|PlotNPTHPair0_Backdrill=False|PlotNPTHPair0_Checked=True|PlotNPTHPair0_DrillType=Regular|PlotNPTHPair0_FileName= |PlotNPTHPair0_HighLayer=Top Layer|PlotNPTHPair0_LowLayer=Bottom Layer|PlotNPTHPairs=False|PlotPTHPair0_Backdrill=False|PlotPTHPair0_Checked=True|PlotPTHPair0_DrillType=Regular|PlotPTHPair0_FileName= |PlotPTHPair0_HighLayer=Top Layer|PlotPTHPair0_LowLayer=Bottom Layer|PlotPTHPairs=False|PlotViaTypeDrillDrawingPairs=False|PlotViaTypeDrillGuidePairs=False|PlotViaTypeDrillPairs=False|PlotX2.Set=SerializeLayerHash.Version~2,ClassName~TPlotLayerStateArray,16777217~1,16777220~1,16777218~1,16777222~1,16777223~1,16777219~1,16777221~1,16842751~1,16973830~1,16973831~1,16973834~1,16973835~1,16973832~1,16973833~1,16908291~1|PlusApertureTolerance=50|Record=GerberX2View|Sorted=False|UncheckPlotDrillDrawingPair0_Backdrill=False|UncheckPlotDrillDrawingPair0_Checked=False|UncheckPlotDrillDrawingPair0_DrillType=Regular|UncheckPlotDrillDrawingPair0_FileName= |UncheckPlotDrillDrawingPair0_HighLayer=Bottom Layer|UncheckPlotDrillDrawingPair0_LowLayer=Top Layer|UncheckPlotDrillGuidePair0_Backdrill=False|UncheckPlotDrillGuidePair0_Checked=False|UncheckPlotDrillGuidePair0_DrillType=Regular|UncheckPlotDrillGuidePair0_FileName= |UncheckPlotDrillGuidePair0_HighLayer=Bottom Layer|UncheckPlotDrillGuidePair0_LowLayer=Top Layer|DocumentPath=C:\Projects\PCB\Cubli\MotorBoard\Rev3\MotorBoard.PcbDoc
 OutputType6=ODB
 OutputName6=ODB++ Files
 OutputDocumentPath6=
@@ -770,7 +661,7 @@ OutputDefault8=0
 Configuration8_Name1=ForceUpdateSettings
 Configuration8_Item1=False
 Configuration8_Name2=OutputConfigurationParameter1
-Configuration8_Item2=BoardEdgeRoutToolDia=2000000|GenerateBoardEdgeRout=False|GenerateDrilledSlotsG85=False|GenerateEIADrillFile=False|GenerateSeparatePlatedNonPlatedFiles=False|NumberOfDecimals=5|NumberOfUnits=2|OptimizeChangeLocationCommands=True|OriginPosition=Relative|Record=DrillView|Units=Imperial|ZeroesMode=SuppressLeadingZeroes
+Configuration8_Item2=BoardEdgeRoutToolDia=2000000|GenerateBoardEdgeRout=False|GenerateDrilledSlotsG85=False|GenerateEIADrillFile=False|GenerateSeparatePlatedNonPlatedFiles=False|GenerateSeparateViaTypeFiles=False|GenerateToolsByDrillSymbols=False|NumberOfDecimals=4|NumberOfUnits=2|OptimizeChangeLocationCommands=True|OriginPosition=Relative|Record=DrillView|Units=Imperial|ZeroesMode=SuppressLeadingZeroes|DocumentPath=C:\Projects\PCB\Cubli\MotorBoard\Rev3\MotorBoard.PcbDoc
 OutputType9=IPC2581
 OutputName9=IPC-2581 Files
 OutputDocumentPath9=
@@ -1124,6 +1015,18 @@ Type135=1
 Type136=1
 Type137=1
 Type138=1
+Type139=1
+Type140=1
+Type141=1
+Type142=1
+Type143=1
+Type144=1
+Type145=1
+Type146=1
+Type147=1
+Type148=1
+Type149=1
+Type150=1
 
 [Difference Levels]
 Type1=1
@@ -1200,6 +1103,13 @@ Type71=1
 Type72=1
 Type73=1
 Type74=1
+Type75=1
+Type76=1
+Type77=1
+Type78=1
+Type79=1
+Type80=1
+Type81=1
 
 [Electrical Rules Check]
 Type1=1
@@ -1402,17 +1312,11 @@ UpdateVariants=1
 UpdateToLatestRevision=1
 PartTypes=0
 ComponentLibIdentifierKind0=Library Name And Type
-ComponentLibraryIdentifier0=Celestial Altium Library - altium_library.DbLib/Resistors - Surface Mount - 0603
-ComponentDesignItemID0=RNCS0603BKE10K0
-ComponentSymbolReference0=Resistor
+ComponentLibraryIdentifier0=IC.IntLib
+ComponentDesignItemID0=TMP1075
+ComponentSymbolReference0=TMP1075
 ComponentUpdate0=1
 ComponentIsDeviceSheet0=0
-ComponentLibIdentifierKind1=Library Name And Type
-ComponentLibraryIdentifier1=IC.IntLib
-ComponentDesignItemID1=MIC23050
-ComponentSymbolReference1=MIC23050
-ComponentUpdate1=1
-ComponentIsDeviceSheet1=0
 FullReplace=1
 UpdateDesignatorLock=1
 UpdatePartIDLock=1
@@ -1430,80 +1334,15 @@ ParameterName0=Comment
 ParameterUpdate0=1
 ParameterName1=Component Kind
 ParameterUpdate1=1
-ParameterName2=ComponentLink1Description
+ParameterName2=Description
 ParameterUpdate2=1
-ParameterName3=ComponentLink1URL
+ParameterName3=Library Reference
 ParameterUpdate3=1
-ParameterName4=ComponentLink2Description
-ParameterUpdate4=1
-ParameterName5=ComponentLink2URL
-ParameterUpdate5=1
-ParameterName6=Composition
-ParameterUpdate6=1
-ParameterName7=Description
-ParameterUpdate7=1
-ParameterName8=Device Package
-ParameterUpdate8=1
-ParameterName9=Features
-ParameterUpdate9=1
-ParameterName10=Height - Seated (Max)
-ParameterUpdate10=1
-ParameterName11=LastUpdated
-ParameterUpdate11=1
-ParameterName12=Library Reference
-ParameterUpdate12=1
-ParameterName13=Lifecycle Status
-ParameterUpdate13=1
-ParameterName14=Manufacturer
-ParameterUpdate14=1
-ParameterName15=Minimum Order
-ParameterUpdate15=1
-ParameterName16=Number of Terminations
-ParameterUpdate16=1
-ParameterName17=Operating Temperature
-ParameterUpdate17=1
-ParameterName18=Package / Case
-ParameterUpdate18=1
-ParameterName19=Packaging
-ParameterUpdate19=1
-ParameterName20=Part Number
-ParameterUpdate20=1
-ParameterName21=Part Status
-ParameterUpdate21=1
-ParameterName22=PartId
-ParameterUpdate22=1
-ParameterName23=Power (Watts)
-ParameterUpdate23=1
-ParameterName24=Price
-ParameterUpdate24=1
-ParameterName25=Ratings
-ParameterUpdate25=1
-ParameterName26=Resistance
-ParameterUpdate26=1
-ParameterName27=Series
-ParameterUpdate27=1
-ParameterName28=Size / Dimension
-ParameterUpdate28=1
-ParameterName29=Supplier 1
-ParameterUpdate29=1
-ParameterName30=Supplier Device Package
-ParameterUpdate30=1
-ParameterName31=Supplier Part Number 1
-ParameterUpdate31=1
-ParameterName32=Temperature Coefficient
-ParameterUpdate32=1
-ParameterName33=Tolerance
-ParameterUpdate33=1
-ParameterName34=Value
-ParameterUpdate34=1
 ModelTypeGroup0=PCBLIB
 ModelTypeUpdate0=1
 ModelType0=PCBLIB
-ModelName0=MLF-8 2x2mm
+ModelName0=8_WSON_2x2_0.5mm
 ModelUpdate0=1
-ModelType1=PCBLIB
-ModelName1=RES 0603_1608
-ModelUpdate1=1
 
 [DatabaseUpdateOptions]
 SelectedOnly=0
@@ -1512,12 +1351,15 @@ UpdateToLatestRevision=1
 PartTypes=0
 
 [NetInfos]
-Net1=NetName=3V3|NetColor=$00FF6E6E
-Net2=NetName=GND|NetColor=clYellow
-Net3=NetName=NetC15_2|NetColor=$00FF6E6E
-Net4=NetName=NetC8_2|NetColor=$00FF6E6E
-Net5=NetName=PWR_IN|NetColor=$006E6EFF
-Net6=NetName=VBAT|NetColor=$006E6EFF
+Net1=NetName=12V|NetColor=$000083FD
+Net2=NetName=3V3|NetColor=$00FF6E6E
+Net3=NetName=3V3_MCU|NetColor=$00FF6E6E
+Net4=NetName=5V|NetColor=$000066FF
+Net5=NetName=GND|NetColor=clYellow
+Net6=NetName=NetC15_2|NetColor=$00FF6E6E
+Net7=NetName=NetC8_2|NetColor=$00FF6E6E
+Net8=NetName=PWR_IN|NetColor=$006E6EFF
+Net9=NetName=VBAT|NetColor=$006E6EFF
 
 [Comparison Options]
 ComparisonOptions0=Kind=Net|MinPercent=75|MinMatch=3|ShowMatch=-1|UseName=-1|InclAllRules=0

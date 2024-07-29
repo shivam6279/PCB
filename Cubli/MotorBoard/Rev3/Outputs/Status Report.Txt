@@ -1,14 +1,14 @@
 Project Outputs Generation Report
 ---------------------------------
-Start Output Generation At 2:49:26 AM On 5/25/2024
+Start Output Generation At 10:07:42 PM On 7/25/2024
 
 Output: Export STEP
 Type  : ExportSTEP
-From  : Variant [[No Variations]] of PCB Document [MotorBoard.PcbDoc]
-   Generated File[MotorBoard.step]
+From  : Variant [Main] of PCB Document [MotorBoard.PcbDoc]
+   Generated File[MotorBoard(Main).step]
 
 
 Files Generated   : 1
 Documents Printed : 0
 
-Finished Output Generation At 2:49:31 AM On 5/25/2024
+Finished Output Generation At 10:07:50 PM On 7/25/2024
