@@ -192,7 +192,7 @@ Description=Main
 AllowFabrication=0
 ParameterCount=0
 VariationCount=1
-Variation1=Designator=R1|UniqueId=\MZGCZGPP\NFBHISAR|Kind=1|AlternatePart=
+Variation1=Designator=R1|UniqueId=\MZGCZGPP\NFBHISAR|Kind=1|AlternatePart==Value
 ParamVariation1=ParameterName=Comment|VariantValue==Value
 ParamDesignator1=R1
 ParamVariationCount=1
@@ -318,12 +318,12 @@ Path=..\..\..\Libraries\Altium\*.*
 IncludeSubFolders=1
 
 [Parameter1]
-Name=Project
-Value=Cubli
+Name=ProjectRevision
+Value=3.0
 
 [Parameter2]
-Name=ProjectRevision
-Value=1.1
+Name=Project
+Value=Cubli
 
 [Configuration1]
 Name=Sources
@@ -603,6 +603,11 @@ OutputName3=Test Point Report
 OutputDocumentPath3=
 OutputVariantName3=[No Variations]
 OutputDefault3=0
+OutputType4=Wire Bonding Table
+OutputName4=Wire Bonding Table Report
+OutputDocumentPath4=
+OutputVariantName4=[No Variations]
+OutputDefault4=0
 
 [OutputGroup5]
 Name=Fabrication Outputs
@@ -1265,6 +1270,7 @@ Type150=2
 Type151=2
 Type152=1
 Type153=1
+Type154=0
 
 [ERC Connection Matrix]
 L1=NNNNNNNNNNNWNNNWW
