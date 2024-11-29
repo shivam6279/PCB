@@ -318,12 +318,12 @@ Path=..\..\..\Libraries\Altium\*.*
 IncludeSubFolders=1
 
 [Parameter1]
-Name=ProjectRevision
-Value=3.1
-
-[Parameter2]
 Name=Project
 Value=Cubli
+
+[Parameter2]
+Name=ProjectRevision
+Value=3.1
 
 [Configuration1]
 Name=Sources
