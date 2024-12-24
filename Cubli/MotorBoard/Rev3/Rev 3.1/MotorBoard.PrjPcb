@@ -202,114 +202,262 @@ DocumentPath=Project Outputs for MotorBoard\Design Rule Check - MotorBoard.html
 DItemRevisionGUID=
 
 [GeneratedDocument2]
-DocumentPath=Gerbers\MotorBoard.DRR
+DocumentPath=.\Outputs\MotorBoard(Main).step
 DItemRevisionGUID=
 
 [GeneratedDocument3]
-DocumentPath=Project Outputs for MotorBoard\MotorBoard.DRR
+DocumentPath=.\Gerbers\MotorBoard.DRR
 DItemRevisionGUID=
 
 [GeneratedDocument4]
-DocumentPath=Gerbers\MotorBoard.EXTREP
+DocumentPath=Gerbers\MotorBoard.DRR
 DItemRevisionGUID=
 
 [GeneratedDocument5]
-DocumentPath=Project Outputs for MotorBoard\MotorBoard.EXTREP
+DocumentPath=Project Outputs for MotorBoard\MotorBoard.DRR
 DItemRevisionGUID=
 
 [GeneratedDocument6]
-DocumentPath=Gerbers\MotorBoard.LDP
+DocumentPath=.\Gerbers\MotorBoard.EXTREP
 DItemRevisionGUID=
 
 [GeneratedDocument7]
-DocumentPath=Project Outputs for MotorBoard\MotorBoard.LDP
+DocumentPath=Gerbers\MotorBoard.EXTREP
 DItemRevisionGUID=
 
 [GeneratedDocument8]
-DocumentPath=Gerbers\MotorBoard.REP
+DocumentPath=Project Outputs for MotorBoard\MotorBoard.EXTREP
 DItemRevisionGUID=
 
 [GeneratedDocument9]
-DocumentPath=Project Outputs for MotorBoard\MotorBoard.REP
+DocumentPath=.\Gerbers\MotorBoard.G1
 DItemRevisionGUID=
 
 [GeneratedDocument10]
-DocumentPath=Outputs\MotorBoard.step
+DocumentPath=Project Outputs for MotorBoard\MotorBoard.G1
 DItemRevisionGUID=
 
 [GeneratedDocument11]
-DocumentPath=Project Outputs for MotorBoard\MotorBoard.TXT
+DocumentPath=.\Gerbers\MotorBoard.G2
 DItemRevisionGUID=
 
 [GeneratedDocument12]
-DocumentPath=Project Outputs for MotorBoard\MotorBoard_Board_Outline.gbr
+DocumentPath=Project Outputs for MotorBoard\MotorBoard.G2
 DItemRevisionGUID=
 
 [GeneratedDocument13]
-DocumentPath=Project Outputs for MotorBoard\MotorBoard_Copper_Signal_1.gbr
+DocumentPath=.\Gerbers\MotorBoard.G3
 DItemRevisionGUID=
 
 [GeneratedDocument14]
-DocumentPath=Project Outputs for MotorBoard\MotorBoard_Copper_Signal_2.gbr
+DocumentPath=Project Outputs for MotorBoard\MotorBoard.G3
 DItemRevisionGUID=
 
 [GeneratedDocument15]
-DocumentPath=Project Outputs for MotorBoard\MotorBoard_Copper_Signal_3.gbr
+DocumentPath=.\Gerbers\MotorBoard.G4
 DItemRevisionGUID=
 
 [GeneratedDocument16]
-DocumentPath=Project Outputs for MotorBoard\MotorBoard_Copper_Signal_4.gbr
+DocumentPath=Project Outputs for MotorBoard\MotorBoard.G4
 DItemRevisionGUID=
 
 [GeneratedDocument17]
-DocumentPath=Project Outputs for MotorBoard\MotorBoard_Copper_Signal_5.gbr
+DocumentPath=.\Gerbers\MotorBoard.G5
 DItemRevisionGUID=
 
 [GeneratedDocument18]
-DocumentPath=Project Outputs for MotorBoard\MotorBoard_Copper_Signal_6.gbr
+DocumentPath=Project Outputs for MotorBoard\MotorBoard.G5
 DItemRevisionGUID=
 
 [GeneratedDocument19]
-DocumentPath=Project Outputs for MotorBoard\MotorBoard_Copper_Signal_Bot.gbr
+DocumentPath=.\Gerbers\MotorBoard.G6
 DItemRevisionGUID=
 
 [GeneratedDocument20]
-DocumentPath=Project Outputs for MotorBoard\MotorBoard_Copper_Signal_Top.gbr
+DocumentPath=Project Outputs for MotorBoard\MotorBoard.G6
 DItemRevisionGUID=
 
 [GeneratedDocument21]
-DocumentPath=Project Outputs for MotorBoard\MotorBoard_Legend_Bot.gbr
+DocumentPath=.\Gerbers\MotorBoard.GBL
 DItemRevisionGUID=
 
 [GeneratedDocument22]
-DocumentPath=Project Outputs for MotorBoard\MotorBoard_Legend_Top.gbr
+DocumentPath=Project Outputs for MotorBoard\MotorBoard.GBL
 DItemRevisionGUID=
 
 [GeneratedDocument23]
-DocumentPath=Project Outputs for MotorBoard\MotorBoard_NPTH_Drill.gbr
+DocumentPath=.\Gerbers\MotorBoard.GBO
 DItemRevisionGUID=
 
 [GeneratedDocument24]
-DocumentPath=Project Outputs for MotorBoard\MotorBoard_Paste_Bot.gbr
+DocumentPath=Project Outputs for MotorBoard\MotorBoard.GBO
 DItemRevisionGUID=
 
 [GeneratedDocument25]
-DocumentPath=Project Outputs for MotorBoard\MotorBoard_Paste_Top.gbr
+DocumentPath=.\Gerbers\MotorBoard.GBP
 DItemRevisionGUID=
 
 [GeneratedDocument26]
-DocumentPath=Project Outputs for MotorBoard\MotorBoard_Profile.gbr
+DocumentPath=.\Gerbers\MotorBoard.GBS
 DItemRevisionGUID=
 
 [GeneratedDocument27]
-DocumentPath=Project Outputs for MotorBoard\MotorBoard_PTH_Drill.gbr
+DocumentPath=Project Outputs for MotorBoard\MotorBoard.GBS
 DItemRevisionGUID=
 
 [GeneratedDocument28]
-DocumentPath=Project Outputs for MotorBoard\MotorBoard_Soldermask_Bot.gbr
+DocumentPath=.\Gerbers\MotorBoard.GM
 DItemRevisionGUID=
 
 [GeneratedDocument29]
+DocumentPath=Project Outputs for MotorBoard\MotorBoard.GM
+DItemRevisionGUID=
+
+[GeneratedDocument30]
+DocumentPath=.\Gerbers\MotorBoard.GM3
+DItemRevisionGUID=
+
+[GeneratedDocument31]
+DocumentPath=Project Outputs for MotorBoard\MotorBoard.GM3
+DItemRevisionGUID=
+
+[GeneratedDocument32]
+DocumentPath=.\Gerbers\MotorBoard.GTL
+DItemRevisionGUID=
+
+[GeneratedDocument33]
+DocumentPath=Project Outputs for MotorBoard\MotorBoard.GTL
+DItemRevisionGUID=
+
+[GeneratedDocument34]
+DocumentPath=.\Gerbers\MotorBoard.GTO
+DItemRevisionGUID=
+
+[GeneratedDocument35]
+DocumentPath=Project Outputs for MotorBoard\MotorBoard.GTO
+DItemRevisionGUID=
+
+[GeneratedDocument36]
+DocumentPath=.\Gerbers\MotorBoard.GTP
+DItemRevisionGUID=
+
+[GeneratedDocument37]
+DocumentPath=.\Gerbers\MotorBoard.GTS
+DItemRevisionGUID=
+
+[GeneratedDocument38]
+DocumentPath=Project Outputs for MotorBoard\MotorBoard.GTS
+DItemRevisionGUID=
+
+[GeneratedDocument39]
+DocumentPath=.\Gerbers\MotorBoard.LDP
+DItemRevisionGUID=
+
+[GeneratedDocument40]
+DocumentPath=Gerbers\MotorBoard.LDP
+DItemRevisionGUID=
+
+[GeneratedDocument41]
+DocumentPath=Project Outputs for MotorBoard\MotorBoard.LDP
+DItemRevisionGUID=
+
+[GeneratedDocument42]
+DocumentPath=.\Gerbers\MotorBoard.REP
+DItemRevisionGUID=
+
+[GeneratedDocument43]
+DocumentPath=Gerbers\MotorBoard.REP
+DItemRevisionGUID=
+
+[GeneratedDocument44]
+DocumentPath=Project Outputs for MotorBoard\MotorBoard.REP
+DItemRevisionGUID=
+
+[GeneratedDocument45]
+DocumentPath=Project Outputs for MotorBoard\MotorBoard.RUL
+DItemRevisionGUID=
+
+[GeneratedDocument46]
+DocumentPath=Outputs\MotorBoard.step
+DItemRevisionGUID=
+
+[GeneratedDocument47]
+DocumentPath=.\Gerbers\MotorBoard.TXT
+DItemRevisionGUID=
+
+[GeneratedDocument48]
+DocumentPath=Project Outputs for MotorBoard\MotorBoard.TXT
+DItemRevisionGUID=
+
+[GeneratedDocument49]
+DocumentPath=Project Outputs for MotorBoard\MotorBoard_Board_Outline.gbr
+DItemRevisionGUID=
+
+[GeneratedDocument50]
+DocumentPath=Project Outputs for MotorBoard\MotorBoard_Copper_Signal_1.gbr
+DItemRevisionGUID=
+
+[GeneratedDocument51]
+DocumentPath=Project Outputs for MotorBoard\MotorBoard_Copper_Signal_2.gbr
+DItemRevisionGUID=
+
+[GeneratedDocument52]
+DocumentPath=Project Outputs for MotorBoard\MotorBoard_Copper_Signal_3.gbr
+DItemRevisionGUID=
+
+[GeneratedDocument53]
+DocumentPath=Project Outputs for MotorBoard\MotorBoard_Copper_Signal_4.gbr
+DItemRevisionGUID=
+
+[GeneratedDocument54]
+DocumentPath=Project Outputs for MotorBoard\MotorBoard_Copper_Signal_5.gbr
+DItemRevisionGUID=
+
+[GeneratedDocument55]
+DocumentPath=Project Outputs for MotorBoard\MotorBoard_Copper_Signal_6.gbr
+DItemRevisionGUID=
+
+[GeneratedDocument56]
+DocumentPath=Project Outputs for MotorBoard\MotorBoard_Copper_Signal_Bot.gbr
+DItemRevisionGUID=
+
+[GeneratedDocument57]
+DocumentPath=Project Outputs for MotorBoard\MotorBoard_Copper_Signal_Top.gbr
+DItemRevisionGUID=
+
+[GeneratedDocument58]
+DocumentPath=Project Outputs for MotorBoard\MotorBoard_Legend_Bot.gbr
+DItemRevisionGUID=
+
+[GeneratedDocument59]
+DocumentPath=Project Outputs for MotorBoard\MotorBoard_Legend_Top.gbr
+DItemRevisionGUID=
+
+[GeneratedDocument60]
+DocumentPath=Project Outputs for MotorBoard\MotorBoard_NPTH_Drill.gbr
+DItemRevisionGUID=
+
+[GeneratedDocument61]
+DocumentPath=Project Outputs for MotorBoard\MotorBoard_Paste_Bot.gbr
+DItemRevisionGUID=
+
+[GeneratedDocument62]
+DocumentPath=Project Outputs for MotorBoard\MotorBoard_Paste_Top.gbr
+DItemRevisionGUID=
+
+[GeneratedDocument63]
+DocumentPath=Project Outputs for MotorBoard\MotorBoard_Profile.gbr
+DItemRevisionGUID=
+
+[GeneratedDocument64]
+DocumentPath=Project Outputs for MotorBoard\MotorBoard_PTH_Drill.gbr
+DItemRevisionGUID=
+
+[GeneratedDocument65]
+DocumentPath=Project Outputs for MotorBoard\MotorBoard_Soldermask_Bot.gbr
+DItemRevisionGUID=
+
+[GeneratedDocument66]
 DocumentPath=Project Outputs for MotorBoard\MotorBoard_Soldermask_Top.gbr
 DItemRevisionGUID=
 
@@ -666,7 +814,7 @@ OutputDefault8=0
 Configuration8_Name1=ForceUpdateSettings
 Configuration8_Item1=False
 Configuration8_Name2=OutputConfigurationParameter1
-Configuration8_Item2=BoardEdgeRoutToolDia=2000000|GenerateBoardEdgeRout=False|GenerateDrilledSlotsG85=False|GenerateEIADrillFile=False|GenerateSeparatePlatedNonPlatedFiles=False|GenerateSeparateViaTypeFiles=False|GenerateToolsByDrillSymbols=False|NumberOfDecimals=4|NumberOfUnits=2|OptimizeChangeLocationCommands=True|OriginPosition=Relative|Record=DrillView|Units=Imperial|ZeroesMode=SuppressLeadingZeroes|DocumentPath=C:\Projects\PCB\Cubli\MotorBoard\Rev3\MotorBoard.PcbDoc
+Configuration8_Item2=BoardEdgeRoutToolDia=2000000|GenerateBoardEdgeRout=False|GenerateDrilledSlotsG85=False|GenerateEIADrillFile=False|GenerateSeparatePlatedNonPlatedFiles=False|GenerateSeparateViaTypeFiles=False|GenerateToolsByDrillSymbols=False|NumberOfDecimals=4|NumberOfUnits=2|OptimizeChangeLocationCommands=True|OriginPosition=Relative|Record=DrillView|Units=Imperial|ZeroesMode=SuppressLeadingZeroes|DocumentPath=C:\Projects\PCB\Cubli\MotorBoard\Rev3\Rev 3.1\MotorBoard.PcbDoc
 OutputType9=IPC2581
 OutputName9=IPC-2581 Files
 OutputDocumentPath9=
@@ -691,7 +839,7 @@ OutputDefault12=0
 Configuration12_Name1=ForceUpdateSettings
 Configuration12_Item1=False
 Configuration12_Name2=OutputConfigurationParameter1
-Configuration12_Item2=AddToAllLayerClasses.Set= |AddToAllPlots.Set=SerializeLayerHash.Version~2,ClassName~TLayerToBoolean,16908291~1|CentrePlots=False|DrillDrawingSymbol=GraphicsSymbol|DrillDrawingSymbolSize=200000|EmbeddedApertures=True|FilmBorderSize=10000000|FilmXSize=200000000|FilmYSize=160000000|FlashAllFills=False|FlashPadShapes=True|G54OnApertureChange=False|GenerateDRCRulesFile=True|GenerateDRCRulesFile=True|GenerateReliefShapes=True|GerberUnit=Imperial|GerberUnit=Imperial|IncludeUnconnectedMidLayerPads=False|LayerClassesMirror.Set= |LayerClassesPlot.Set= |LeadingAndTrailingZeroesMode=SuppressLeadingZeroes|MaxApertureSize=2500000|MinusApertureTolerance=50|MinusApertureTolerance=50|Mirror.Set=SerializeLayerHash.Version~2,ClassName~TLayerToBoolean|MirrorDrillDrawingPlots=False|MirrorDrillGuidePlots=False|NoRegularPolygons=False|NumberOfDecimals=5|NumberOfDecimals=5|OptimizeChangeLocationCommands=True|OptimizeChangeLocationCommands=True|OriginPosition=Relative|Panelize=False|Plot.Set=SerializeLayerHash.Version~2,ClassName~TLayerToBoolean,16973830~1,16973834~1,16777217~1,16777218~1,16777219~1,16842751~1,16973835~1,16973831~1|PlotPositivePlaneLayers=False|PlotUsedDrillDrawingLayerPairs=False|PlotUsedDrillGuideLayerPairs=False|PlusApertureTolerance=50|PlusApertureTolerance=50|Record=GerberView|SoftwareArcs=False|Sorted=False|Sorted=False
+Configuration12_Item2=AddLayersToGroup.Group_0=0|AddLayersToGroup.Group_1=1|AddLayersToGroup.Group_2=2|AddLayersToGroup.Group_3=3|AddLayersToGroup.Group_4=4|AddLayersToGroup.Group_5=5|AddLayersToGroup.Group_6=7|AddLayersToGroup.Group_7=8|AddLayersToGroup.Set_0=16908291|AddLayersToGroup.Set_1=16908291|AddLayersToGroup.Set_2=16908291|AddLayersToGroup.Set_3=16908291|AddLayersToGroup.Set_4=16908291|AddLayersToGroup.Set_5=16908291|AddLayersToGroup.Set_6=16908291|AddLayersToGroup.Set_7=16908291|AddLayersToGroups.Count=8|AddToAllLayerClasses.Set= |AddToAllPlots.Set=SerializeLayerHash.Version~2,ClassName~TPlotLayerStateArray,16908291~1|BoardID=JMBELIOG|CentrePlots=False|DrillDrawingSymbol=GraphicsSymbol|DrillDrawingSymbolSize=200000|EmbeddedApertures=True|FilmBorderSize=10000000|FilmXSize=200000000|FilmYSize=160000000|FlashAllFills=False|FlashPadShapes=True|G54OnApertureChange=False|GenerateDRCRulesFile=True|GenerateDRCRulesFile=True|GenerateReliefShapes=True|GenerateReports=True|GerberUnit=Imperial|GerberUnit=Imperial|IncludeUnconnectedMidLayerPads=False|LayerClassesMirror.Set= |LayerClassesPlot.Set= |LeadingAndTrailingZeroesMode=SuppressLeadingZeroes|MaxApertureSize=2500000|MergePadAndRegion=False|MinusApertureTolerance=50|MinusApertureTolerance=50|Mirror.Set=SerializeLayerHash.Version~2,ClassName~TPlotLayerStateArray|MirrorDrillDrawingPlots=False|MirrorDrillGuidePlots=False|NoRegularPolygons=False|NumberOfDecimals=5|NumberOfDecimals=5|OptimizeChangeLocationCommands=True|OptimizeChangeLocationCommands=True|OriginPosition=Relative|OutputFormat=Different|Panelize=False|Plot.Set=SerializeLayerHash.Version~2,ClassName~TPlotLayerStateArray,16973830~1,16973834~1,16973835~1,16973831~1,16777217~1,16777220~1,16777218~1,16777222~1,16777223~1,16777219~1,16777221~1,16842751~1,16908291~1|PlotBoardProfile=True|PlotBoardProfileFileName= |PlotPositivePlaneLayers=False|PlotUsedDrillDrawingLayerPairs=False|PlotUsedDrillGuideLayerPairs=False|PlusApertureTolerance=50|PlusApertureTolerance=50|Record=GerberView|SoftwareArcs=False|Sorted=False|Sorted=False|UncheckPlotDrillDrawingLayerPair0_Backdrill=False|UncheckPlotDrillDrawingLayerPair0_Checked=False|UncheckPlotDrillDrawingLayerPair0_DrillType=Regular|UncheckPlotDrillDrawingLayerPair0_FileName= |UncheckPlotDrillDrawingLayerPair0_HighLayer=Bottom Layer|UncheckPlotDrillDrawingLayerPair0_LowLayer=Top Layer|UncheckPlotDrillGuideLayerPair0_Backdrill=False|UncheckPlotDrillGuideLayerPair0_Checked=False|UncheckPlotDrillGuideLayerPair0_DrillType=Regular|UncheckPlotDrillGuideLayerPair0_FileName= |UncheckPlotDrillGuideLayerPair0_HighLayer=Bottom Layer|UncheckPlotDrillGuideLayerPair0_LowLayer=Top Layer|DocumentPath=C:\Projects\PCB\Cubli\MotorBoard\Rev3\Rev 3.1\MotorBoard.PcbDoc
 
 [OutputGroup6]
 Name=Report Outputs

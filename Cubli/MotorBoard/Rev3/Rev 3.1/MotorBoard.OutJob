@@ -17,11 +17,11 @@ RevisionNamingSchemeGUID=
 [OutputGroup1]
 Name=MotorBoard.OutJob
 Description=
-TargetOutputMedium=Outputs
-VariantName=[No Variations]
+TargetOutputMedium=Gerbers
+VariantName=Main
 VariantScope=1
 CurrentConfigurationName=
-TargetPrinter=Microsoft Print to PDF
+TargetPrinter=Brother HL-L3270CDW series
 PrinterOptions=Record=PrinterOptions|Copies=1|Duplex=1|TrueTypeOptions=3|Collate=1|PrintJobKind=1|PrintWhat=1
 OutputMedium1=Gerbers
 OutputMedium1_Type=GeneratedFiles
@@ -112,7 +112,7 @@ OutputName4=Gerber Files
 OutputCategory4=Fabrication
 OutputDocumentPath4=
 OutputVariantName4=Main
-OutputEnabled4=0
+OutputEnabled4=1
 OutputEnabled4_OutputMedium1=1
 OutputEnabled4_OutputMedium2=0
 OutputEnabled4_OutputMedium3=0
@@ -126,7 +126,7 @@ OutputName5=NC Drill Files
 OutputCategory5=Fabrication
 OutputDocumentPath5=
 OutputVariantName5=
-OutputEnabled5=0
+OutputEnabled5=1
 OutputEnabled5_OutputMedium1=2
 OutputEnabled5_OutputMedium2=0
 OutputEnabled5_OutputMedium3=0
@@ -170,7 +170,7 @@ OutputName8=Export STEP
 OutputCategory8=Export
 OutputDocumentPath8=
 OutputVariantName8=Main
-OutputEnabled8=1
+OutputEnabled8=0
 OutputEnabled8_OutputMedium1=0
 OutputEnabled8_OutputMedium2=0
 OutputEnabled8_OutputMedium3=0
@@ -209,7 +209,7 @@ OutputDefault10=0
 PageOptions10=Record=PageOptions|CenterHorizontal=True|CenterVertical=True|PrintScale=1.00|XCorrection=1.00|YCorrection=1.00|PrintKind=1|BorderSize=5000000|LeftOffset=0|BottomOffset=0|Orientation=2|PaperLength=1000|PaperWidth=1000|Scale=100|PaperSource=7|PrintQuality=-3|MediaType=1|DitherType=10|PrintScaleMode=1|PaperKind=Letter|PaperIndex=1
 
 [PublishSettings]
-OutputFilePath1=D:\Projects\PCB\Cubli\MotorBoard\Rev3\.\Gerbers\
+OutputFilePath1=C:\Projects\PCB\Cubli\MotorBoard\Rev3\Rev 3.1\.\Gerbers\
 ReleaseManaged1=0
 OutputBasePath1=.\
 OutputPathMedia1=[Media Name]
@@ -303,7 +303,7 @@ ShowComponentParameters4=1
 GlobalBookmarks4=1
 PDFACompliance4=Disabled
 PDFVersion4=Default
-OutputFilePath5=C:\Projects\PCB\Cubli\MotorBoard\Rev3\.\Outputs\
+OutputFilePath5=C:\Projects\PCB\Cubli\MotorBoard\Rev3\Rev 3.1\.\Outputs\
 ReleaseManaged5=0
 OutputBasePath5=.\
 OutputPathMedia5=Outputs
@@ -318,7 +318,7 @@ OutputFileNameSpecial5=
 OpenOutput5=1
 
 [GeneratedFilesSettings]
-RelativeOutputPath1=D:\Projects\PCB\Cubli\MotorBoard\Rev3\.\Gerbers\
+RelativeOutputPath1=C:\Projects\PCB\Cubli\MotorBoard\Rev3\Rev 3.1\.\Gerbers\
 OpenOutputs1=1
 AddToProject1=1
 TimestampFolder1=0
@@ -334,7 +334,7 @@ RelativeOutputPath3=D:\Projects\PCB\POV\POVRotor\Rev3\.\Outputs\POVRotor.PDF
 OpenOutputs3=1
 RelativeOutputPath4=D:\Projects\PCB\ESC\rev1\Output\ESC_assembly.PDF
 OpenOutputs4=1
-RelativeOutputPath5=C:\Projects\PCB\Cubli\MotorBoard\Rev3\.\Outputs\
+RelativeOutputPath5=C:\Projects\PCB\Cubli\MotorBoard\Rev3\Rev 3.1\.\Outputs\
 OpenOutputs5=1
 AddToProject5=1
 TimestampFolder5=0
