@@ -67,7 +67,7 @@ GenerateClassCluster=0
 DocumentUniqueId=KWFGIMKG
 
 [Document2]
-DocumentPath=Encoder.PcbDoc
+DocumentPath=Encoder_AAS3301.PcbDoc
 AnnotationEnabled=1
 AnnotateStartValue=1
 AnnotationIndexControlEnabled=0
@@ -77,11 +77,11 @@ AnnotateOrder=-1
 DoLibraryUpdate=1
 DoDatabaseUpdate=1
 ClassGenCCAutoEnabled=1
-ClassGenCCAutoRoomEnabled=1
+ClassGenCCAutoRoomEnabled=0
 ClassGenNCAutoScope=None
 DItemRevisionGUID=
 GenerateClassCluster=0
-DocumentUniqueId=RYWHGGOK
+DocumentUniqueId=
 
 [Document3]
 DocumentPath=Encoder.OutJob
@@ -105,16 +105,11 @@ UniqueId=0F4A890B-1A94-4742-984C-06EB2591D9D2
 Description=Main
 AllowFabrication=0
 ParameterCount=0
-VariationCount=5
-Variation1=Designator=P6|UniqueId=\DPQWZKOT|Kind=1|AlternatePart=
-Variation2=Designator=P7|UniqueId=\SLOPVQVP|Kind=1|AlternatePart=
-Variation3=Designator=P8|UniqueId=\YCBMXVDL|Kind=1|AlternatePart=
-Variation4=Designator=P9|UniqueId=\CNPUBKNC|Kind=1|AlternatePart=
-Variation5=Designator=P2|UniqueId=\YVZOLONK|Kind=1|AlternatePart=
+VariationCount=0
 ParamVariationCount=0
 
 [GeneratedDocument1]
-DocumentPath=.\Gerbers\Encoder.DRR
+DocumentPath=Gerbers\Encoder.DRR
 DItemRevisionGUID=
 
 [GeneratedDocument2]
@@ -122,7 +117,7 @@ DocumentPath=Project Outputs for Encoder\Encoder.DRR
 DItemRevisionGUID=
 
 [GeneratedDocument3]
-DocumentPath=.\Gerbers\Encoder.EXTREP
+DocumentPath=Gerbers\Encoder.EXTREP
 DItemRevisionGUID=
 
 [GeneratedDocument4]
@@ -130,7 +125,7 @@ DocumentPath=Project Outputs for Encoder\Encoder.EXTREP
 DItemRevisionGUID=
 
 [GeneratedDocument5]
-DocumentPath=.\Gerbers\Encoder.GBL
+DocumentPath=Gerbers\Encoder.GBL
 DItemRevisionGUID=
 
 [GeneratedDocument6]
@@ -138,7 +133,7 @@ DocumentPath=Project Outputs for Encoder\Encoder.GBL
 DItemRevisionGUID=
 
 [GeneratedDocument7]
-DocumentPath=.\Gerbers\Encoder.GBO
+DocumentPath=Gerbers\Encoder.GBO
 DItemRevisionGUID=
 
 [GeneratedDocument8]
@@ -146,11 +141,11 @@ DocumentPath=Project Outputs for Encoder\Encoder.GBO
 DItemRevisionGUID=
 
 [GeneratedDocument9]
-DocumentPath=.\Gerbers\Encoder.GBP
+DocumentPath=Gerbers\Encoder.GBP
 DItemRevisionGUID=
 
 [GeneratedDocument10]
-DocumentPath=.\Gerbers\Encoder.GBS
+DocumentPath=Gerbers\Encoder.GBS
 DItemRevisionGUID=
 
 [GeneratedDocument11]
@@ -158,7 +153,7 @@ DocumentPath=Project Outputs for Encoder\Encoder.GBS
 DItemRevisionGUID=
 
 [GeneratedDocument12]
-DocumentPath=.\Gerbers\Encoder.GM
+DocumentPath=Gerbers\Encoder.GM
 DItemRevisionGUID=
 
 [GeneratedDocument13]
@@ -170,7 +165,7 @@ DocumentPath=Project Outputs for Encoder\Encoder.GM20
 DItemRevisionGUID=
 
 [GeneratedDocument15]
-DocumentPath=.\Gerbers\Encoder.GTL
+DocumentPath=Gerbers\Encoder.GTL
 DItemRevisionGUID=
 
 [GeneratedDocument16]
@@ -178,7 +173,7 @@ DocumentPath=Project Outputs for Encoder\Encoder.GTL
 DItemRevisionGUID=
 
 [GeneratedDocument17]
-DocumentPath=.\Gerbers\Encoder.GTO
+DocumentPath=Gerbers\Encoder.GTO
 DItemRevisionGUID=
 
 [GeneratedDocument18]
@@ -186,11 +181,11 @@ DocumentPath=Project Outputs for Encoder\Encoder.GTO
 DItemRevisionGUID=
 
 [GeneratedDocument19]
-DocumentPath=.\Gerbers\Encoder.GTP
+DocumentPath=Gerbers\Encoder.GTP
 DItemRevisionGUID=
 
 [GeneratedDocument20]
-DocumentPath=.\Gerbers\Encoder.GTS
+DocumentPath=Gerbers\Encoder.GTS
 DItemRevisionGUID=
 
 [GeneratedDocument21]
@@ -198,7 +193,7 @@ DocumentPath=Project Outputs for Encoder\Encoder.GTS
 DItemRevisionGUID=
 
 [GeneratedDocument22]
-DocumentPath=.\Gerbers\Encoder.LDP
+DocumentPath=Gerbers\Encoder.LDP
 DItemRevisionGUID=
 
 [GeneratedDocument23]
@@ -206,7 +201,7 @@ DocumentPath=Project Outputs for Encoder\Encoder.LDP
 DItemRevisionGUID=
 
 [GeneratedDocument24]
-DocumentPath=.\Gerbers\Encoder.REP
+DocumentPath=Gerbers\Encoder.REP
 DItemRevisionGUID=
 
 [GeneratedDocument25]
@@ -218,11 +213,11 @@ DocumentPath=Project Outputs for Encoder\Encoder.RUL
 DItemRevisionGUID=
 
 [GeneratedDocument27]
-DocumentPath=.\Outputs\Encoder.step
+DocumentPath=Outputs\Encoder.step
 DItemRevisionGUID=
 
 [GeneratedDocument28]
-DocumentPath=.\Gerbers\Encoder.TXT
+DocumentPath=Gerbers\Encoder.TXT
 DItemRevisionGUID=
 
 [GeneratedDocument29]
@@ -476,6 +471,11 @@ OutputName3=Test Point Report
 OutputDocumentPath3=
 OutputVariantName3=[No Variations]
 OutputDefault3=0
+OutputType4=Wire Bonding Table
+OutputName4=Wire Bonding Table Report
+OutputDocumentPath4=
+OutputVariantName4=[No Variations]
+OutputDefault4=0
 
 [OutputGroup5]
 Name=Fabrication Outputs
@@ -761,36 +761,6 @@ OutputName12=Web Review Data
 OutputDocumentPath12=
 OutputVariantName12=
 OutputDefault12=0
-OutputType13=Ansoft Neutral
-OutputName13=Ansoft Neutral (AutoPCB)
-OutputDocumentPath13=
-OutputVariantName13=
-OutputDefault13=0
-OutputType14=HyperLynx
-OutputName14=HyperLynx (AutoPCB)
-OutputDocumentPath14=
-OutputVariantName14=
-OutputDefault14=0
-OutputType15=Orcad v7 Capture Design
-OutputName15=Orcad v7 Capture Design (AutoSCH)
-OutputDocumentPath15=
-OutputVariantName15=
-OutputDefault15=0
-OutputType16=P-CAD ASCII
-OutputName16=P-CAD ASCII (AutoPCB)
-OutputDocumentPath16=
-OutputVariantName16=
-OutputDefault16=0
-OutputType17=P-CAD V16 Schematic Design
-OutputName17=P-CAD V16 Schematic Design (AutoSCH)
-OutputDocumentPath17=
-OutputVariantName17=
-OutputDefault17=0
-OutputType18=SiSoft
-OutputName18=SiSoft (AutoPCB)
-OutputDocumentPath18=
-OutputVariantName18=
-OutputDefault18=0
 
 [OutputGroup10]
 Name=PostProcess Outputs
@@ -942,6 +912,19 @@ Type135=1
 Type136=1
 Type137=1
 Type138=1
+Type139=1
+Type140=1
+Type141=1
+Type142=1
+Type143=1
+Type144=1
+Type145=1
+Type146=1
+Type147=1
+Type148=1
+Type149=1
+Type150=1
+Type151=1
 
 [Difference Levels]
 Type1=1
@@ -1018,6 +1001,14 @@ Type71=1
 Type72=1
 Type73=1
 Type74=1
+Type75=1
+Type76=1
+Type77=1
+Type78=1
+Type79=1
+Type80=1
+Type81=1
+Type82=1
 
 [Electrical Rules Check]
 Type1=1
@@ -1173,6 +1164,14 @@ Type150=2
 Type151=2
 Type152=1
 Type153=1
+Type154=0
+Type155=0
+Type156=0
+Type157=0
+Type158=0
+Type159=0
+Type160=0
+Type161=0
 
 [ERC Connection Matrix]
 L1=NNNNNNNNNNNWNNNWW
