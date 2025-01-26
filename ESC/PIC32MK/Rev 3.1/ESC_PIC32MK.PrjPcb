@@ -198,250 +198,342 @@ ParamDesignator1=R1
 ParamVariationCount=1
 
 [GeneratedDocument1]
-DocumentPath=Project Outputs for MotorBoard\Design Rule Check - MotorBoard.html
+DocumentPath=Project Outputs for ESC_PIC32MK\Design Rule Check - ESC_PIC32MK.html
 DItemRevisionGUID=
 
 [GeneratedDocument2]
-DocumentPath=Outputs\MotorBoard(Main).step
+DocumentPath=Project Outputs for MotorBoard\Design Rule Check - MotorBoard.html
 DItemRevisionGUID=
 
 [GeneratedDocument3]
-DocumentPath=Gerbers\MotorBoard.DRR
+DocumentPath=.\Outputs\ESC_PIC32MK(Main).step
 DItemRevisionGUID=
 
 [GeneratedDocument4]
-DocumentPath=Project Outputs for MotorBoard\MotorBoard.DRR
+DocumentPath=.\Gerbers\ESC_PIC32MK.DRR
 DItemRevisionGUID=
 
 [GeneratedDocument5]
-DocumentPath=Gerbers\MotorBoard.EXTREP
+DocumentPath=.\Gerbers\ESC_PIC32MK.EXTREP
 DItemRevisionGUID=
 
 [GeneratedDocument6]
-DocumentPath=Project Outputs for MotorBoard\MotorBoard.EXTREP
+DocumentPath=.\Gerbers\ESC_PIC32MK.G1
 DItemRevisionGUID=
 
 [GeneratedDocument7]
-DocumentPath=Gerbers\MotorBoard.G1
+DocumentPath=.\Gerbers\ESC_PIC32MK.G2
 DItemRevisionGUID=
 
 [GeneratedDocument8]
-DocumentPath=Project Outputs for MotorBoard\MotorBoard.G1
+DocumentPath=.\Gerbers\ESC_PIC32MK.G3
 DItemRevisionGUID=
 
 [GeneratedDocument9]
-DocumentPath=Gerbers\MotorBoard.G2
+DocumentPath=.\Gerbers\ESC_PIC32MK.G4
 DItemRevisionGUID=
 
 [GeneratedDocument10]
-DocumentPath=Project Outputs for MotorBoard\MotorBoard.G2
+DocumentPath=.\Gerbers\ESC_PIC32MK.G5
 DItemRevisionGUID=
 
 [GeneratedDocument11]
-DocumentPath=Gerbers\MotorBoard.G3
+DocumentPath=.\Gerbers\ESC_PIC32MK.G6
 DItemRevisionGUID=
 
 [GeneratedDocument12]
-DocumentPath=Project Outputs for MotorBoard\MotorBoard.G3
+DocumentPath=.\Gerbers\ESC_PIC32MK.GBL
 DItemRevisionGUID=
 
 [GeneratedDocument13]
-DocumentPath=Gerbers\MotorBoard.G4
+DocumentPath=.\Gerbers\ESC_PIC32MK.GBO
 DItemRevisionGUID=
 
 [GeneratedDocument14]
-DocumentPath=Project Outputs for MotorBoard\MotorBoard.G4
+DocumentPath=.\Gerbers\ESC_PIC32MK.GBP
 DItemRevisionGUID=
 
 [GeneratedDocument15]
-DocumentPath=Gerbers\MotorBoard.G5
+DocumentPath=.\Gerbers\ESC_PIC32MK.GBS
 DItemRevisionGUID=
 
 [GeneratedDocument16]
-DocumentPath=Project Outputs for MotorBoard\MotorBoard.G5
+DocumentPath=.\Gerbers\ESC_PIC32MK.GM
 DItemRevisionGUID=
 
 [GeneratedDocument17]
-DocumentPath=Gerbers\MotorBoard.G6
+DocumentPath=.\Gerbers\ESC_PIC32MK.GM3
 DItemRevisionGUID=
 
 [GeneratedDocument18]
-DocumentPath=Project Outputs for MotorBoard\MotorBoard.G6
+DocumentPath=.\Gerbers\ESC_PIC32MK.GTL
 DItemRevisionGUID=
 
 [GeneratedDocument19]
-DocumentPath=Gerbers\MotorBoard.GBL
+DocumentPath=.\Gerbers\ESC_PIC32MK.GTO
 DItemRevisionGUID=
 
 [GeneratedDocument20]
-DocumentPath=Project Outputs for MotorBoard\MotorBoard.GBL
+DocumentPath=.\Gerbers\ESC_PIC32MK.GTP
 DItemRevisionGUID=
 
 [GeneratedDocument21]
-DocumentPath=Gerbers\MotorBoard.GBO
+DocumentPath=.\Gerbers\ESC_PIC32MK.GTS
 DItemRevisionGUID=
 
 [GeneratedDocument22]
-DocumentPath=Project Outputs for MotorBoard\MotorBoard.GBO
+DocumentPath=.\Gerbers\ESC_PIC32MK.LDP
 DItemRevisionGUID=
 
 [GeneratedDocument23]
-DocumentPath=Gerbers\MotorBoard.GBP
+DocumentPath=.\Gerbers\ESC_PIC32MK.REP
 DItemRevisionGUID=
 
 [GeneratedDocument24]
-DocumentPath=Gerbers\MotorBoard.GBS
+DocumentPath=.\Gerbers\ESC_PIC32MK.TXT
 DItemRevisionGUID=
 
 [GeneratedDocument25]
-DocumentPath=Project Outputs for MotorBoard\MotorBoard.GBS
+DocumentPath=Outputs\MotorBoard(Main).step
 DItemRevisionGUID=
 
 [GeneratedDocument26]
-DocumentPath=Gerbers\MotorBoard.GM
+DocumentPath=Gerbers\MotorBoard.DRR
 DItemRevisionGUID=
 
 [GeneratedDocument27]
-DocumentPath=Project Outputs for MotorBoard\MotorBoard.GM
+DocumentPath=Project Outputs for MotorBoard\MotorBoard.DRR
 DItemRevisionGUID=
 
 [GeneratedDocument28]
-DocumentPath=Gerbers\MotorBoard.GM3
+DocumentPath=Gerbers\MotorBoard.EXTREP
 DItemRevisionGUID=
 
 [GeneratedDocument29]
-DocumentPath=Project Outputs for MotorBoard\MotorBoard.GM3
+DocumentPath=Project Outputs for MotorBoard\MotorBoard.EXTREP
 DItemRevisionGUID=
 
 [GeneratedDocument30]
-DocumentPath=Gerbers\MotorBoard.GTL
+DocumentPath=Gerbers\MotorBoard.G1
 DItemRevisionGUID=
 
 [GeneratedDocument31]
-DocumentPath=Project Outputs for MotorBoard\MotorBoard.GTL
+DocumentPath=Project Outputs for MotorBoard\MotorBoard.G1
 DItemRevisionGUID=
 
 [GeneratedDocument32]
-DocumentPath=Gerbers\MotorBoard.GTO
+DocumentPath=Gerbers\MotorBoard.G2
 DItemRevisionGUID=
 
 [GeneratedDocument33]
-DocumentPath=Project Outputs for MotorBoard\MotorBoard.GTO
+DocumentPath=Project Outputs for MotorBoard\MotorBoard.G2
 DItemRevisionGUID=
 
 [GeneratedDocument34]
-DocumentPath=Gerbers\MotorBoard.GTP
+DocumentPath=Gerbers\MotorBoard.G3
 DItemRevisionGUID=
 
 [GeneratedDocument35]
-DocumentPath=Gerbers\MotorBoard.GTS
+DocumentPath=Project Outputs for MotorBoard\MotorBoard.G3
 DItemRevisionGUID=
 
 [GeneratedDocument36]
-DocumentPath=Project Outputs for MotorBoard\MotorBoard.GTS
+DocumentPath=Gerbers\MotorBoard.G4
 DItemRevisionGUID=
 
 [GeneratedDocument37]
-DocumentPath=Gerbers\MotorBoard.LDP
+DocumentPath=Project Outputs for MotorBoard\MotorBoard.G4
 DItemRevisionGUID=
 
 [GeneratedDocument38]
-DocumentPath=Project Outputs for MotorBoard\MotorBoard.LDP
+DocumentPath=Gerbers\MotorBoard.G5
 DItemRevisionGUID=
 
 [GeneratedDocument39]
-DocumentPath=Gerbers\MotorBoard.REP
+DocumentPath=Project Outputs for MotorBoard\MotorBoard.G5
 DItemRevisionGUID=
 
 [GeneratedDocument40]
-DocumentPath=Project Outputs for MotorBoard\MotorBoard.REP
+DocumentPath=Gerbers\MotorBoard.G6
 DItemRevisionGUID=
 
 [GeneratedDocument41]
-DocumentPath=Project Outputs for MotorBoard\MotorBoard.RUL
+DocumentPath=Project Outputs for MotorBoard\MotorBoard.G6
 DItemRevisionGUID=
 
 [GeneratedDocument42]
-DocumentPath=Outputs\MotorBoard.step
+DocumentPath=Gerbers\MotorBoard.GBL
 DItemRevisionGUID=
 
 [GeneratedDocument43]
-DocumentPath=Gerbers\MotorBoard.TXT
+DocumentPath=Project Outputs for MotorBoard\MotorBoard.GBL
 DItemRevisionGUID=
 
 [GeneratedDocument44]
-DocumentPath=Project Outputs for MotorBoard\MotorBoard.TXT
+DocumentPath=Gerbers\MotorBoard.GBO
 DItemRevisionGUID=
 
 [GeneratedDocument45]
-DocumentPath=Project Outputs for MotorBoard\MotorBoard_Board_Outline.gbr
+DocumentPath=Project Outputs for MotorBoard\MotorBoard.GBO
 DItemRevisionGUID=
 
 [GeneratedDocument46]
-DocumentPath=Project Outputs for MotorBoard\MotorBoard_Copper_Signal_1.gbr
+DocumentPath=Gerbers\MotorBoard.GBP
 DItemRevisionGUID=
 
 [GeneratedDocument47]
-DocumentPath=Project Outputs for MotorBoard\MotorBoard_Copper_Signal_2.gbr
+DocumentPath=Gerbers\MotorBoard.GBS
 DItemRevisionGUID=
 
 [GeneratedDocument48]
-DocumentPath=Project Outputs for MotorBoard\MotorBoard_Copper_Signal_3.gbr
+DocumentPath=Project Outputs for MotorBoard\MotorBoard.GBS
 DItemRevisionGUID=
 
 [GeneratedDocument49]
-DocumentPath=Project Outputs for MotorBoard\MotorBoard_Copper_Signal_4.gbr
+DocumentPath=Gerbers\MotorBoard.GM
 DItemRevisionGUID=
 
 [GeneratedDocument50]
-DocumentPath=Project Outputs for MotorBoard\MotorBoard_Copper_Signal_5.gbr
+DocumentPath=Project Outputs for MotorBoard\MotorBoard.GM
 DItemRevisionGUID=
 
 [GeneratedDocument51]
-DocumentPath=Project Outputs for MotorBoard\MotorBoard_Copper_Signal_6.gbr
+DocumentPath=Gerbers\MotorBoard.GM3
 DItemRevisionGUID=
 
 [GeneratedDocument52]
-DocumentPath=Project Outputs for MotorBoard\MotorBoard_Copper_Signal_Bot.gbr
+DocumentPath=Project Outputs for MotorBoard\MotorBoard.GM3
 DItemRevisionGUID=
 
 [GeneratedDocument53]
-DocumentPath=Project Outputs for MotorBoard\MotorBoard_Copper_Signal_Top.gbr
+DocumentPath=Gerbers\MotorBoard.GTL
 DItemRevisionGUID=
 
 [GeneratedDocument54]
-DocumentPath=Project Outputs for MotorBoard\MotorBoard_Legend_Bot.gbr
+DocumentPath=Project Outputs for MotorBoard\MotorBoard.GTL
 DItemRevisionGUID=
 
 [GeneratedDocument55]
-DocumentPath=Project Outputs for MotorBoard\MotorBoard_Legend_Top.gbr
+DocumentPath=Gerbers\MotorBoard.GTO
 DItemRevisionGUID=
 
 [GeneratedDocument56]
-DocumentPath=Project Outputs for MotorBoard\MotorBoard_NPTH_Drill.gbr
+DocumentPath=Project Outputs for MotorBoard\MotorBoard.GTO
 DItemRevisionGUID=
 
 [GeneratedDocument57]
-DocumentPath=Project Outputs for MotorBoard\MotorBoard_Paste_Bot.gbr
+DocumentPath=Gerbers\MotorBoard.GTP
 DItemRevisionGUID=
 
 [GeneratedDocument58]
-DocumentPath=Project Outputs for MotorBoard\MotorBoard_Paste_Top.gbr
+DocumentPath=Gerbers\MotorBoard.GTS
 DItemRevisionGUID=
 
 [GeneratedDocument59]
-DocumentPath=Project Outputs for MotorBoard\MotorBoard_Profile.gbr
+DocumentPath=Project Outputs for MotorBoard\MotorBoard.GTS
 DItemRevisionGUID=
 
 [GeneratedDocument60]
-DocumentPath=Project Outputs for MotorBoard\MotorBoard_PTH_Drill.gbr
+DocumentPath=Gerbers\MotorBoard.LDP
 DItemRevisionGUID=
 
 [GeneratedDocument61]
-DocumentPath=Project Outputs for MotorBoard\MotorBoard_Soldermask_Bot.gbr
+DocumentPath=Project Outputs for MotorBoard\MotorBoard.LDP
 DItemRevisionGUID=
 
 [GeneratedDocument62]
+DocumentPath=Gerbers\MotorBoard.REP
+DItemRevisionGUID=
+
+[GeneratedDocument63]
+DocumentPath=Project Outputs for MotorBoard\MotorBoard.REP
+DItemRevisionGUID=
+
+[GeneratedDocument64]
+DocumentPath=Project Outputs for MotorBoard\MotorBoard.RUL
+DItemRevisionGUID=
+
+[GeneratedDocument65]
+DocumentPath=Outputs\MotorBoard.step
+DItemRevisionGUID=
+
+[GeneratedDocument66]
+DocumentPath=Gerbers\MotorBoard.TXT
+DItemRevisionGUID=
+
+[GeneratedDocument67]
+DocumentPath=Project Outputs for MotorBoard\MotorBoard.TXT
+DItemRevisionGUID=
+
+[GeneratedDocument68]
+DocumentPath=Project Outputs for MotorBoard\MotorBoard_Board_Outline.gbr
+DItemRevisionGUID=
+
+[GeneratedDocument69]
+DocumentPath=Project Outputs for MotorBoard\MotorBoard_Copper_Signal_1.gbr
+DItemRevisionGUID=
+
+[GeneratedDocument70]
+DocumentPath=Project Outputs for MotorBoard\MotorBoard_Copper_Signal_2.gbr
+DItemRevisionGUID=
+
+[GeneratedDocument71]
+DocumentPath=Project Outputs for MotorBoard\MotorBoard_Copper_Signal_3.gbr
+DItemRevisionGUID=
+
+[GeneratedDocument72]
+DocumentPath=Project Outputs for MotorBoard\MotorBoard_Copper_Signal_4.gbr
+DItemRevisionGUID=
+
+[GeneratedDocument73]
+DocumentPath=Project Outputs for MotorBoard\MotorBoard_Copper_Signal_5.gbr
+DItemRevisionGUID=
+
+[GeneratedDocument74]
+DocumentPath=Project Outputs for MotorBoard\MotorBoard_Copper_Signal_6.gbr
+DItemRevisionGUID=
+
+[GeneratedDocument75]
+DocumentPath=Project Outputs for MotorBoard\MotorBoard_Copper_Signal_Bot.gbr
+DItemRevisionGUID=
+
+[GeneratedDocument76]
+DocumentPath=Project Outputs for MotorBoard\MotorBoard_Copper_Signal_Top.gbr
+DItemRevisionGUID=
+
+[GeneratedDocument77]
+DocumentPath=Project Outputs for MotorBoard\MotorBoard_Legend_Bot.gbr
+DItemRevisionGUID=
+
+[GeneratedDocument78]
+DocumentPath=Project Outputs for MotorBoard\MotorBoard_Legend_Top.gbr
+DItemRevisionGUID=
+
+[GeneratedDocument79]
+DocumentPath=Project Outputs for MotorBoard\MotorBoard_NPTH_Drill.gbr
+DItemRevisionGUID=
+
+[GeneratedDocument80]
+DocumentPath=Project Outputs for MotorBoard\MotorBoard_Paste_Bot.gbr
+DItemRevisionGUID=
+
+[GeneratedDocument81]
+DocumentPath=Project Outputs for MotorBoard\MotorBoard_Paste_Top.gbr
+DItemRevisionGUID=
+
+[GeneratedDocument82]
+DocumentPath=Project Outputs for MotorBoard\MotorBoard_Profile.gbr
+DItemRevisionGUID=
+
+[GeneratedDocument83]
+DocumentPath=Project Outputs for MotorBoard\MotorBoard_PTH_Drill.gbr
+DItemRevisionGUID=
+
+[GeneratedDocument84]
+DocumentPath=Project Outputs for MotorBoard\MotorBoard_Soldermask_Bot.gbr
+DItemRevisionGUID=
+
+[GeneratedDocument85]
 DocumentPath=Project Outputs for MotorBoard\MotorBoard_Soldermask_Top.gbr
 DItemRevisionGUID=
 
