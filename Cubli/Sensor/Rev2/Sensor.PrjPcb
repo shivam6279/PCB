@@ -12,7 +12,7 @@ SeparateFolders=0
 TemplateLocationPath=
 PinSwapBy_Netlabel=1
 PinSwapBy_Pin=1
-AllowPortNetNames=0
+AllowPortNetNames=1
 AllowSheetEntryNetNames=1
 AppendSheetNumberToLocalNets=0
 NetlistSinglePinNets=0
@@ -21,8 +21,8 @@ UserID=0xFFFFFFFF
 DefaultPcbProtel=1
 DefaultPcbPcad=0
 ReorderDocumentsOnCompile=1
-NameNetsHierarchically=0
-PowerPortNamesTakePriority=0
+NameNetsHierarchically=1
+PowerPortNamesTakePriority=1
 AutoSheetNumbering=1
 AutoCrossReferences=0
 NewIndexingOfSheetSymbols=1
@@ -67,23 +67,6 @@ GenerateClassCluster=0
 DocumentUniqueId=DDMMIHOM
 
 [Document2]
-DocumentPath=Power.SchDoc
-AnnotationEnabled=1
-AnnotateStartValue=1
-AnnotationIndexControlEnabled=0
-AnnotateSuffix=
-AnnotateScope=All
-AnnotateOrder=2
-DoLibraryUpdate=1
-DoDatabaseUpdate=1
-ClassGenCCAutoEnabled=0
-ClassGenCCAutoRoomEnabled=0
-ClassGenNCAutoScope=None
-DItemRevisionGUID=
-GenerateClassCluster=0
-DocumentUniqueId=VSJGGUOW
-
-[Document3]
 DocumentPath=Top.SchDoc
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -100,7 +83,7 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=KWFGIMKG
 
-[Document4]
+[Document3]
 DocumentPath=Sensor.PcbDoc
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -117,7 +100,7 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=BKCUTDEC
 
-[Document5]
+[Document4]
 DocumentPath=PIC32MZ.Harness
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -134,24 +117,7 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=
 
-[Document6]
-DocumentPath=Top.Harness
-AnnotationEnabled=1
-AnnotateStartValue=1
-AnnotationIndexControlEnabled=0
-AnnotateSuffix=
-AnnotateScope=All
-AnnotateOrder=-1
-DoLibraryUpdate=1
-DoDatabaseUpdate=1
-ClassGenCCAutoEnabled=1
-ClassGenCCAutoRoomEnabled=1
-ClassGenNCAutoScope=None
-DItemRevisionGUID=
-GenerateClassCluster=0
-DocumentUniqueId=
-
-[Document7]
+[Document5]
 DocumentPath=3V3_LDO.SchDoc
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -168,7 +134,7 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=OWMDFFEG
 
-[Document8]
+[Document6]
 DocumentPath=5V_buck.SchDoc
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -185,7 +151,7 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=WHGLEXOI
 
-[Document9]
+[Document7]
 DocumentPath=Sensor.OutJob
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -202,21 +168,67 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=
 
+[Document8]
+DocumentPath=Top.Harness
+AnnotationEnabled=1
+AnnotateStartValue=1
+AnnotationIndexControlEnabled=0
+AnnotateSuffix=
+AnnotateScope=All
+AnnotateOrder=-1
+DoLibraryUpdate=1
+DoDatabaseUpdate=1
+ClassGenCCAutoEnabled=1
+ClassGenCCAutoRoomEnabled=0
+ClassGenNCAutoScope=None
+DItemRevisionGUID=
+GenerateClassCluster=0
+DocumentUniqueId=
+
+[Document9]
+DocumentPath=HBridges.SchDoc
+AnnotationEnabled=1
+AnnotateStartValue=1
+AnnotationIndexControlEnabled=0
+AnnotateSuffix=
+AnnotateScope=All
+AnnotateOrder=6
+DoLibraryUpdate=1
+DoDatabaseUpdate=1
+ClassGenCCAutoEnabled=1
+ClassGenCCAutoRoomEnabled=0
+ClassGenNCAutoScope=None
+DItemRevisionGUID=
+GenerateClassCluster=0
+DocumentUniqueId=GHNQLTHE
+
+[Document10]
+DocumentPath=ESP32.SchDoc
+AnnotationEnabled=1
+AnnotateStartValue=1
+AnnotationIndexControlEnabled=0
+AnnotateSuffix=
+AnnotateScope=All
+AnnotateOrder=7
+DoLibraryUpdate=1
+DoDatabaseUpdate=1
+ClassGenCCAutoEnabled=1
+ClassGenCCAutoRoomEnabled=0
+ClassGenNCAutoScope=None
+DItemRevisionGUID=
+GenerateClassCluster=0
+DocumentUniqueId=MHPPBDXB
+
 [ProjectVariant1]
 UniqueId=0F4A890B-1A94-4742-984C-06EB2591D9D2
 Description=Main
 AllowFabrication=0
 ParameterCount=0
-VariationCount=5
-Variation1=Designator=P1|UniqueId=\TTRUKLAY|Kind=1|AlternatePart=
-Variation2=Designator=P2|UniqueId=\TQHYHMCN|Kind=1|AlternatePart=
-Variation3=Designator=P3|UniqueId=\LITUWKRL|Kind=1|AlternatePart=
-Variation4=Designator=R14|UniqueId=\HPFPTNTV|Kind=1|AlternatePart=
-Variation5=Designator=P5|UniqueId=\SRADDCIC\BMITZCDA|Kind=0|AlternatePart=
+VariationCount=0
 ParamVariationCount=0
 
 [GeneratedDocument1]
-DocumentPath=.\Outputs\Sensor.step
+DocumentPath=Outputs\Sensor.step
 DItemRevisionGUID=
 
 [SearchPath1]
@@ -505,6 +517,11 @@ OutputName3=Test Point Report
 OutputDocumentPath3=
 OutputVariantName3=[No Variations]
 OutputDefault3=0
+OutputType4=Wire Bonding Table
+OutputName4=Wire Bonding Table Report
+OutputDocumentPath4=
+OutputVariantName4=[No Variations]
+OutputDefault4=0
 
 [OutputGroup5]
 Name=Fabrication Outputs
@@ -793,41 +810,11 @@ OutputName11=Specctra Design PCB
 OutputDocumentPath11=
 OutputVariantName11=
 OutputDefault11=0
-OutputType12=Ansoft Neutral
-OutputName12=Ansoft Neutral (AutoPCB)
+OutputType12=Web ReviewOutputName
+OutputName12=Web Review Data
 OutputDocumentPath12=
 OutputVariantName12=
 OutputDefault12=0
-OutputType13=HyperLynx
-OutputName13=HyperLynx (AutoPCB)
-OutputDocumentPath13=
-OutputVariantName13=
-OutputDefault13=0
-OutputType14=Orcad v7 Capture Design
-OutputName14=Orcad v7 Capture Design (AutoSCH)
-OutputDocumentPath14=
-OutputVariantName14=
-OutputDefault14=0
-OutputType15=P-CAD ASCII
-OutputName15=P-CAD ASCII (AutoPCB)
-OutputDocumentPath15=
-OutputVariantName15=
-OutputDefault15=0
-OutputType16=P-CAD V16 Schematic Design
-OutputName16=P-CAD V16 Schematic Design (AutoSCH)
-OutputDocumentPath16=
-OutputVariantName16=
-OutputDefault16=0
-OutputType17=SiSoft
-OutputName17=SiSoft (AutoPCB)
-OutputDocumentPath17=
-OutputVariantName17=
-OutputDefault17=0
-OutputType18=Web ReviewOutputName
-OutputName18=Web Review Data
-OutputDocumentPath18=
-OutputVariantName18=
-OutputDefault18=0
 
 [OutputGroup10]
 Name=PostProcess Outputs
@@ -979,6 +966,19 @@ Type135=1
 Type136=1
 Type137=1
 Type138=1
+Type139=1
+Type140=1
+Type141=1
+Type142=1
+Type143=1
+Type144=1
+Type145=1
+Type146=1
+Type147=1
+Type148=1
+Type149=1
+Type150=1
+Type151=1
 
 [Difference Levels]
 Type1=1
@@ -1055,6 +1055,14 @@ Type71=1
 Type72=1
 Type73=1
 Type74=1
+Type75=1
+Type76=1
+Type77=1
+Type78=1
+Type79=1
+Type80=1
+Type81=1
+Type82=1
 
 [Electrical Rules Check]
 Type1=1
@@ -1210,6 +1218,14 @@ Type150=2
 Type151=2
 Type152=1
 Type153=1
+Type154=0
+Type155=0
+Type156=0
+Type157=0
+Type158=0
+Type159=0
+Type160=0
+Type161=0
 
 [ERC Connection Matrix]
 L1=NNNNNNNNNNNWNNNWW
@@ -1398,11 +1414,30 @@ ComponentUpdate16=1
 ComponentIsDeviceSheet16=0
 
 [NetInfos]
-Net1=NetName=3V3|NetColor=$00FF6E6E
-Net2=NetName=GND|NetColor=clYellow
-Net3=NetName=NetC15_2|NetColor=$00FF6E6E
-Net4=NetName=NetC8_2|NetColor=$00FF6E6E
-Net5=NetName=VBAT|NetColor=$006E6EFF
+Net1=NetName=12V|NetColor=$006E6EFF
+Net2=NetName=3V3|NetColor=$00FF6E6E
+Net3=NetName=3V3_ESP|NetColor=$00FF6E6E
+Net4=NetName=3V3_IMU|NetColor=$00FF6E6E
+Net5=NetName=3V3_XBee|NetColor=$00FF6E6E
+Net6=NetName=5V|NetColor=$000083FD
+Net7=NetName=GND|NetColor=clYellow
+Net8=NetName=IN|NetColor=$000083FD
+Net9=NetName=IN_1|NetColor=$000083FD
+Net10=NetName=IN_2|NetColor=$000083FD
+Net11=NetName=IN_3|NetColor=$000083FD
+Net12=NetName=IN_4|NetColor=$000083FD
+Net13=NetName=NetC10_1_2|NetColor=$00FF6E6E
+Net14=NetName=NetC10_2|NetColor=$00FF6E6E
+Net15=NetName=NetC10_3_2|NetColor=$00FF6E6E
+Net16=NetName=NetC15_2|NetColor=$00FF6E6E
+Net17=NetName=NetC3_2|NetColor=$006E6EFF
+Net18=NetName=NetC8_1_2|NetColor=$006E6EFF
+Net19=NetName=NetC8_2|NetColor=$006E6EFF
+Net20=NetName=NetC8_2_2|NetColor=$006E6EFF
+Net21=NetName=NetC8_3_2|NetColor=$006E6EFF
+Net22=NetName=Out|NetColor=$00FF6E6E
+Net23=NetName=OUT_1|NetColor=$00FF6E6E
+Net24=NetName=VBAT|NetColor=$006E6EFF
 
 [Comparison Options]
 ComparisonOptions0=Kind=Net|MinPercent=75|MinMatch=3|ShowMatch=-1|UseName=-1|InclAllRules=0
