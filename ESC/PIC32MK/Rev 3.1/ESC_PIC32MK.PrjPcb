@@ -191,10 +191,12 @@ UniqueId=0F4A890B-1A94-4742-984C-06EB2591D9D2
 Description=Main
 AllowFabrication=0
 ParameterCount=0
-VariationCount=1
+VariationCount=3
 Variation1=Designator=R1|UniqueId=\MZGCZGPP\NFBHISAR|Kind=1|AlternatePart==Value
 ParamVariation1=ParameterName=Comment|VariantValue==Value
 ParamDesignator1=R1
+Variation2=Designator=R21|UniqueId=\BWCJKGGB|Kind=1|AlternatePart=
+Variation3=Designator=R22|UniqueId=\XXOTQLIV|Kind=1|AlternatePart=
 ParamVariationCount=1
 
 [GeneratedDocument1]
@@ -210,330 +212,414 @@ DocumentPath=Outputs\ESC_PIC32MK(Main).step
 DItemRevisionGUID=
 
 [GeneratedDocument4]
-DocumentPath=Gerbers\ESC_PIC32MK.DRR
+DocumentPath=.\Gerbers\ESC_PIC32MK.DRR
 DItemRevisionGUID=
 
 [GeneratedDocument5]
-DocumentPath=Gerbers\ESC_PIC32MK.EXTREP
+DocumentPath=Gerbers\ESC_PIC32MK.DRR
 DItemRevisionGUID=
 
 [GeneratedDocument6]
-DocumentPath=Gerbers\ESC_PIC32MK.G1
+DocumentPath=.\Gerbers\ESC_PIC32MK.EXTREP
 DItemRevisionGUID=
 
 [GeneratedDocument7]
-DocumentPath=Gerbers\ESC_PIC32MK.G2
+DocumentPath=Gerbers\ESC_PIC32MK.EXTREP
 DItemRevisionGUID=
 
 [GeneratedDocument8]
-DocumentPath=Gerbers\ESC_PIC32MK.G3
+DocumentPath=.\Gerbers\ESC_PIC32MK.G1
 DItemRevisionGUID=
 
 [GeneratedDocument9]
-DocumentPath=Gerbers\ESC_PIC32MK.G4
+DocumentPath=Gerbers\ESC_PIC32MK.G1
 DItemRevisionGUID=
 
 [GeneratedDocument10]
-DocumentPath=Gerbers\ESC_PIC32MK.G5
+DocumentPath=.\Gerbers\ESC_PIC32MK.G2
 DItemRevisionGUID=
 
 [GeneratedDocument11]
-DocumentPath=Gerbers\ESC_PIC32MK.G6
+DocumentPath=Gerbers\ESC_PIC32MK.G2
 DItemRevisionGUID=
 
 [GeneratedDocument12]
-DocumentPath=Gerbers\ESC_PIC32MK.GBL
+DocumentPath=.\Gerbers\ESC_PIC32MK.G3
 DItemRevisionGUID=
 
 [GeneratedDocument13]
-DocumentPath=Gerbers\ESC_PIC32MK.GBO
+DocumentPath=Gerbers\ESC_PIC32MK.G3
 DItemRevisionGUID=
 
 [GeneratedDocument14]
-DocumentPath=Gerbers\ESC_PIC32MK.GBP
+DocumentPath=.\Gerbers\ESC_PIC32MK.G4
 DItemRevisionGUID=
 
 [GeneratedDocument15]
-DocumentPath=Gerbers\ESC_PIC32MK.GBS
+DocumentPath=Gerbers\ESC_PIC32MK.G4
 DItemRevisionGUID=
 
 [GeneratedDocument16]
-DocumentPath=Gerbers\ESC_PIC32MK.GM
+DocumentPath=.\Gerbers\ESC_PIC32MK.G5
 DItemRevisionGUID=
 
 [GeneratedDocument17]
-DocumentPath=Gerbers\ESC_PIC32MK.GM3
+DocumentPath=Gerbers\ESC_PIC32MK.G5
 DItemRevisionGUID=
 
 [GeneratedDocument18]
-DocumentPath=Gerbers\ESC_PIC32MK.GTL
+DocumentPath=.\Gerbers\ESC_PIC32MK.G6
 DItemRevisionGUID=
 
 [GeneratedDocument19]
-DocumentPath=Gerbers\ESC_PIC32MK.GTO
+DocumentPath=Gerbers\ESC_PIC32MK.G6
 DItemRevisionGUID=
 
 [GeneratedDocument20]
-DocumentPath=Gerbers\ESC_PIC32MK.GTP
+DocumentPath=.\Gerbers\ESC_PIC32MK.GBL
 DItemRevisionGUID=
 
 [GeneratedDocument21]
-DocumentPath=Gerbers\ESC_PIC32MK.GTS
+DocumentPath=Gerbers\ESC_PIC32MK.GBL
 DItemRevisionGUID=
 
 [GeneratedDocument22]
-DocumentPath=Gerbers\ESC_PIC32MK.LDP
+DocumentPath=.\Gerbers\ESC_PIC32MK.GBO
 DItemRevisionGUID=
 
 [GeneratedDocument23]
-DocumentPath=Gerbers\ESC_PIC32MK.REP
+DocumentPath=Gerbers\ESC_PIC32MK.GBO
 DItemRevisionGUID=
 
 [GeneratedDocument24]
-DocumentPath=Gerbers\ESC_PIC32MK.TXT
+DocumentPath=.\Gerbers\ESC_PIC32MK.GBP
 DItemRevisionGUID=
 
 [GeneratedDocument25]
-DocumentPath=Outputs\MotorBoard(Main).step
+DocumentPath=Gerbers\ESC_PIC32MK.GBP
 DItemRevisionGUID=
 
 [GeneratedDocument26]
-DocumentPath=Gerbers\MotorBoard.DRR
+DocumentPath=.\Gerbers\ESC_PIC32MK.GBS
 DItemRevisionGUID=
 
 [GeneratedDocument27]
-DocumentPath=Project Outputs for MotorBoard\MotorBoard.DRR
+DocumentPath=Gerbers\ESC_PIC32MK.GBS
 DItemRevisionGUID=
 
 [GeneratedDocument28]
-DocumentPath=Gerbers\MotorBoard.EXTREP
+DocumentPath=.\Gerbers\ESC_PIC32MK.GM
 DItemRevisionGUID=
 
 [GeneratedDocument29]
-DocumentPath=Project Outputs for MotorBoard\MotorBoard.EXTREP
+DocumentPath=Gerbers\ESC_PIC32MK.GM
 DItemRevisionGUID=
 
 [GeneratedDocument30]
-DocumentPath=Gerbers\MotorBoard.G1
+DocumentPath=.\Gerbers\ESC_PIC32MK.GM3
 DItemRevisionGUID=
 
 [GeneratedDocument31]
-DocumentPath=Project Outputs for MotorBoard\MotorBoard.G1
+DocumentPath=Gerbers\ESC_PIC32MK.GM3
 DItemRevisionGUID=
 
 [GeneratedDocument32]
-DocumentPath=Gerbers\MotorBoard.G2
+DocumentPath=.\Gerbers\ESC_PIC32MK.GTL
 DItemRevisionGUID=
 
 [GeneratedDocument33]
-DocumentPath=Project Outputs for MotorBoard\MotorBoard.G2
+DocumentPath=Gerbers\ESC_PIC32MK.GTL
 DItemRevisionGUID=
 
 [GeneratedDocument34]
-DocumentPath=Gerbers\MotorBoard.G3
+DocumentPath=.\Gerbers\ESC_PIC32MK.GTO
 DItemRevisionGUID=
 
 [GeneratedDocument35]
-DocumentPath=Project Outputs for MotorBoard\MotorBoard.G3
+DocumentPath=Gerbers\ESC_PIC32MK.GTO
 DItemRevisionGUID=
 
 [GeneratedDocument36]
-DocumentPath=Gerbers\MotorBoard.G4
+DocumentPath=.\Gerbers\ESC_PIC32MK.GTP
 DItemRevisionGUID=
 
 [GeneratedDocument37]
-DocumentPath=Project Outputs for MotorBoard\MotorBoard.G4
+DocumentPath=Gerbers\ESC_PIC32MK.GTP
 DItemRevisionGUID=
 
 [GeneratedDocument38]
-DocumentPath=Gerbers\MotorBoard.G5
+DocumentPath=.\Gerbers\ESC_PIC32MK.GTS
 DItemRevisionGUID=
 
 [GeneratedDocument39]
-DocumentPath=Project Outputs for MotorBoard\MotorBoard.G5
+DocumentPath=Gerbers\ESC_PIC32MK.GTS
 DItemRevisionGUID=
 
 [GeneratedDocument40]
-DocumentPath=Gerbers\MotorBoard.G6
+DocumentPath=.\Gerbers\ESC_PIC32MK.LDP
 DItemRevisionGUID=
 
 [GeneratedDocument41]
-DocumentPath=Project Outputs for MotorBoard\MotorBoard.G6
+DocumentPath=Gerbers\ESC_PIC32MK.LDP
 DItemRevisionGUID=
 
 [GeneratedDocument42]
-DocumentPath=Gerbers\MotorBoard.GBL
+DocumentPath=.\Gerbers\ESC_PIC32MK.REP
 DItemRevisionGUID=
 
 [GeneratedDocument43]
-DocumentPath=Project Outputs for MotorBoard\MotorBoard.GBL
+DocumentPath=Gerbers\ESC_PIC32MK.REP
 DItemRevisionGUID=
 
 [GeneratedDocument44]
-DocumentPath=Gerbers\MotorBoard.GBO
+DocumentPath=.\Gerbers\ESC_PIC32MK.TXT
 DItemRevisionGUID=
 
 [GeneratedDocument45]
-DocumentPath=Project Outputs for MotorBoard\MotorBoard.GBO
+DocumentPath=Gerbers\ESC_PIC32MK.TXT
 DItemRevisionGUID=
 
 [GeneratedDocument46]
-DocumentPath=Gerbers\MotorBoard.GBP
+DocumentPath=Outputs\MotorBoard(Main).step
 DItemRevisionGUID=
 
 [GeneratedDocument47]
-DocumentPath=Gerbers\MotorBoard.GBS
+DocumentPath=Gerbers\MotorBoard.DRR
 DItemRevisionGUID=
 
 [GeneratedDocument48]
-DocumentPath=Project Outputs for MotorBoard\MotorBoard.GBS
+DocumentPath=Project Outputs for MotorBoard\MotorBoard.DRR
 DItemRevisionGUID=
 
 [GeneratedDocument49]
-DocumentPath=Gerbers\MotorBoard.GM
+DocumentPath=Gerbers\MotorBoard.EXTREP
 DItemRevisionGUID=
 
 [GeneratedDocument50]
-DocumentPath=Project Outputs for MotorBoard\MotorBoard.GM
+DocumentPath=Project Outputs for MotorBoard\MotorBoard.EXTREP
 DItemRevisionGUID=
 
 [GeneratedDocument51]
-DocumentPath=Gerbers\MotorBoard.GM3
+DocumentPath=Gerbers\MotorBoard.G1
 DItemRevisionGUID=
 
 [GeneratedDocument52]
-DocumentPath=Project Outputs for MotorBoard\MotorBoard.GM3
+DocumentPath=Project Outputs for MotorBoard\MotorBoard.G1
 DItemRevisionGUID=
 
 [GeneratedDocument53]
-DocumentPath=Gerbers\MotorBoard.GTL
+DocumentPath=Gerbers\MotorBoard.G2
 DItemRevisionGUID=
 
 [GeneratedDocument54]
-DocumentPath=Project Outputs for MotorBoard\MotorBoard.GTL
+DocumentPath=Project Outputs for MotorBoard\MotorBoard.G2
 DItemRevisionGUID=
 
 [GeneratedDocument55]
-DocumentPath=Gerbers\MotorBoard.GTO
+DocumentPath=Gerbers\MotorBoard.G3
 DItemRevisionGUID=
 
 [GeneratedDocument56]
-DocumentPath=Project Outputs for MotorBoard\MotorBoard.GTO
+DocumentPath=Project Outputs for MotorBoard\MotorBoard.G3
 DItemRevisionGUID=
 
 [GeneratedDocument57]
-DocumentPath=Gerbers\MotorBoard.GTP
+DocumentPath=Gerbers\MotorBoard.G4
 DItemRevisionGUID=
 
 [GeneratedDocument58]
-DocumentPath=Gerbers\MotorBoard.GTS
+DocumentPath=Project Outputs for MotorBoard\MotorBoard.G4
 DItemRevisionGUID=
 
 [GeneratedDocument59]
-DocumentPath=Project Outputs for MotorBoard\MotorBoard.GTS
+DocumentPath=Gerbers\MotorBoard.G5
 DItemRevisionGUID=
 
 [GeneratedDocument60]
-DocumentPath=Gerbers\MotorBoard.LDP
+DocumentPath=Project Outputs for MotorBoard\MotorBoard.G5
 DItemRevisionGUID=
 
 [GeneratedDocument61]
-DocumentPath=Project Outputs for MotorBoard\MotorBoard.LDP
+DocumentPath=Gerbers\MotorBoard.G6
 DItemRevisionGUID=
 
 [GeneratedDocument62]
-DocumentPath=Gerbers\MotorBoard.REP
+DocumentPath=Project Outputs for MotorBoard\MotorBoard.G6
 DItemRevisionGUID=
 
 [GeneratedDocument63]
-DocumentPath=Project Outputs for MotorBoard\MotorBoard.REP
+DocumentPath=Gerbers\MotorBoard.GBL
 DItemRevisionGUID=
 
 [GeneratedDocument64]
-DocumentPath=Project Outputs for MotorBoard\MotorBoard.RUL
+DocumentPath=Project Outputs for MotorBoard\MotorBoard.GBL
 DItemRevisionGUID=
 
 [GeneratedDocument65]
-DocumentPath=Outputs\MotorBoard.step
+DocumentPath=Gerbers\MotorBoard.GBO
 DItemRevisionGUID=
 
 [GeneratedDocument66]
-DocumentPath=Gerbers\MotorBoard.TXT
+DocumentPath=Project Outputs for MotorBoard\MotorBoard.GBO
 DItemRevisionGUID=
 
 [GeneratedDocument67]
-DocumentPath=Project Outputs for MotorBoard\MotorBoard.TXT
+DocumentPath=Gerbers\MotorBoard.GBP
 DItemRevisionGUID=
 
 [GeneratedDocument68]
-DocumentPath=Project Outputs for MotorBoard\MotorBoard_Board_Outline.gbr
+DocumentPath=Gerbers\MotorBoard.GBS
 DItemRevisionGUID=
 
 [GeneratedDocument69]
-DocumentPath=Project Outputs for MotorBoard\MotorBoard_Copper_Signal_1.gbr
+DocumentPath=Project Outputs for MotorBoard\MotorBoard.GBS
 DItemRevisionGUID=
 
 [GeneratedDocument70]
-DocumentPath=Project Outputs for MotorBoard\MotorBoard_Copper_Signal_2.gbr
+DocumentPath=Gerbers\MotorBoard.GM
 DItemRevisionGUID=
 
 [GeneratedDocument71]
-DocumentPath=Project Outputs for MotorBoard\MotorBoard_Copper_Signal_3.gbr
+DocumentPath=Project Outputs for MotorBoard\MotorBoard.GM
 DItemRevisionGUID=
 
 [GeneratedDocument72]
-DocumentPath=Project Outputs for MotorBoard\MotorBoard_Copper_Signal_4.gbr
+DocumentPath=Gerbers\MotorBoard.GM3
 DItemRevisionGUID=
 
 [GeneratedDocument73]
-DocumentPath=Project Outputs for MotorBoard\MotorBoard_Copper_Signal_5.gbr
+DocumentPath=Project Outputs for MotorBoard\MotorBoard.GM3
 DItemRevisionGUID=
 
 [GeneratedDocument74]
-DocumentPath=Project Outputs for MotorBoard\MotorBoard_Copper_Signal_6.gbr
+DocumentPath=Gerbers\MotorBoard.GTL
 DItemRevisionGUID=
 
 [GeneratedDocument75]
-DocumentPath=Project Outputs for MotorBoard\MotorBoard_Copper_Signal_Bot.gbr
+DocumentPath=Project Outputs for MotorBoard\MotorBoard.GTL
 DItemRevisionGUID=
 
 [GeneratedDocument76]
-DocumentPath=Project Outputs for MotorBoard\MotorBoard_Copper_Signal_Top.gbr
+DocumentPath=Gerbers\MotorBoard.GTO
 DItemRevisionGUID=
 
 [GeneratedDocument77]
-DocumentPath=Project Outputs for MotorBoard\MotorBoard_Legend_Bot.gbr
+DocumentPath=Project Outputs for MotorBoard\MotorBoard.GTO
 DItemRevisionGUID=
 
 [GeneratedDocument78]
-DocumentPath=Project Outputs for MotorBoard\MotorBoard_Legend_Top.gbr
+DocumentPath=Gerbers\MotorBoard.GTP
 DItemRevisionGUID=
 
 [GeneratedDocument79]
-DocumentPath=Project Outputs for MotorBoard\MotorBoard_NPTH_Drill.gbr
+DocumentPath=Gerbers\MotorBoard.GTS
 DItemRevisionGUID=
 
 [GeneratedDocument80]
-DocumentPath=Project Outputs for MotorBoard\MotorBoard_Paste_Bot.gbr
+DocumentPath=Project Outputs for MotorBoard\MotorBoard.GTS
 DItemRevisionGUID=
 
 [GeneratedDocument81]
-DocumentPath=Project Outputs for MotorBoard\MotorBoard_Paste_Top.gbr
+DocumentPath=Gerbers\MotorBoard.LDP
 DItemRevisionGUID=
 
 [GeneratedDocument82]
-DocumentPath=Project Outputs for MotorBoard\MotorBoard_Profile.gbr
+DocumentPath=Project Outputs for MotorBoard\MotorBoard.LDP
 DItemRevisionGUID=
 
 [GeneratedDocument83]
-DocumentPath=Project Outputs for MotorBoard\MotorBoard_PTH_Drill.gbr
+DocumentPath=Gerbers\MotorBoard.REP
 DItemRevisionGUID=
 
 [GeneratedDocument84]
-DocumentPath=Project Outputs for MotorBoard\MotorBoard_Soldermask_Bot.gbr
+DocumentPath=Project Outputs for MotorBoard\MotorBoard.REP
 DItemRevisionGUID=
 
 [GeneratedDocument85]
+DocumentPath=Project Outputs for MotorBoard\MotorBoard.RUL
+DItemRevisionGUID=
+
+[GeneratedDocument86]
+DocumentPath=Outputs\MotorBoard.step
+DItemRevisionGUID=
+
+[GeneratedDocument87]
+DocumentPath=Gerbers\MotorBoard.TXT
+DItemRevisionGUID=
+
+[GeneratedDocument88]
+DocumentPath=Project Outputs for MotorBoard\MotorBoard.TXT
+DItemRevisionGUID=
+
+[GeneratedDocument89]
+DocumentPath=Project Outputs for MotorBoard\MotorBoard_Board_Outline.gbr
+DItemRevisionGUID=
+
+[GeneratedDocument90]
+DocumentPath=Project Outputs for MotorBoard\MotorBoard_Copper_Signal_1.gbr
+DItemRevisionGUID=
+
+[GeneratedDocument91]
+DocumentPath=Project Outputs for MotorBoard\MotorBoard_Copper_Signal_2.gbr
+DItemRevisionGUID=
+
+[GeneratedDocument92]
+DocumentPath=Project Outputs for MotorBoard\MotorBoard_Copper_Signal_3.gbr
+DItemRevisionGUID=
+
+[GeneratedDocument93]
+DocumentPath=Project Outputs for MotorBoard\MotorBoard_Copper_Signal_4.gbr
+DItemRevisionGUID=
+
+[GeneratedDocument94]
+DocumentPath=Project Outputs for MotorBoard\MotorBoard_Copper_Signal_5.gbr
+DItemRevisionGUID=
+
+[GeneratedDocument95]
+DocumentPath=Project Outputs for MotorBoard\MotorBoard_Copper_Signal_6.gbr
+DItemRevisionGUID=
+
+[GeneratedDocument96]
+DocumentPath=Project Outputs for MotorBoard\MotorBoard_Copper_Signal_Bot.gbr
+DItemRevisionGUID=
+
+[GeneratedDocument97]
+DocumentPath=Project Outputs for MotorBoard\MotorBoard_Copper_Signal_Top.gbr
+DItemRevisionGUID=
+
+[GeneratedDocument98]
+DocumentPath=Project Outputs for MotorBoard\MotorBoard_Legend_Bot.gbr
+DItemRevisionGUID=
+
+[GeneratedDocument99]
+DocumentPath=Project Outputs for MotorBoard\MotorBoard_Legend_Top.gbr
+DItemRevisionGUID=
+
+[GeneratedDocument100]
+DocumentPath=Project Outputs for MotorBoard\MotorBoard_NPTH_Drill.gbr
+DItemRevisionGUID=
+
+[GeneratedDocument101]
+DocumentPath=Project Outputs for MotorBoard\MotorBoard_Paste_Bot.gbr
+DItemRevisionGUID=
+
+[GeneratedDocument102]
+DocumentPath=Project Outputs for MotorBoard\MotorBoard_Paste_Top.gbr
+DItemRevisionGUID=
+
+[GeneratedDocument103]
+DocumentPath=Project Outputs for MotorBoard\MotorBoard_Profile.gbr
+DItemRevisionGUID=
+
+[GeneratedDocument104]
+DocumentPath=Project Outputs for MotorBoard\MotorBoard_PTH_Drill.gbr
+DItemRevisionGUID=
+
+[GeneratedDocument105]
+DocumentPath=Project Outputs for MotorBoard\MotorBoard_Soldermask_Bot.gbr
+DItemRevisionGUID=
+
+[GeneratedDocument106]
 DocumentPath=Project Outputs for MotorBoard\MotorBoard_Soldermask_Top.gbr
 DItemRevisionGUID=
 
@@ -1551,9 +1637,9 @@ UpdateVariants=1
 UpdateToLatestRevision=1
 PartTypes=0
 ComponentLibIdentifierKind0=Library Name And Type
-ComponentLibraryIdentifier0=IC.IntLib
-ComponentDesignItemID0=TMP1075
-ComponentSymbolReference0=TMP1075
+ComponentLibraryIdentifier0=Celestial Altium Library - altium_library.DbLib/Resistors - Surface Mount - 0402
+ComponentDesignItemID0=RK73H1ETTP1432F
+ComponentSymbolReference0=Resistor
 ComponentUpdate0=1
 ComponentIsDeviceSheet0=0
 FullReplace=1
@@ -1573,14 +1659,76 @@ ParameterName0=Comment
 ParameterUpdate0=1
 ParameterName1=Component Kind
 ParameterUpdate1=1
-ParameterName2=Description
+ParameterName2=ComponentLink1Description
 ParameterUpdate2=1
-ParameterName3=Library Reference
+ParameterName3=ComponentLink1URL
 ParameterUpdate3=1
+ParameterName4=ComponentLink2Description
+ParameterUpdate4=1
+ParameterName5=ComponentLink2URL
+ParameterUpdate5=1
+ParameterName6=Composition
+ParameterUpdate6=1
+ParameterName7=Description
+ParameterUpdate7=1
+ParameterName8=Device Package
+ParameterUpdate8=1
+ParameterName9=Features
+ParameterUpdate9=1
+ParameterName10=Height - Seated (Max)
+ParameterUpdate10=1
+ParameterName11=LastUpdated
+ParameterUpdate11=1
+ParameterName12=Library Reference
+ParameterUpdate12=1
+ParameterName13=Lifecycle Status
+ParameterUpdate13=1
+ParameterName14=Manufacturer
+ParameterUpdate14=1
+ParameterName15=Minimum Order
+ParameterUpdate15=1
+ParameterName16=Number of Terminations
+ParameterUpdate16=1
+ParameterName17=Operating Temperature
+ParameterUpdate17=1
+ParameterName18=Package / Case
+ParameterUpdate18=1
+ParameterName19=Packaging
+ParameterUpdate19=1
+ParameterName20=Part Number
+ParameterUpdate20=1
+ParameterName21=Part Status
+ParameterUpdate21=1
+ParameterName22=PartId
+ParameterUpdate22=1
+ParameterName23=Power (Watts)
+ParameterUpdate23=1
+ParameterName24=Price
+ParameterUpdate24=1
+ParameterName25=Ratings
+ParameterUpdate25=1
+ParameterName26=Resistance
+ParameterUpdate26=1
+ParameterName27=Series
+ParameterUpdate27=1
+ParameterName28=Size / Dimension
+ParameterUpdate28=1
+ParameterName29=Supplier 1
+ParameterUpdate29=1
+ParameterName30=Supplier Device Package
+ParameterUpdate30=1
+ParameterName31=Supplier Part Number 1
+ParameterUpdate31=1
+ParameterName32=Temperature Coefficient
+ParameterUpdate32=1
+ParameterName33=Tolerance
+ParameterUpdate33=1
+ParameterName34=Value
+ParameterUpdate34=1
 ModelTypeGroup0=PCBLIB
 ModelTypeUpdate0=1
 ModelType0=PCBLIB
-ModelName0=8_WSON_2x2_0.5mm
+ModelName0=KOA RES RK73 RN73 0402_1005
 ModelUpdate0=1
 
 [DatabaseUpdateOptions]
