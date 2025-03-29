@@ -123,156 +123,170 @@ UniqueId=0F4A890B-1A94-4742-984C-06EB2591D9D2
 Description=Main
 AllowFabrication=0
 ParameterCount=0
-VariationCount=2
-Variation1=Designator=R26|UniqueId=\CANSICCZ|Kind=1|AlternatePart=
-Variation2=Designator=R25|UniqueId=\ZSMOSMET|Kind=1|AlternatePart=
+VariationCount=0
 ParamVariationCount=0
 
 [GeneratedDocument1]
-DocumentPath=Project Outputs for Sensor\Design Rule Check - Sensor.html
+DocumentPath=Project Outputs for PDB\Design Rule Check - PDB.html
 DItemRevisionGUID=
 
 [GeneratedDocument2]
-DocumentPath=.\Gerbers\PDB-RoundHoles.TXT
+DocumentPath=Project Outputs for Sensor\Design Rule Check - Sensor.html
 DItemRevisionGUID=
 
 [GeneratedDocument3]
-DocumentPath=.\Gerbers\PDB-SlotHoles.TXT
+DocumentPath=Gerbers\PDB-RoundHoles.TXT
 DItemRevisionGUID=
 
 [GeneratedDocument4]
-DocumentPath=.\Gerbers\PDB.DRR
+DocumentPath=Gerbers\PDB-SlotHoles.TXT
 DItemRevisionGUID=
 
 [GeneratedDocument5]
-DocumentPath=.\Gerbers\PDB.EXTREP
+DocumentPath=Gerbers\PDB.DRR
 DItemRevisionGUID=
 
 [GeneratedDocument6]
-DocumentPath=.\Gerbers\PDB.G1
+DocumentPath=Gerbers\PDB.EXTREP
 DItemRevisionGUID=
 
 [GeneratedDocument7]
-DocumentPath=.\Gerbers\PDB.G2
+DocumentPath=Gerbers\PDB.G1
 DItemRevisionGUID=
 
 [GeneratedDocument8]
-DocumentPath=.\Gerbers\PDB.GBL
+DocumentPath=Gerbers\PDB.G2
 DItemRevisionGUID=
 
 [GeneratedDocument9]
-DocumentPath=.\Gerbers\PDB.GBO
+DocumentPath=Gerbers\PDB.GBL
 DItemRevisionGUID=
 
 [GeneratedDocument10]
-DocumentPath=.\Gerbers\PDB.GBP
+DocumentPath=Gerbers\PDB.GBO
 DItemRevisionGUID=
 
 [GeneratedDocument11]
-DocumentPath=.\Gerbers\PDB.GBS
+DocumentPath=Gerbers\PDB.GBP
 DItemRevisionGUID=
 
 [GeneratedDocument12]
-DocumentPath=.\Gerbers\PDB.GM
+DocumentPath=Gerbers\PDB.GBS
 DItemRevisionGUID=
 
 [GeneratedDocument13]
-DocumentPath=.\Gerbers\PDB.GM3
+DocumentPath=Gerbers\PDB.GM
 DItemRevisionGUID=
 
 [GeneratedDocument14]
-DocumentPath=.\Gerbers\PDB.GTL
+DocumentPath=Gerbers\PDB.GM3
 DItemRevisionGUID=
 
 [GeneratedDocument15]
-DocumentPath=.\Gerbers\PDB.GTO
+DocumentPath=Gerbers\PDB.GTL
 DItemRevisionGUID=
 
 [GeneratedDocument16]
-DocumentPath=.\Gerbers\PDB.GTP
+DocumentPath=Gerbers\PDB.GTO
 DItemRevisionGUID=
 
 [GeneratedDocument17]
-DocumentPath=.\Gerbers\PDB.GTS
+DocumentPath=Gerbers\PDB.GTP
 DItemRevisionGUID=
 
 [GeneratedDocument18]
-DocumentPath=.\Gerbers\PDB.LDP
+DocumentPath=Gerbers\PDB.GTS
 DItemRevisionGUID=
 
 [GeneratedDocument19]
-DocumentPath=.\Gerbers\PDB.REP
+DocumentPath=Gerbers\PDB.LDP
 DItemRevisionGUID=
 
 [GeneratedDocument20]
-DocumentPath=Gerbers\Sensor.DRR
+DocumentPath=Gerbers\PDB.REP
 DItemRevisionGUID=
 
 [GeneratedDocument21]
-DocumentPath=Gerbers\Sensor.EXTREP
+DocumentPath=.\Outputs\PDB.step
 DItemRevisionGUID=
 
 [GeneratedDocument22]
-DocumentPath=Gerbers\Sensor.G1
+DocumentPath=Outputs\PDB.step
 DItemRevisionGUID=
 
 [GeneratedDocument23]
-DocumentPath=Gerbers\Sensor.G2
+DocumentPath=Gerbers\PDB.TXT
 DItemRevisionGUID=
 
 [GeneratedDocument24]
-DocumentPath=Gerbers\Sensor.GBL
+DocumentPath=Gerbers\Sensor.DRR
 DItemRevisionGUID=
 
 [GeneratedDocument25]
-DocumentPath=Gerbers\Sensor.GBO
+DocumentPath=Gerbers\Sensor.EXTREP
 DItemRevisionGUID=
 
 [GeneratedDocument26]
-DocumentPath=Gerbers\Sensor.GBP
+DocumentPath=Gerbers\Sensor.G1
 DItemRevisionGUID=
 
 [GeneratedDocument27]
-DocumentPath=Gerbers\Sensor.GBS
+DocumentPath=Gerbers\Sensor.G2
 DItemRevisionGUID=
 
 [GeneratedDocument28]
-DocumentPath=Gerbers\Sensor.GM
+DocumentPath=Gerbers\Sensor.GBL
 DItemRevisionGUID=
 
 [GeneratedDocument29]
-DocumentPath=Gerbers\Sensor.GM3
+DocumentPath=Gerbers\Sensor.GBO
 DItemRevisionGUID=
 
 [GeneratedDocument30]
-DocumentPath=Gerbers\Sensor.GTL
+DocumentPath=Gerbers\Sensor.GBP
 DItemRevisionGUID=
 
 [GeneratedDocument31]
-DocumentPath=Gerbers\Sensor.GTO
+DocumentPath=Gerbers\Sensor.GBS
 DItemRevisionGUID=
 
 [GeneratedDocument32]
-DocumentPath=Gerbers\Sensor.GTP
+DocumentPath=Gerbers\Sensor.GM
 DItemRevisionGUID=
 
 [GeneratedDocument33]
-DocumentPath=Gerbers\Sensor.GTS
+DocumentPath=Gerbers\Sensor.GM3
 DItemRevisionGUID=
 
 [GeneratedDocument34]
-DocumentPath=Gerbers\Sensor.LDP
+DocumentPath=Gerbers\Sensor.GTL
 DItemRevisionGUID=
 
 [GeneratedDocument35]
-DocumentPath=Gerbers\Sensor.REP
+DocumentPath=Gerbers\Sensor.GTO
 DItemRevisionGUID=
 
 [GeneratedDocument36]
-DocumentPath=Outputs\Sensor.step
+DocumentPath=Gerbers\Sensor.GTP
 DItemRevisionGUID=
 
 [GeneratedDocument37]
+DocumentPath=Gerbers\Sensor.GTS
+DItemRevisionGUID=
+
+[GeneratedDocument38]
+DocumentPath=Gerbers\Sensor.LDP
+DItemRevisionGUID=
+
+[GeneratedDocument39]
+DocumentPath=Gerbers\Sensor.REP
+DItemRevisionGUID=
+
+[GeneratedDocument40]
+DocumentPath=Outputs\Sensor.step
+DItemRevisionGUID=
+
+[GeneratedDocument41]
 DocumentPath=Gerbers\Sensor.TXT
 DItemRevisionGUID=
 
@@ -860,36 +874,6 @@ OutputName12=Web Review Data
 OutputDocumentPath12=
 OutputVariantName12=
 OutputDefault12=0
-OutputType13=Ansoft Neutral
-OutputName13=Ansoft Neutral (AutoPCB)
-OutputDocumentPath13=
-OutputVariantName13=
-OutputDefault13=0
-OutputType14=HyperLynx
-OutputName14=HyperLynx (AutoPCB)
-OutputDocumentPath14=
-OutputVariantName14=
-OutputDefault14=0
-OutputType15=MathWorks
-OutputName15=MathWorks (AutoPCB)
-OutputDocumentPath15=
-OutputVariantName15=
-OutputDefault15=0
-OutputType16=Orcad v7 Capture Design
-OutputName16=Orcad v7 Capture Design (AutoSCH)
-OutputDocumentPath16=
-OutputVariantName16=
-OutputDefault16=0
-OutputType17=P-CAD ASCII
-OutputName17=P-CAD ASCII (AutoPCB)
-OutputDocumentPath17=
-OutputVariantName17=
-OutputDefault17=0
-OutputType18=P-CAD V16 Schematic Design
-OutputName18=P-CAD V16 Schematic Design (AutoSCH)
-OutputDocumentPath18=
-OutputVariantName18=
-OutputDefault18=0
 
 [OutputGroup10]
 Name=PostProcess Outputs
