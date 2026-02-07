@@ -269,87 +269,87 @@ Variation6=Designator=R22_3|UniqueId=\3OCQKBGNW\XXOTQLIV|Kind=1|AlternatePart=
 ParamVariationCount=0
 
 [GeneratedDocument1]
-DocumentPath=.\Gerbers\Cubli.DRR
+DocumentPath=Gerbers\Cubli.DRR
 DItemRevisionGUID=
 
 [GeneratedDocument2]
-DocumentPath=.\Gerbers\Cubli.EXTREP
+DocumentPath=Gerbers\Cubli.EXTREP
 DItemRevisionGUID=
 
 [GeneratedDocument3]
-DocumentPath=.\Gerbers\Cubli.G1
+DocumentPath=Gerbers\Cubli.G1
 DItemRevisionGUID=
 
 [GeneratedDocument4]
-DocumentPath=.\Gerbers\Cubli.G2
+DocumentPath=Gerbers\Cubli.G2
 DItemRevisionGUID=
 
 [GeneratedDocument5]
-DocumentPath=.\Gerbers\Cubli.G3
+DocumentPath=Gerbers\Cubli.G3
 DItemRevisionGUID=
 
 [GeneratedDocument6]
-DocumentPath=.\Gerbers\Cubli.G4
+DocumentPath=Gerbers\Cubli.G4
 DItemRevisionGUID=
 
 [GeneratedDocument7]
-DocumentPath=.\Gerbers\Cubli.G5
+DocumentPath=Gerbers\Cubli.G5
 DItemRevisionGUID=
 
 [GeneratedDocument8]
-DocumentPath=.\Gerbers\Cubli.G6
+DocumentPath=Gerbers\Cubli.G6
 DItemRevisionGUID=
 
 [GeneratedDocument9]
-DocumentPath=.\Gerbers\Cubli.GBL
+DocumentPath=Gerbers\Cubli.GBL
 DItemRevisionGUID=
 
 [GeneratedDocument10]
-DocumentPath=.\Gerbers\Cubli.GBO
+DocumentPath=Gerbers\Cubli.GBO
 DItemRevisionGUID=
 
 [GeneratedDocument11]
-DocumentPath=.\Gerbers\Cubli.GBP
+DocumentPath=Gerbers\Cubli.GBP
 DItemRevisionGUID=
 
 [GeneratedDocument12]
-DocumentPath=.\Gerbers\Cubli.GBS
+DocumentPath=Gerbers\Cubli.GBS
 DItemRevisionGUID=
 
 [GeneratedDocument13]
-DocumentPath=.\Gerbers\Cubli.GM
+DocumentPath=Gerbers\Cubli.GM
 DItemRevisionGUID=
 
 [GeneratedDocument14]
-DocumentPath=.\Gerbers\Cubli.GM3
+DocumentPath=Gerbers\Cubli.GM3
 DItemRevisionGUID=
 
 [GeneratedDocument15]
-DocumentPath=.\Gerbers\Cubli.GTL
+DocumentPath=Gerbers\Cubli.GTL
 DItemRevisionGUID=
 
 [GeneratedDocument16]
-DocumentPath=.\Gerbers\Cubli.GTO
+DocumentPath=Gerbers\Cubli.GTO
 DItemRevisionGUID=
 
 [GeneratedDocument17]
-DocumentPath=.\Gerbers\Cubli.GTP
+DocumentPath=Gerbers\Cubli.GTP
 DItemRevisionGUID=
 
 [GeneratedDocument18]
-DocumentPath=.\Gerbers\Cubli.GTS
+DocumentPath=Gerbers\Cubli.GTS
 DItemRevisionGUID=
 
 [GeneratedDocument19]
-DocumentPath=.\Gerbers\Cubli.LDP
+DocumentPath=Gerbers\Cubli.LDP
 DItemRevisionGUID=
 
 [GeneratedDocument20]
-DocumentPath=.\Gerbers\Cubli.REP
+DocumentPath=Gerbers\Cubli.REP
 DItemRevisionGUID=
 
 [GeneratedDocument21]
-DocumentPath=.\Gerbers\Cubli.TXT
+DocumentPath=Gerbers\Cubli.TXT
 DItemRevisionGUID=
 
 [GeneratedDocument22]
