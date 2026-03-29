@@ -1,6 +1,6 @@
 ﻿[Design]
 Version=1.0
-HierarchyMode=0
+HierarchyMode=3
 ChannelRoomNamingStyle=0
 ReleasesFolder=
 ChannelDesignatorFormatString=$Component_$ChannelIndex
@@ -68,6 +68,23 @@ GenerateClassCluster=0
 DocumentUniqueId=KWFGIMKG
 
 [Document2]
+DocumentPath=Power.SchDoc
+AnnotationEnabled=1
+AnnotateStartValue=1
+AnnotationIndexControlEnabled=0
+AnnotateSuffix=
+AnnotateScope=All
+AnnotateOrder=7
+DoLibraryUpdate=1
+DoDatabaseUpdate=1
+ClassGenCCAutoEnabled=1
+ClassGenCCAutoRoomEnabled=0
+ClassGenNCAutoScope=None
+DItemRevisionGUID=
+GenerateClassCluster=0
+DocumentUniqueId=LKNFTXIW
+
+[Document3]
 DocumentPath=Charger.PcbDoc
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -84,7 +101,7 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=RYWHGGOK
 
-[Document3]
+[Document4]
 DocumentPath=Encoder.OutJob
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -110,62 +127,66 @@ VariationCount=0
 ParamVariationCount=0
 
 [GeneratedDocument1]
-DocumentPath=Gerbers\Encoder.DRR
+DocumentPath=Project Outputs for Charger\Design Rule Check - Charger.html
 DItemRevisionGUID=
 
 [GeneratedDocument2]
-DocumentPath=Gerbers\Encoder.EXTREP
+DocumentPath=Gerbers\Encoder.DRR
 DItemRevisionGUID=
 
 [GeneratedDocument3]
-DocumentPath=Gerbers\Encoder.GBL
+DocumentPath=Gerbers\Encoder.EXTREP
 DItemRevisionGUID=
 
 [GeneratedDocument4]
-DocumentPath=Gerbers\Encoder.GBO
+DocumentPath=Gerbers\Encoder.GBL
 DItemRevisionGUID=
 
 [GeneratedDocument5]
-DocumentPath=Gerbers\Encoder.GBP
+DocumentPath=Gerbers\Encoder.GBO
 DItemRevisionGUID=
 
 [GeneratedDocument6]
-DocumentPath=Gerbers\Encoder.GBS
+DocumentPath=Gerbers\Encoder.GBP
 DItemRevisionGUID=
 
 [GeneratedDocument7]
-DocumentPath=Gerbers\Encoder.GM
+DocumentPath=Gerbers\Encoder.GBS
 DItemRevisionGUID=
 
 [GeneratedDocument8]
-DocumentPath=Gerbers\Encoder.GTL
+DocumentPath=Gerbers\Encoder.GM
 DItemRevisionGUID=
 
 [GeneratedDocument9]
-DocumentPath=Gerbers\Encoder.GTO
+DocumentPath=Gerbers\Encoder.GTL
 DItemRevisionGUID=
 
 [GeneratedDocument10]
-DocumentPath=Gerbers\Encoder.GTP
+DocumentPath=Gerbers\Encoder.GTO
 DItemRevisionGUID=
 
 [GeneratedDocument11]
-DocumentPath=Gerbers\Encoder.GTS
+DocumentPath=Gerbers\Encoder.GTP
 DItemRevisionGUID=
 
 [GeneratedDocument12]
-DocumentPath=Gerbers\Encoder.LDP
+DocumentPath=Gerbers\Encoder.GTS
 DItemRevisionGUID=
 
 [GeneratedDocument13]
-DocumentPath=Gerbers\Encoder.REP
+DocumentPath=Gerbers\Encoder.LDP
 DItemRevisionGUID=
 
 [GeneratedDocument14]
-DocumentPath=Outputs\Encoder.step
+DocumentPath=Gerbers\Encoder.REP
 DItemRevisionGUID=
 
 [GeneratedDocument15]
+DocumentPath=Outputs\Encoder.step
+DItemRevisionGUID=
+
+[GeneratedDocument16]
 DocumentPath=Gerbers\Encoder.TXT
 DItemRevisionGUID=
 
