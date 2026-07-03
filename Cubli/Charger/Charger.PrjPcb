@@ -102,7 +102,7 @@ GenerateClassCluster=0
 DocumentUniqueId=RYWHGGOK
 
 [Document4]
-DocumentPath=Encoder.OutJob
+DocumentPath=Charger.OutJob
 AnnotationEnabled=1
 AnnotateStartValue=1
 AnnotationIndexControlEnabled=0
@@ -127,66 +127,138 @@ VariationCount=0
 ParamVariationCount=0
 
 [GeneratedDocument1]
-DocumentPath=Project Outputs for Charger\Design Rule Check - Charger.html
+DocumentPath=.\Gerbers\Charger-RoundHoles.TXT
 DItemRevisionGUID=
 
 [GeneratedDocument2]
-DocumentPath=Gerbers\Encoder.DRR
+DocumentPath=.\Gerbers\Charger-SlotHoles.TXT
 DItemRevisionGUID=
 
 [GeneratedDocument3]
-DocumentPath=Gerbers\Encoder.EXTREP
+DocumentPath=.\Gerbers\Charger.DRR
 DItemRevisionGUID=
 
 [GeneratedDocument4]
-DocumentPath=Gerbers\Encoder.GBL
+DocumentPath=.\Gerbers\Charger.EXTREP
 DItemRevisionGUID=
 
 [GeneratedDocument5]
-DocumentPath=Gerbers\Encoder.GBO
+DocumentPath=.\Gerbers\Charger.G1
 DItemRevisionGUID=
 
 [GeneratedDocument6]
-DocumentPath=Gerbers\Encoder.GBP
+DocumentPath=.\Gerbers\Charger.G2
 DItemRevisionGUID=
 
 [GeneratedDocument7]
-DocumentPath=Gerbers\Encoder.GBS
+DocumentPath=.\Gerbers\Charger.GBL
 DItemRevisionGUID=
 
 [GeneratedDocument8]
-DocumentPath=Gerbers\Encoder.GM
+DocumentPath=.\Gerbers\Charger.GBO
 DItemRevisionGUID=
 
 [GeneratedDocument9]
-DocumentPath=Gerbers\Encoder.GTL
+DocumentPath=.\Gerbers\Charger.GBP
 DItemRevisionGUID=
 
 [GeneratedDocument10]
-DocumentPath=Gerbers\Encoder.GTO
+DocumentPath=.\Gerbers\Charger.GBS
 DItemRevisionGUID=
 
 [GeneratedDocument11]
-DocumentPath=Gerbers\Encoder.GTP
+DocumentPath=.\Gerbers\Charger.GM
 DItemRevisionGUID=
 
 [GeneratedDocument12]
-DocumentPath=Gerbers\Encoder.GTS
+DocumentPath=.\Gerbers\Charger.GTL
 DItemRevisionGUID=
 
 [GeneratedDocument13]
-DocumentPath=Gerbers\Encoder.LDP
+DocumentPath=.\Gerbers\Charger.GTO
 DItemRevisionGUID=
 
 [GeneratedDocument14]
-DocumentPath=Gerbers\Encoder.REP
+DocumentPath=.\Gerbers\Charger.GTP
 DItemRevisionGUID=
 
 [GeneratedDocument15]
-DocumentPath=Outputs\Encoder.step
+DocumentPath=.\Gerbers\Charger.GTS
 DItemRevisionGUID=
 
 [GeneratedDocument16]
+DocumentPath=.\Gerbers\Charger.LDP
+DItemRevisionGUID=
+
+[GeneratedDocument17]
+DocumentPath=.\Gerbers\Charger.REP
+DItemRevisionGUID=
+
+[GeneratedDocument18]
+DocumentPath=.\Outputs\Charger.step
+DItemRevisionGUID=
+
+[GeneratedDocument19]
+DocumentPath=Project Outputs for Charger\Design Rule Check - Charger.html
+DItemRevisionGUID=
+
+[GeneratedDocument20]
+DocumentPath=Gerbers\Encoder.DRR
+DItemRevisionGUID=
+
+[GeneratedDocument21]
+DocumentPath=Gerbers\Encoder.EXTREP
+DItemRevisionGUID=
+
+[GeneratedDocument22]
+DocumentPath=Gerbers\Encoder.GBL
+DItemRevisionGUID=
+
+[GeneratedDocument23]
+DocumentPath=Gerbers\Encoder.GBO
+DItemRevisionGUID=
+
+[GeneratedDocument24]
+DocumentPath=Gerbers\Encoder.GBP
+DItemRevisionGUID=
+
+[GeneratedDocument25]
+DocumentPath=Gerbers\Encoder.GBS
+DItemRevisionGUID=
+
+[GeneratedDocument26]
+DocumentPath=Gerbers\Encoder.GM
+DItemRevisionGUID=
+
+[GeneratedDocument27]
+DocumentPath=Gerbers\Encoder.GTL
+DItemRevisionGUID=
+
+[GeneratedDocument28]
+DocumentPath=Gerbers\Encoder.GTO
+DItemRevisionGUID=
+
+[GeneratedDocument29]
+DocumentPath=Gerbers\Encoder.GTP
+DItemRevisionGUID=
+
+[GeneratedDocument30]
+DocumentPath=Gerbers\Encoder.GTS
+DItemRevisionGUID=
+
+[GeneratedDocument31]
+DocumentPath=Gerbers\Encoder.LDP
+DItemRevisionGUID=
+
+[GeneratedDocument32]
+DocumentPath=Gerbers\Encoder.REP
+DItemRevisionGUID=
+
+[GeneratedDocument33]
+DocumentPath=Outputs\Encoder.step
+DItemRevisionGUID=
+
+[GeneratedDocument34]
 DocumentPath=Gerbers\Encoder.TXT
 DItemRevisionGUID=
 
