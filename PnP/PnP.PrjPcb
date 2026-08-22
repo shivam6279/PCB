@@ -37,8 +37,6 @@ IsVirtualBomDocumentRemoved=0
 OutputPath=
 LogFolderPath=
 ManagedProjectGUID=
-VaultGUID=
-ReleaseVaultName=
 Template=dxp://VaultExplorer:Navigate_URL?VaultGUID=AF149D79-98FB-48A7-9B15-5AA95A2EBACF&ItemGUID=BC2AD092-042C-4FE1-B877-6442B21955F6&RevisionGUID=35105273-4234-4BE9-9E87-AB73AE659A02&"MainFilename=PRJT-0002-1.PrjPCB"
 IncludeDesignInRelease=0
 CrossRefSheetStyle=2
@@ -48,7 +46,6 @@ CrossRefCrossSheets=1
 CrossRefSheetEntries=0
 CrossRefFollowFromMainSettings=0
 CurrentVariant=Main
-ItemGUID=
 
 [Preferences]
 PrefsVaultGUID=
@@ -348,7 +345,7 @@ DocumentPath=button_input.SchDoc
 AnnotationEnabled=1
 AnnotateStartValue=1
 AnnotationIndexControlEnabled=0
-AnnotateSuffix=_BTN
+AnnotateSuffix=
 AnnotateScope=All
 AnnotateOrder=10
 DoLibraryUpdate=1
