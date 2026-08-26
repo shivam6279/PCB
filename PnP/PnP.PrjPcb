@@ -442,6 +442,23 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=KZJCVFKL
 
+[Document24]
+DocumentPath=SD_Card.Harness
+AnnotationEnabled=1
+AnnotateStartValue=1
+AnnotationIndexControlEnabled=0
+AnnotateSuffix=
+AnnotateScope=All
+AnnotateOrder=-1
+DoLibraryUpdate=1
+DoDatabaseUpdate=1
+ClassGenCCAutoEnabled=1
+ClassGenCCAutoRoomEnabled=0
+ClassGenNCAutoScope=None
+DItemRevisionGUID=
+GenerateClassCluster=0
+DocumentUniqueId=
+
 [ProjectVariant1]
 UniqueId=af0a5932-ef51-4c17-a23b-987a030aeb58
 Description=Main
@@ -469,6 +486,10 @@ Name=ProjectTitle
 Value=Project
 
 [Parameter3]
+Name=RR_PlaceNear
+Value=[{"paramVis":true,"a":{"refdes":"C7_MCU","srcUid":"MKZOVQBG","pin":"2"},"b":{"refdes":"U1_MCU","srcUid":"YJUBBWJW","pin":"73"},"mm":5},{"paramVis":true,"a":{"refdes":"C8_MCU","srcUid":"ILMRNPTO","pin":"2"},"b":{"refdes":"U1_MCU","srcUid":"YJUBBWJW","pin":"48"},"mm":5},{"paramVis":true,"a":{"refdes":"C13_MCU","srcUid":"YBZUFTTK","pin":"2"},"b":{"refdes":"U1_MCU","srcUid":"YJUBBWJW","pin":"100"},"mm":5},{"paramVis":true,"a":{"refdes":"C14_MCU","srcUid":"XZGWUZUA","pin":"2"},"b":{"refdes":"U1_MCU","srcUid":"YJUBBWJW","pin":"11"},"mm":5},{"paramVis":true,"a":{"refdes":"C15_MCU","srcUid":"LAALGSAD","pin":"2"},"b":{"refdes":"U1_MCU","srcUid":"YJUBBWJW","pin":"27"},"mm":5},{"paramVis":true,"a":{"refdes":"C16_MCU","srcUid":"AYAAMLSY","pin":"2"},"b":{"refdes":"U1_MCU","srcUid":"YJUBBWJW","pin":"50"},"mm":5},{"paramVis":true,"a":{"refdes":"C17_MCU","srcUid":"DWRWYZPW","pin":"2"},"b":{"refdes":"U1_MCU","srcUid":"YJUBBWJW","pin":"75"},"mm":5},{"paramVis":true,"a":{"refdes":"C18_MCU","srcUid":"ULGSEDIV","pin":"2"},"b":{"refdes":"U1_MCU","srcUid":"YJUBBWJW","pin":"21"},"mm":5}]
+
+[Parameter4]
 Name=SchRevision
 Value=0.1
 
