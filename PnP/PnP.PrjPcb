@@ -86,7 +86,7 @@ GenerateClassCluster=0
 DocumentUniqueId=
 
 [Document3]
-DocumentPath=Project.PcbDoc
+DocumentPath=PnP.PcbDoc
 AnnotationEnabled=1
 AnnotateStartValue=1
 AnnotationIndexControlEnabled=0
@@ -103,7 +103,7 @@ GenerateClassCluster=0
 DocumentUniqueId=OHYZXVEJ
 
 [Document4]
-DocumentPath=Project_Assembly.PCBDwf
+DocumentPath=PnP_Assembly.PCBDwf
 AnnotationEnabled=1
 AnnotateStartValue=1
 AnnotationIndexControlEnabled=0
@@ -120,7 +120,7 @@ GenerateClassCluster=0
 DocumentUniqueId=TXXRZJOY
 
 [Document5]
-DocumentPath=Project_PCBFab.PCBDwf
+DocumentPath=PnP_PCBFab.PCBDwf
 AnnotationEnabled=1
 AnnotateStartValue=1
 AnnotationIndexControlEnabled=0
@@ -137,7 +137,7 @@ GenerateClassCluster=0
 DocumentUniqueId=FCPGHQZC
 
 [Document6]
-DocumentPath=Project.BomDoc
+DocumentPath=PnP.BomDoc
 AnnotationEnabled=1
 AnnotateStartValue=1
 AnnotationIndexControlEnabled=0
