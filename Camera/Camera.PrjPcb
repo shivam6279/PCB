@@ -37,8 +37,6 @@ IsVirtualBomDocumentRemoved=0
 OutputPath=
 LogFolderPath=
 ManagedProjectGUID=
-VaultGUID=
-ReleaseVaultName=
 Template=dxp://VaultExplorer:Navigate_URL?VaultGUID=AF149D79-98FB-48A7-9B15-5AA95A2EBACF&ItemGUID=BC2AD092-042C-4FE1-B877-6442B21955F6&RevisionGUID=35105273-4234-4BE9-9E87-AB73AE659A02&"MainFilename=PRJT-0002-1.PrjPCB"
 IncludeDesignInRelease=0
 CrossRefSheetStyle=2
@@ -48,7 +46,6 @@ CrossRefCrossSheets=1
 CrossRefSheetEntries=0
 CrossRefFollowFromMainSettings=0
 CurrentVariant=Main
-ItemGUID=
 
 [Preferences]
 PrefsVaultGUID=
@@ -89,6 +86,23 @@ GenerateClassCluster=0
 DocumentUniqueId=
 
 [Document3]
+DocumentPath=Power.SchDoc
+AnnotationEnabled=1
+AnnotateStartValue=1
+AnnotationIndexControlEnabled=0
+AnnotateSuffix=
+AnnotateScope=All
+AnnotateOrder=1
+DoLibraryUpdate=1
+DoDatabaseUpdate=1
+ClassGenCCAutoEnabled=1
+ClassGenCCAutoRoomEnabled=0
+ClassGenNCAutoScope=None
+DItemRevisionGUID=
+GenerateClassCluster=0
+DocumentUniqueId=ZBRPIZID
+
+[Document4]
 DocumentPath=Camera.PcbDoc
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -105,7 +119,7 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=OHYZXVEJ
 
-[Document4]
+[Document5]
 DocumentPath=Project_Assembly.PCBDwf
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -122,7 +136,7 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=TXXRZJOY
 
-[Document5]
+[Document6]
 DocumentPath=Project_PCBFab.PCBDwf
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -139,7 +153,7 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=FCPGHQZC
 
-[Document6]
+[Document7]
 DocumentPath=Project.BomDoc
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -1187,7 +1201,12 @@ UpdateToLatestRevision=1
 PartTypes=0
 
 [NetInfos]
-Net1=NetName=GND|NetColor=clYellow
+Net1=NetName=1V2|NetColor=$0066FFCC
+Net2=NetName=1V8|NetColor=$0099FF99
+Net3=NetName=2V8|NetColor=$0066CCFF
+Net4=NetName=3V3|NetColor=$00FF6633
+Net5=NetName=3V3_VDDIO|NetColor=$006E6EFF
+Net6=NetName=GND|NetColor=clYellow
 
 [Comparison Options]
 ComparisonOptions0=Kind=Net|MinPercent=75|MinMatch=3|ShowMatch=0|UseName=-1|InclAllRules=0
