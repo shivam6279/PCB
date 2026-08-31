@@ -12,7 +12,7 @@ SeparateFolders=0
 TemplateLocationPath=
 PinSwapBy_Netlabel=1
 PinSwapBy_Pin=1
-AllowPortNetNames=0
+AllowPortNetNames=1
 AllowSheetEntryNetNames=1
 AppendSheetNumberToLocalNets=0
 NetlistSinglePinNets=0
@@ -21,8 +21,8 @@ UserID=0xFFFFFFFF
 DefaultPcbProtel=1
 DefaultPcbPcad=0
 ReorderDocumentsOnCompile=1
-NameNetsHierarchically=0
-PowerPortNamesTakePriority=0
+NameNetsHierarchically=1
+PowerPortNamesTakePriority=1
 AutoSheetNumbering=1
 AutoCrossReferences=0
 NewIndexingOfSheetSymbols=1
@@ -69,7 +69,7 @@ GenerateClassCluster=0
 DocumentUniqueId=ENYPIGHC
 
 [Document2]
-DocumentPath=Main.OutJob
+DocumentPath=camera.SchDoc
 AnnotationEnabled=1
 AnnotateStartValue=1
 AnnotationIndexControlEnabled=0
@@ -83,7 +83,7 @@ ClassGenCCAutoRoomEnabled=0
 ClassGenNCAutoScope=None
 DItemRevisionGUID=
 GenerateClassCluster=0
-DocumentUniqueId=
+DocumentUniqueId=ALJLWFMV
 
 [Document3]
 DocumentPath=Power.SchDoc
@@ -103,6 +103,40 @@ GenerateClassCluster=0
 DocumentUniqueId=ZBRPIZID
 
 [Document4]
+DocumentPath=Main.OutJob
+AnnotationEnabled=1
+AnnotateStartValue=1
+AnnotationIndexControlEnabled=0
+AnnotateSuffix=
+AnnotateScope=All
+AnnotateOrder=-1
+DoLibraryUpdate=1
+DoDatabaseUpdate=1
+ClassGenCCAutoEnabled=1
+ClassGenCCAutoRoomEnabled=0
+ClassGenNCAutoScope=None
+DItemRevisionGUID=
+GenerateClassCluster=0
+DocumentUniqueId=
+
+[Document5]
+DocumentPath=serializer.SchDoc
+AnnotationEnabled=1
+AnnotateStartValue=1
+AnnotationIndexControlEnabled=0
+AnnotateSuffix=
+AnnotateScope=All
+AnnotateOrder=2
+DoLibraryUpdate=1
+DoDatabaseUpdate=1
+ClassGenCCAutoEnabled=1
+ClassGenCCAutoRoomEnabled=0
+ClassGenNCAutoScope=None
+DItemRevisionGUID=
+GenerateClassCluster=0
+DocumentUniqueId=KIFUEYJF
+
+[Document6]
 DocumentPath=Camera.PcbDoc
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -119,7 +153,7 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=OHYZXVEJ
 
-[Document5]
+[Document7]
 DocumentPath=Project_Assembly.PCBDwf
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -136,7 +170,7 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=TXXRZJOY
 
-[Document6]
+[Document8]
 DocumentPath=Project_PCBFab.PCBDwf
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -153,8 +187,42 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=FCPGHQZC
 
-[Document7]
+[Document9]
 DocumentPath=Project.BomDoc
+AnnotationEnabled=1
+AnnotateStartValue=1
+AnnotationIndexControlEnabled=0
+AnnotateSuffix=
+AnnotateScope=All
+AnnotateOrder=-1
+DoLibraryUpdate=1
+DoDatabaseUpdate=1
+ClassGenCCAutoEnabled=1
+ClassGenCCAutoRoomEnabled=0
+ClassGenNCAutoScope=None
+DItemRevisionGUID=
+GenerateClassCluster=0
+DocumentUniqueId=
+
+[Document10]
+DocumentPath=serializer.Harness
+AnnotationEnabled=1
+AnnotateStartValue=1
+AnnotationIndexControlEnabled=0
+AnnotateSuffix=
+AnnotateScope=All
+AnnotateOrder=-1
+DoLibraryUpdate=1
+DoDatabaseUpdate=1
+ClassGenCCAutoEnabled=1
+ClassGenCCAutoRoomEnabled=0
+ClassGenNCAutoScope=None
+DItemRevisionGUID=
+GenerateClassCluster=0
+DocumentUniqueId=
+
+[Document11]
+DocumentPath=camera.Harness
 AnnotationEnabled=1
 AnnotateStartValue=1
 AnnotationIndexControlEnabled=0
@@ -175,20 +243,28 @@ UniqueId=af0a5932-ef51-4c17-a23b-987a030aeb58
 Description=Main
 AllowFabrication=0
 ParameterCount=0
-VariationCount=0
+VariationCount=4
+Variation1=Designator=R7|UniqueId=\FBPKHGHL|Kind=1|AlternatePart=
+Variation2=Designator=R7|UniqueId=\GWRZVOXK\FBPKHGHL|Kind=1|AlternatePart=
+Variation3=Designator=R8|UniqueId=\GWRZVOXK\UJSWZUSY|Kind=0|AlternatePart=
+Variation4=Designator=R9|UniqueId=\GWRZVOXK\VSFCWNWX|Kind=1|AlternatePart=
 ParamVariationCount=0
 
 [Parameter1]
-Name=PCBRevision
-Value=0.0.1
+Name=SchRevision
+Value=0.1
 
 [Parameter2]
+Name=RR_PlaceNear
+Value=[{"paramVis":true,"a":{"refdes":"C6","srcUid":"OYVOCBFH","pin":"2"},"b":{"refdes":"U2","srcUid":"WNTCGATW","pin":"26"},"mm":5},{"paramVis":true,"a":{"refdes":"C7","srcUid":"CVMGOHLT","pin":"2"},"b":{"refdes":"U2","srcUid":"WNTCGATW","pin":"26"},"mm":5},{"paramVis":true,"a":{"refdes":"C8","srcUid":"TGPROSQA","pin":"2"},"b":{"refdes":"U2","srcUid":"WNTCGATW","pin":"26"},"mm":5},{"paramVis":true,"a":{"refdes":"C9","srcUid":"NERXMEEB","pin":"2"},"b":{"refdes":"U2","srcUid":"WNTCGATW","pin":"15"},"mm":5},{"paramVis":true,"a":{"refdes":"C10","srcUid":"PVQVEPHI","pin":"2"},"b":{"refdes":"U2","srcUid":"WNTCGATW","pin":"15"},"mm":5},{"paramVis":true,"a":{"refdes":"C11","srcUid":"IXZAQWUA","pin":"2"},"b":{"refdes":"U2","srcUid":"WNTCGATW","pin":"15"},"mm":5},{"paramVis":true,"a":{"refdes":"C12","srcUid":"SJIUUMFM","pin":"2"},"b":{"refdes":"U2","srcUid":"WNTCGATW","pin":"10"},"mm":5},{"paramVis":true,"a":{"refdes":"C13","srcUid":"VZIHORBA","pin":"2"},"b":{"refdes":"U2","srcUid":"WNTCGATW","pin":"10"},"mm":5},{"paramVis":true,"a":{"refdes":"C14","srcUid":"JKNMRYLV","pin":"2"},"b":{"refdes":"U2","srcUid":"WNTCGATW","pin":"10"},"mm":5},{"paramVis":true,"a":{"refdes":"C16","srcUid":"VAZDDXWB","pin":"2"},"b":{"refdes":"U2","srcUid":"WNTCGATW","pin":"25"},"mm":5},{"paramVis":true,"a":{"refdes":"C15","srcUid":"YTLVSWDQ","pin":"2"},"b":{"refdes":"U2","srcUid":"WNTCGATW","pin":"25"},"mm":5},{"paramVis":true,"a":{"refdes":"C18","srcUid":"XVSOHREA","pin":"2"},"b":{"refdes":"U2","srcUid":"WNTCGATW","pin":"16"},"mm":5},{"paramVis":true,"a":{"refdes":"C17","srcUid":"DALIXIOP","pin":"2"},"b":{"refdes":"U2","srcUid":"WNTCGATW","pin":"16"},"mm":5},{"paramVis":true,"a":{"refdes":"C20","srcUid":"WIZCYGLQ","pin":"2"},"b":{"refdes":"U2","srcUid":"WNTCGATW","pin":"11"},"mm":5},{"paramVis":true,"a":{"refdes":"C19","srcUid":"YZYSSQBB","pin":"2"},"b":{"refdes":"U2","srcUid":"WNTCGATW","pin":"11"},"mm":5},{"paramVis":true,"a":{"refdes":"C58","srcUid":"BEWWQTYO","pin":"1"},"b":{"refdes":"U2","srcUid":"WNTCGATW","pin":"9"},"mm":5},{"paramVis":true,"a":{"refdes":"C58","srcUid":"BEWWQTYO","pin":"2"},"b":{"refdes":"U2","srcUid":"WNTCGATW","pin":"11"},"mm":5}]
+
+[Parameter3]
 Name=ProjectTitle
 Value=Project
 
-[Parameter3]
-Name=SchRevision
-Value=0.1
+[Parameter4]
+Name=PCBRevision
+Value=0.0.1
 
 [Configuration1]
 Name=Sources
@@ -982,7 +1058,7 @@ Type10=1
 Type11=2
 Type12=2
 Type13=2
-Type14=1
+Type14=0
 Type15=1
 Type16=1
 Type17=1
@@ -1201,12 +1277,13 @@ UpdateToLatestRevision=1
 PartTypes=0
 
 [NetInfos]
-Net1=NetName=1V2|NetColor=$0066FFCC
-Net2=NetName=1V8|NetColor=$0099FF99
-Net3=NetName=2V8|NetColor=$0066CCFF
-Net4=NetName=3V3|NetColor=$00FF6633
-Net5=NetName=3V3_VDDIO|NetColor=$006E6EFF
-Net6=NetName=GND|NetColor=clYellow
+Net1=NetName=12V_VPOC|NetColor=$006E6EFF
+Net2=NetName=1V2|NetColor=$0066FFCC
+Net3=NetName=1V8|NetColor=$0099FF99
+Net4=NetName=2V8|NetColor=$0066CCFF
+Net5=NetName=3V3|NetColor=$00FF6633
+Net6=NetName=3V3_VDDIO|NetColor=$006E6EFF
+Net7=NetName=GND|NetColor=clYellow
 
 [Comparison Options]
 ComparisonOptions0=Kind=Net|MinPercent=75|MinMatch=3|ShowMatch=0|UseName=-1|InclAllRules=0
