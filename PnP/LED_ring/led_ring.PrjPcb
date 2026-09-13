@@ -33,7 +33,7 @@ FSMCodingStyle=eFMSDropDownList_OneProcess
 FSMEncodingStyle=eFMSDropDownList_OneHot
 IsProjectConflictPreventionWarningsEnabled=0
 ConstraintManagerFlow=0
-IsVirtualBomDocumentRemoved=0
+IsVirtualBomDocumentRemoved=1
 OutputPath=
 LogFolderPath=
 ManagedProjectGUID=
@@ -69,23 +69,6 @@ GenerateClassCluster=0
 DocumentUniqueId=ENYPIGHC
 
 [Document2]
-DocumentPath=Power.SchDoc
-AnnotationEnabled=1
-AnnotateStartValue=1
-AnnotationIndexControlEnabled=0
-AnnotateSuffix=
-AnnotateScope=All
-AnnotateOrder=1
-DoLibraryUpdate=1
-DoDatabaseUpdate=1
-ClassGenCCAutoEnabled=1
-ClassGenCCAutoRoomEnabled=0
-ClassGenNCAutoScope=None
-DItemRevisionGUID=
-GenerateClassCluster=0
-DocumentUniqueId=ZBRPIZID
-
-[Document3]
 DocumentPath=Main.OutJob
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -102,25 +85,8 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=
 
-[Document4]
-DocumentPath=deserializer.SchDoc
-AnnotationEnabled=1
-AnnotateStartValue=1
-AnnotationIndexControlEnabled=0
-AnnotateSuffix=
-AnnotateScope=All
-AnnotateOrder=2
-DoLibraryUpdate=1
-DoDatabaseUpdate=1
-ClassGenCCAutoEnabled=1
-ClassGenCCAutoRoomEnabled=0
-ClassGenNCAutoScope=None
-DItemRevisionGUID=
-GenerateClassCluster=0
-DocumentUniqueId=KIFUEYJG
-
-[Document5]
-DocumentPath=deserializer.PcbDoc
+[Document3]
+DocumentPath=led_ring.PcbDoc
 AnnotationEnabled=1
 AnnotateStartValue=1
 AnnotationIndexControlEnabled=0
@@ -136,42 +102,8 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=OHYZXVEJ
 
-[Document6]
-DocumentPath=Project_Assembly.PCBDwf
-AnnotationEnabled=1
-AnnotateStartValue=1
-AnnotationIndexControlEnabled=0
-AnnotateSuffix=
-AnnotateScope=All
-AnnotateOrder=-1
-DoLibraryUpdate=1
-DoDatabaseUpdate=1
-ClassGenCCAutoEnabled=1
-ClassGenCCAutoRoomEnabled=0
-ClassGenNCAutoScope=None
-DItemRevisionGUID=
-GenerateClassCluster=0
-DocumentUniqueId=TXXRZJOY
-
-[Document7]
-DocumentPath=Project_PCBFab.PCBDwf
-AnnotationEnabled=1
-AnnotateStartValue=1
-AnnotationIndexControlEnabled=0
-AnnotateSuffix=
-AnnotateScope=All
-AnnotateOrder=-1
-DoLibraryUpdate=1
-DoDatabaseUpdate=1
-ClassGenCCAutoEnabled=1
-ClassGenCCAutoRoomEnabled=0
-ClassGenNCAutoScope=None
-DItemRevisionGUID=
-GenerateClassCluster=0
-DocumentUniqueId=FCPGHQZC
-
-[Document8]
-DocumentPath=Project.BomDoc
+[Document4]
+DocumentPath=led_ring_Assembly.PCBDwf
 AnnotationEnabled=1
 AnnotateStartValue=1
 AnnotationIndexControlEnabled=0
@@ -187,42 +119,8 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=
 
-[Document9]
-DocumentPath=serializer.Harness
-AnnotationEnabled=1
-AnnotateStartValue=1
-AnnotationIndexControlEnabled=0
-AnnotateSuffix=
-AnnotateScope=All
-AnnotateOrder=-1
-DoLibraryUpdate=1
-DoDatabaseUpdate=1
-ClassGenCCAutoEnabled=1
-ClassGenCCAutoRoomEnabled=0
-ClassGenNCAutoScope=None
-DItemRevisionGUID=
-GenerateClassCluster=0
-DocumentUniqueId=
-
-[Document10]
-DocumentPath=camera.Harness
-AnnotationEnabled=1
-AnnotateStartValue=1
-AnnotationIndexControlEnabled=0
-AnnotateSuffix=
-AnnotateScope=All
-AnnotateOrder=-1
-DoLibraryUpdate=1
-DoDatabaseUpdate=1
-ClassGenCCAutoEnabled=1
-ClassGenCCAutoRoomEnabled=0
-ClassGenNCAutoScope=None
-DItemRevisionGUID=
-GenerateClassCluster=0
-DocumentUniqueId=
-
-[Document11]
-DocumentPath=deserializer.Harness
+[Document5]
+DocumentPath=led_ring_PCBFab.PCBDwf
 AnnotationEnabled=1
 AnnotateStartValue=1
 AnnotationIndexControlEnabled=0
@@ -243,89 +141,8 @@ UniqueId=af0a5932-ef51-4c17-a23b-987a030aeb58
 Description=Main
 AllowFabrication=0
 ParameterCount=0
-VariationCount=5
-Variation1=Designator=R9|UniqueId=\GWRZVOXK\VSFCWNWX|Kind=1|AlternatePart=
-Variation2=Designator=R20|UniqueId=\GWRZVOXK\LXUFDZRR|Kind=1|AlternatePart=
-Variation3=Designator=R22|UniqueId=\GWRZVOXK\YSPZRWNM|Kind=1|AlternatePart=
-Variation4=Designator=R25|UniqueId=\NXSLZWCR\JMFMUUEJ|Kind=1|AlternatePart=
-Variation5=Designator=R?|UniqueId=\NXSLZWCR\OOUJCQVY|Kind=1|AlternatePart=
+VariationCount=0
 ParamVariationCount=0
-
-[GeneratedDocument1]
-DocumentPath=Project Outputs for deserialize\deserializer.EXTREP
-DItemRevisionGUID=
-
-[GeneratedDocument2]
-DocumentPath=Project Outputs for deserialize\deserializer.G1
-DItemRevisionGUID=
-
-[GeneratedDocument3]
-DocumentPath=Project Outputs for deserialize\deserializer.G2
-DItemRevisionGUID=
-
-[GeneratedDocument4]
-DocumentPath=Project Outputs for deserialize\deserializer.G3
-DItemRevisionGUID=
-
-[GeneratedDocument5]
-DocumentPath=Project Outputs for deserialize\deserializer.G4
-DItemRevisionGUID=
-
-[GeneratedDocument6]
-DocumentPath=Project Outputs for deserialize\deserializer.G5
-DItemRevisionGUID=
-
-[GeneratedDocument7]
-DocumentPath=Project Outputs for deserialize\deserializer.G6
-DItemRevisionGUID=
-
-[GeneratedDocument8]
-DocumentPath=Project Outputs for deserialize\deserializer.GBL
-DItemRevisionGUID=
-
-[GeneratedDocument9]
-DocumentPath=Project Outputs for deserialize\deserializer.GBO
-DItemRevisionGUID=
-
-[GeneratedDocument10]
-DocumentPath=Project Outputs for deserialize\deserializer.GBP
-DItemRevisionGUID=
-
-[GeneratedDocument11]
-DocumentPath=Project Outputs for deserialize\deserializer.GBS
-DItemRevisionGUID=
-
-[GeneratedDocument12]
-DocumentPath=Project Outputs for deserialize\deserializer.GM
-DItemRevisionGUID=
-
-[GeneratedDocument13]
-DocumentPath=Project Outputs for deserialize\deserializer.GM2
-DItemRevisionGUID=
-
-[GeneratedDocument14]
-DocumentPath=Project Outputs for deserialize\deserializer.GTL
-DItemRevisionGUID=
-
-[GeneratedDocument15]
-DocumentPath=Project Outputs for deserialize\deserializer.GTO
-DItemRevisionGUID=
-
-[GeneratedDocument16]
-DocumentPath=Project Outputs for deserialize\deserializer.GTP
-DItemRevisionGUID=
-
-[GeneratedDocument17]
-DocumentPath=Project Outputs for deserialize\deserializer.GTS
-DItemRevisionGUID=
-
-[GeneratedDocument18]
-DocumentPath=Project Outputs for deserialize\deserializer.REP
-DItemRevisionGUID=
-
-[GeneratedDocument19]
-DocumentPath=Project Outputs for deserialize\Design Rule Check - deserializer.html
-DItemRevisionGUID=
 
 [Parameter1]
 Name=PCBRevision
@@ -337,7 +154,7 @@ Value=Project
 
 [Parameter3]
 Name=RR_PlaceNear
-Value=[{"paramVis":true,"a":{"refdes":"C6","srcUid":"OYVOCBFH","pin":"2"},"b":{"refdes":"U2","srcUid":"WNTCGATW","pin":"26"},"mm":5},{"paramVis":true,"a":{"refdes":"C8","srcUid":"TGPROSQA","pin":"2"},"b":{"refdes":"U2","srcUid":"WNTCGATW","pin":"26"},"mm":5},{"paramVis":true,"a":{"refdes":"C14","srcUid":"JKNMRYLV","pin":"2"},"b":{"refdes":"U2","srcUid":"WNTCGATW","pin":"10"},"mm":5},{"paramVis":true,"a":{"refdes":"C16","srcUid":"VAZDDXWB","pin":"2"},"b":{"refdes":"U2","srcUid":"WNTCGATW","pin":"25"},"mm":5},{"paramVis":true,"a":{"refdes":"C18","srcUid":"XVSOHREA","pin":"2"},"b":{"refdes":"U2","srcUid":"WNTCGATW","pin":"16"},"mm":5},{"paramVis":true,"a":{"refdes":"C17","srcUid":"DALIXIOP","pin":"2"},"b":{"refdes":"U2","srcUid":"WNTCGATW","pin":"16"},"mm":5},{"paramVis":true,"a":{"refdes":"C20","srcUid":"WIZCYGLQ","pin":"2"},"b":{"refdes":"U2","srcUid":"WNTCGATW","pin":"11"},"mm":5},{"paramVis":true,"a":{"refdes":"C19","srcUid":"YZYSSQBB","pin":"2"},"b":{"refdes":"U2","srcUid":"WNTCGATW","pin":"11"},"mm":5},{"paramVis":true,"a":{"refdes":"C58","srcUid":"BEWWQTYO","pin":"1"},"b":{"refdes":"U2","srcUid":"WNTCGATW","pin":"9"},"mm":5},{"paramVis":true,"a":{"refdes":"C58","srcUid":"BEWWQTYO","pin":"2"},"b":{"refdes":"U2","srcUid":"WNTCGATW","pin":"11"},"mm":5},{"paramVis":true,"a":{"refdes":"C27","srcUid":"BPAUDPQZ","pin":"2"},"b":{"refdes":"U1","srcUid":"ACCMWQZF","pin":"20"},"mm":5},{"paramVis":true,"a":{"refdes":"C28","srcUid":"EENAYVNO","pin":"2"},"b":{"refdes":"U1","srcUid":"ACCMWQZF","pin":"20"},"mm":5},{"paramVis":true,"a":{"refdes":"C29","srcUid":"XHAQUPGM","pin":"2"},"b":{"refdes":"U1","srcUid":"ACCMWQZF","pin":"43"},"mm":5},{"paramVis":true,"a":{"refdes":"C30","srcUid":"BACGWWGG","pin":"2"},"b":{"refdes":"U1","srcUid":"ACCMWQZF","pin":"43"},"mm":5},{"paramVis":true,"a":{"refdes":"C31","srcUid":"TMZBKHPU","pin":"2"},"b":{"refdes":"U1","srcUid":"ACCMWQZF","pin":"34"},"mm":5},{"paramVis":true,"a":{"refdes":"C32","srcUid":"FQDLLJEM","pin":"2"},"b":{"refdes":"U1","srcUid":"ACCMWQZF","pin":"34"},"mm":5},{"paramVis":true,"a":{"refdes":"C33","srcUid":"ERQYJWKP","pin":"2"},"b":{"refdes":"U1","srcUid":"ACCMWQZF","pin":"3"},"mm":5},{"paramVis":true,"a":{"refdes":"C34","srcUid":"DFJCFYOG","pin":"2"},"b":{"refdes":"U1","srcUid":"ACCMWQZF","pin":"3"},"mm":5},{"paramVis":true,"a":{"refdes":"C9","srcUid":"NFMAMPKB","pin":"2"},"b":{"refdes":"U1","srcUid":"ACCMWQZF","pin":"45"},"mm":5},{"paramVis":true,"a":{"refdes":"C10","srcUid":"EZJYPOWU","pin":"2"},"b":{"refdes":"U1","srcUid":"ACCMWQZF","pin":"45"},"mm":5},{"paramVis":true,"a":{"refdes":"C11","srcUid":"GFRRAUYE","pin":"2"},"b":{"refdes":"U1","srcUid":"ACCMWQZF","pin":"45"},"mm":5},{"paramVis":true,"a":{"refdes":"C12","srcUid":"NPFSBRZU","pin":"2"},"b":{"refdes":"U1","srcUid":"ACCMWQZF","pin":"36"},"mm":5},{"paramVis":true,"a":{"refdes":"C13","srcUid":"OAZJMPNM","pin":"2"},"b":{"refdes":"U1","srcUid":"ACCMWQZF","pin":"17"},"mm":5},{"paramVis":true,"a":{"refdes":"C14","srcUid":"DUHRWZRZ","pin":"2"},"b":{"refdes":"U1","srcUid":"ACCMWQZF","pin":"17"},"mm":5},{"paramVis":true,"a":{"refdes":"C16","srcUid":"LRMMMYAT","pin":"2"},"b":{"refdes":"U1","srcUid":"ACCMWQZF","pin":"40"},"mm":5},{"paramVis":true,"a":{"refdes":"C17","srcUid":"MFNCNCXF","pin":"2"},"b":{"refdes":"U1","srcUid":"ACCMWQZF","pin":"40"},"mm":5},{"paramVis":true,"a":{"refdes":"C18","srcUid":"FPWMAYYQ","pin":"2"},"b":{"refdes":"U1","srcUid":"ACCMWQZF","pin":"31"},"mm":5}]
+Value=[{"paramVis":true,"a":{"refdes":"C6","srcUid":"OYVOCBFH","pin":"2"},"b":{"refdes":"U2","srcUid":"WNTCGATW","pin":"26"},"mm":5},{"paramVis":true,"a":{"refdes":"C7","srcUid":"CVMGOHLT","pin":"2"},"b":{"refdes":"U2","srcUid":"WNTCGATW","pin":"26"},"mm":5},{"paramVis":true,"a":{"refdes":"C8","srcUid":"TGPROSQA","pin":"2"},"b":{"refdes":"U2","srcUid":"WNTCGATW","pin":"26"},"mm":5},{"paramVis":true,"a":{"refdes":"C9","srcUid":"NERXMEEB","pin":"2"},"b":{"refdes":"U2","srcUid":"WNTCGATW","pin":"15"},"mm":5},{"paramVis":true,"a":{"refdes":"C10","srcUid":"PVQVEPHI","pin":"2"},"b":{"refdes":"U2","srcUid":"WNTCGATW","pin":"15"},"mm":5},{"paramVis":true,"a":{"refdes":"C11","srcUid":"IXZAQWUA","pin":"2"},"b":{"refdes":"U2","srcUid":"WNTCGATW","pin":"15"},"mm":5},{"paramVis":true,"a":{"refdes":"C12","srcUid":"SJIUUMFM","pin":"2"},"b":{"refdes":"U2","srcUid":"WNTCGATW","pin":"10"},"mm":5},{"paramVis":true,"a":{"refdes":"C13","srcUid":"VZIHORBA","pin":"2"},"b":{"refdes":"U2","srcUid":"WNTCGATW","pin":"10"},"mm":5},{"paramVis":true,"a":{"refdes":"C14","srcUid":"JKNMRYLV","pin":"2"},"b":{"refdes":"U2","srcUid":"WNTCGATW","pin":"10"},"mm":5},{"paramVis":true,"a":{"refdes":"C16","srcUid":"VAZDDXWB","pin":"2"},"b":{"refdes":"U2","srcUid":"WNTCGATW","pin":"25"},"mm":5},{"paramVis":true,"a":{"refdes":"C15","srcUid":"YTLVSWDQ","pin":"2"},"b":{"refdes":"U2","srcUid":"WNTCGATW","pin":"25"},"mm":5},{"paramVis":true,"a":{"refdes":"C18","srcUid":"XVSOHREA","pin":"2"},"b":{"refdes":"U2","srcUid":"WNTCGATW","pin":"16"},"mm":5},{"paramVis":true,"a":{"refdes":"C17","srcUid":"DALIXIOP","pin":"2"},"b":{"refdes":"U2","srcUid":"WNTCGATW","pin":"16"},"mm":5},{"paramVis":true,"a":{"refdes":"C20","srcUid":"WIZCYGLQ","pin":"2"},"b":{"refdes":"U2","srcUid":"WNTCGATW","pin":"11"},"mm":5},{"paramVis":true,"a":{"refdes":"C19","srcUid":"YZYSSQBB","pin":"2"},"b":{"refdes":"U2","srcUid":"WNTCGATW","pin":"11"},"mm":5},{"paramVis":true,"a":{"refdes":"C58","srcUid":"BEWWQTYO","pin":"1"},"b":{"refdes":"U2","srcUid":"WNTCGATW","pin":"9"},"mm":5},{"paramVis":true,"a":{"refdes":"C58","srcUid":"BEWWQTYO","pin":"2"},"b":{"refdes":"U2","srcUid":"WNTCGATW","pin":"11"},"mm":5}]
 
 [Parameter4]
 Name=SchRevision
@@ -615,52 +432,48 @@ OutputDocumentPath4=
 OutputVariantName4=[No Variations]
 OutputDefault4=0
 PageOptions4=Record=PageOptions|CenterHorizontal=True|CenterVertical=True|PrintScale=1.00|XCorrection=1.00|YCorrection=1.00|PrintKind=1|BorderSize=5000000|LeftOffset=0|BottomOffset=0|Orientation=2|PaperLength=1000|PaperWidth=1000|Scale=100|PaperSource=7|PrintQuality=-3|MediaType=1|DitherType=10|PrintScaleMode=1|PaperKind=Letter|PaperIndex=1
-OutputType5=Gerber X2
-OutputName5=Gerber X2 Files
+OutputType5=Gerber
+OutputName5=Gerber Files
 OutputDocumentPath5=
 OutputVariantName5=[No Variations]
 OutputDefault5=0
-OutputType6=IPC2581
-OutputName6=IPC-2581 Files
+OutputType6=Gerber X2
+OutputName6=Gerber X2 Files
 OutputDocumentPath6=
 OutputVariantName6=[No Variations]
 OutputDefault6=0
-OutputType7=Mask
-OutputName7=Solder/Paste Mask Prints
+OutputType7=IPC2581
+OutputName7=IPC-2581 Files
 OutputDocumentPath7=
 OutputVariantName7=[No Variations]
 OutputDefault7=0
-PageOptions7=Record=PageOptions|CenterHorizontal=True|CenterVertical=True|PrintScale=1.00|XCorrection=1.00|YCorrection=1.00|PrintKind=1|BorderSize=5000000|LeftOffset=0|BottomOffset=0|Orientation=2|PaperLength=1000|PaperWidth=1000|Scale=100|PaperSource=7|PrintQuality=-3|MediaType=1|DitherType=10|PrintScaleMode=1|PaperKind=Letter|PaperIndex=1
-OutputType8=NC Drill
-OutputName8=NC Drill Files
+OutputType8=Mask
+OutputName8=Solder/Paste Mask Prints
 OutputDocumentPath8=
-OutputVariantName8=
+OutputVariantName8=[No Variations]
 OutputDefault8=0
-OutputType9=ODB
-OutputName9=ODB++ Files
+PageOptions8=Record=PageOptions|CenterHorizontal=True|CenterVertical=True|PrintScale=1.00|XCorrection=1.00|YCorrection=1.00|PrintKind=1|BorderSize=5000000|LeftOffset=0|BottomOffset=0|Orientation=2|PaperLength=1000|PaperWidth=1000|Scale=100|PaperSource=7|PrintQuality=-3|MediaType=1|DitherType=10|PrintScaleMode=1|PaperKind=Letter|PaperIndex=1
+OutputType9=NC Drill
+OutputName9=NC Drill Files
 OutputDocumentPath9=
-OutputVariantName9=[No Variations]
+OutputVariantName9=
 OutputDefault9=0
-OutputType10=Plane
-OutputName10=Power-Plane Prints
+OutputType10=ODB
+OutputName10=ODB++ Files
 OutputDocumentPath10=
 OutputVariantName10=[No Variations]
 OutputDefault10=0
-PageOptions10=Record=PageOptions|CenterHorizontal=True|CenterVertical=True|PrintScale=1.00|XCorrection=1.00|YCorrection=1.00|PrintKind=1|BorderSize=5000000|LeftOffset=0|BottomOffset=0|Orientation=2|PaperLength=1000|PaperWidth=1000|Scale=100|PaperSource=7|PrintQuality=-3|MediaType=1|DitherType=10|PrintScaleMode=1|PaperKind=Letter|PaperIndex=1
-OutputType11=Test Points
-OutputName11=Test Point Report
+OutputType11=Plane
+OutputName11=Power-Plane Prints
 OutputDocumentPath11=
-OutputVariantName11=
+OutputVariantName11=[No Variations]
 OutputDefault11=0
-OutputType12=Gerber
-OutputName12=Gerber Files
+PageOptions11=Record=PageOptions|CenterHorizontal=True|CenterVertical=True|PrintScale=1.00|XCorrection=1.00|YCorrection=1.00|PrintKind=1|BorderSize=5000000|LeftOffset=0|BottomOffset=0|Orientation=2|PaperLength=1000|PaperWidth=1000|Scale=100|PaperSource=7|PrintQuality=-3|MediaType=1|DitherType=10|PrintScaleMode=1|PaperKind=Letter|PaperIndex=1
+OutputType12=Test Points
+OutputName12=Test Point Report
 OutputDocumentPath12=
-OutputVariantName12=[No Variations]
+OutputVariantName12=
 OutputDefault12=0
-Configuration12_Name1=ForceUpdateSettings
-Configuration12_Item1=False
-Configuration12_Name2=OutputConfigurationParameter1
-Configuration12_Item2=AddToAllLayerClasses.Set= |AddToAllPlots.Set=SerializeLayerHash.Version~2,ClassName~TPlotLayerStateArray|BoardID=OHYZXVEJ|CentrePlots=False|DrillDrawingSymbol=GraphicsSymbol|DrillDrawingSymbolSize=500000|EmbeddedApertures=True|FilmBorderSize=10000000|FilmXSize=200000000|FilmYSize=160000000|FlashAllFills=False|FlashPadShapes=True|G54OnApertureChange=False|GenerateDRCRulesFile=False|GenerateDRCRulesFile=False|GenerateReliefShapes=True|GenerateReports=True|GerberUnit=Metric|GerberUnit=Metric|IncludeUnconnectedMidLayerPads=True|LayerClassesMirror.Set= |LayerClassesPlot.Set= |LeadingAndTrailingZeroesMode=SuppressLeadingZeroes|MaxApertureSize=2500000|MergePadAndRegion=False|MinusApertureTolerance=50|MinusApertureTolerance=50|Mirror.Set=SerializeLayerHash.Version~2,ClassName~TPlotLayerStateArray|MirrorDrillDrawingPlots=False|MirrorDrillGuidePlots=False|NoRegularPolygons=False|NumberOfDecimals=4|NumberOfDecimals=4|OptimizeChangeLocationCommands=True|OptimizeChangeLocationCommands=True|OriginPosition=Relative|OutputFormat=Different|Panelize=False|Plot.Set=SerializeLayerHash.Version~2,ClassName~TPlotLayerStateArray,16777217~1,16777220~1,16777223~1,16777218~1,16777219~1,16777221~1,16777222~1,16842751~1,16973830~1,16973831~1,16973834~1,16973835~1,16973832~1,16973833~1,16908290~1|PlotBoardProfile=True|PlotBoardProfileFileName= |PlotPositivePlaneLayers=False|PlotUsedDrillDrawingLayerPairs=False|PlotUsedDrillGuideLayerPairs=False|PlusApertureTolerance=50|PlusApertureTolerance=50|Record=GerberView|SoftwareArcs=False|Sorted=False|Sorted=False|UncheckPlotDrillDrawingLayerPair0_Backdrill=False|UncheckPlotDrillDrawingLayerPair0_Checked=False|UncheckPlotDrillDrawingLayerPair0_DrillType=Regular|UncheckPlotDrillDrawingLayerPair0_FileName= |UncheckPlotDrillDrawingLayerPair0_HighLayer=Bottom Layer|UncheckPlotDrillDrawingLayerPair0_LowLayer=Top Layer|UncheckPlotDrillGuideLayerPair0_Backdrill=False|UncheckPlotDrillGuideLayerPair0_Checked=False|UncheckPlotDrillGuideLayerPair0_DrillType=Regular|UncheckPlotDrillGuideLayerPair0_FileName= |UncheckPlotDrillGuideLayerPair0_HighLayer=Bottom Layer|UncheckPlotDrillGuideLayerPair0_LowLayer=Top Layer|DocumentPath=D:\Projects\PCB\PnP\Deserializer\deserializer.PcbDoc
 
 [OutputGroup6]
 Name=Report Outputs
@@ -1361,10 +1174,12 @@ PartTypes=0
 Net1=NetName=12V_VPOC|NetColor=$006E6EFF
 Net2=NetName=1V2|NetColor=$0066FFCC
 Net3=NetName=1V8|NetColor=$0099FF99
-Net4=NetName=2V8|NetColor=$0066CCFF
-Net5=NetName=3V3|NetColor=$00FF6633
-Net6=NetName=3V3_VDDIO|NetColor=$006E6EFF
-Net7=NetName=GND|NetColor=clYellow
+Net4=NetName=24V_VPOC|NetColor=$006E6EFF
+Net5=NetName=2V8|NetColor=$0066CCFF
+Net6=NetName=3V3|NetColor=$00FF6633
+Net7=NetName=3V3_VDDIO|NetColor=$006E6EFF
+Net8=NetName=GND|NetColor=clYellow
+Net9=NetName=VIN|NetColor=$006E6EFF
 
 [Comparison Options]
 ComparisonOptions0=Kind=Net|MinPercent=75|MinMatch=3|ShowMatch=0|UseName=-1|InclAllRules=0
